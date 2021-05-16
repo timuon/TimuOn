@@ -1,6 +1,8 @@
-# TimuOn
+<div  align="center">
+  <img src="logo.jpeg" width=60%>
+</div>
 
-! [TimeuOn-logo] (logo.jpeg)
+<br>
 
 TimeuOn is an integrated and centralised time management application for individuals and groups. Every user is either independent or a member of one or more organisations, within which they are assigned roles. The application incorporates meeting arrangement, [room] scheduling and announcements into standard calendar functionalities. It is an attempt to resolve a prominent issue that arises in modern societies: fast-paced everyday life and an overabundance of commitments render proper time management essential.
 
