@@ -12,6 +12,17 @@ namespace Eventnamespace
         public string Channel {get; set;}
         public string Schedule {get; set;}
 
+        public Event( String Name, DateTime date, string Auditorium, int Duration, string Audience, string Channel, string Schedule)
+        {
+            this.Name = Name;
+            this.Date = Date;
+            this.Auditorium = Auditorium;
+            this.Duration = Duration;
+            this.Audience = Audience;
+            this.Channel = Channel;
+            this.Schedule = Schedule;
+        }
+        
         public static void Main(string[] args)
         {
             Event event01= new Event();
