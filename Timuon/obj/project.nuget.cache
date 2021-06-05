@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Fs/+0EfvIwogSbdAA42q5iJiHjYxw6mBSDuVlpJrWBfUaZf5ktbJEAfel8f7QHuz56As94FGU+mwAhDVFv1Ng==",
+  "dgSpecHash": "ncaoLiCJ7m/HUllLTpj3EA/W/TbXLbIYv9c0+m6KyrE+g3lenJ+HinKSE36/wlgLCEd4xw2OBGEMsVbMNQ2rNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\Timuon.csproj",
+  "projectFilePath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\colorcode.core\\2.0.6\\colorcode.core.2.0.6.nupkg.sha512",
     "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\colorcode.uwp\\2.0.6\\colorcode.uwp.2.0.6.nupkg.sha512",
