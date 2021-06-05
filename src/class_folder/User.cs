@@ -4,22 +4,26 @@ namespace Usernamespace
 {
     public class User
     {
-        public string Username { get; set; }
-        public string Password {get; set; }
-        public string Email {get; set;}
-        public int Phone_number {get; set;}
-        public string Address {get; set;}
-        public DateTime Registration_date {get; set;}
-        public string First_name {get; set;}
-        public string Last_name {get; set;}
-        public int Id {get; set;}
-        public string Calendars {get; set;}
-        public string Platforms {get; set;}
-        public string Preferences {get; set;}
-
-        public static void Main(string[] args)
+        private string Username { get; set; }
+        private string Password { get; set; }
+        private string Email { get; set; }
+        private int Phone_number { get; set; }
+        private string Address { get; set; }
+        private DateTime Registration_date { get; set; }
+        private string FirstName { get; set; }
+        private string LastName { get; set; }
+        private int Id { get; set; }
+        private string Calendars { get; set; }
+        private string Platforms { get; set; }
+        private string Preferences { get; set; }
+        
+        public User(string Username, string Password, string Email, string FirstName, string LastName)
         {
-            User user01= new User();
+            this.Username = Username;
+            this.Password = Password;
+            this.Email = Email;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
         }
     }
 }
