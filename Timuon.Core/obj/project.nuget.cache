@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IgwjrcrVnSK/iCVvYhawQEUEvI8sgkn1FUoVPWyeBB9JYmtWqJKXSi/0ylDG/0fIIoGIoiKFsytRt4aHCp9/Rg==",
+  "dgSpecHash": "JRcpk+hC05cqQ7FIWSwDtIQi2/kUzi+KxGJ9mMjAPm3vrCjhWHiSCdDv9Ln61BrMfsN09zxJ7a3nU+KOR6cCCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj",
+  "projectFilePath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",

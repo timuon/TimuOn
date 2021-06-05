@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\Timuon.csproj": {}
+    "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj": {
+    "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj",
+        "projectUniqueName": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
         "projectName": "Timuon.Core",
-        "projectPath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj",
+        "projectPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
         "packagesPath": "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\obj\\",
+        "outputPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\Timuon.csproj": {
+    "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\Timuon.csproj",
+        "projectUniqueName": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj",
         "projectName": "Timuon",
-        "projectPath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\Timuon.csproj",
+        "projectPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj",
         "packagesPath": "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon\\obj\\",
+        "outputPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -111,8 +111,8 @@
         "frameworks": {
           "uap10.0.18362": {
             "projectReferences": {
-              "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj": {
-                "projectPath": "C:\\Users\\A. Androutsopoulos\\source\\repos\\Timuon\\Timuon.Core\\Timuon.Core.csproj"
+              "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
+                "projectPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj"
               }
             }
           }
