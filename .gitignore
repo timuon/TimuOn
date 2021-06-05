@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/bin/x86/Debug
+/obj
+/Timuon.Core/obj/MCD
+/TimuOnApp.csproj.user
+/Timuon/obj
