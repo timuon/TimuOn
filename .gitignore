@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs
+/bin/ARM/Debug
+/obj
+/Timuon/obj
+/Timuon/bin/x86/Release
+/Timuon/Timuon.csproj.user
+/Timuon.Core/bin/Release/netstandard2.0
+/TimuOnApp.csproj.user
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.pdb
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.dll
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.csprojAssemblyReference.cache
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.csproj.FileListAbsolute.txt
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.csproj.CoreCompileInputs.cache
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.assets.cache
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.AssemblyInfoInputs.cache
+/Timuon.Core/obj/Release/netstandard2.0/Timuon.Core.AssemblyInfo.cs
+/Timuon.Core/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs

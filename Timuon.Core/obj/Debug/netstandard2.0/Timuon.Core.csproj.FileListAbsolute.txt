@@ -7,3 +7,12 @@ C:\Users\A. Androutsopoulos\source\repos\Timuon\Timuon.Core\obj\Debug\netstandar
 C:\Users\A. Androutsopoulos\source\repos\Timuon\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
 C:\Users\A. Androutsopoulos\source\repos\Timuon\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
 C:\Users\A. Androutsopoulos\source\repos\Timuon\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.deps.json
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.pdb
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csprojAssemblyReference.cache
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfoInputs.cache
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfo.cs
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
+C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb

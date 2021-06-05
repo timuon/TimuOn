@@ -154,6 +154,7 @@
     <Compile Include="Helpers\IBackNavigationHandler.cs" />
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Helpers\SettingsStorageExtensions.cs" />
+    <Compile Include="Models\Event.cs" />
     <Compile Include="Models\TabViewItemData.cs" />
     <Compile Include="Services\ActivationService.cs" />
     <Compile Include="Activation\DefaultActivationHandler.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="Services\ThemeSelectorService.cs" />
     <Compile Include="StateTriggers\ControlSizeTrigger.cs" />
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
+    <Compile Include="ViewModels\AdminHomeViewModel.cs" />
     <Compile Include="ViewModels\BlankViewModel.cs" />
     <Compile Include="ViewModels\ChartViewModel.cs" />
     <Compile Include="ViewModels\ContentGridDetailViewModel.cs" />
@@ -177,6 +179,9 @@
     <Compile Include="ViewModels\TelerikDataGridViewModel.cs" />
     <Compile Include="ViewModels\TreeViewViewModel.cs" />
     <Compile Include="ViewModels\TwoPaneViewViewModel.cs" />
+    <Compile Include="Views\AdminHomePage.xaml.cs">
+      <DependentUpon>AdminHomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
     </Compile>
@@ -256,6 +261,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\TextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdminHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
