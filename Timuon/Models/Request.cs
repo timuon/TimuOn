@@ -9,10 +9,10 @@ namespace Requestnamespace
         public string Reason {get; set;}
         public string NewSchedule {get; set;}
         
-        new public static void Main(string[] args)
-        {
-            Request request01= new Request();
-        }
+        //new public static void Main(string[] args)
+        //{
+        //    Request request01= new Request();
+        //}
     }
 }
 

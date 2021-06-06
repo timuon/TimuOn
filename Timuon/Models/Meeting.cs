@@ -7,10 +7,10 @@ namespace Meetingnamespace
     {
         public string Users { get; set; }
         public DateTime Date {get; set;}
-        new public static void Main(string[] args)
-        {
-            Meeting meeting01= new Meeting();
-        }
+        //new public static void Main(string[] args)
+        //{
+        //    Meeting meeting01= new Meeting();
+        //}
     }
 }
 

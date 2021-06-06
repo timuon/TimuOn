@@ -32,12 +32,12 @@
                 <TextBlock Foreground="White" FontSize="20" Text="Date" HorizontalAlignment="Right"/>
                 <TextBlock Foreground="White" FontSize="16" Text="Department" HorizontalAlignment="Right"/>
             </StackPanel>
-            <CalendarView Grid.Row="1" Grid.Column="0" Margin="40,40,40,40" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <CalendarView Grid.Row="1" Grid.Column="0" Margin="40,40,40,20" VerticalAlignment="Center" HorizontalAlignment="Center"
                 SelectionMode="Single"
                 IsOutOfScopeEnabled="True"
                 Language="en"
                 CalendarIdentifier="GregorianCalendar" />
-            <StackPanel Grid.Row="1" Grid.Column="1" Margin="40,40,0,0" VerticalAlignment="Top">
+            <StackPanel Grid.Row="1" Grid.Column="1" Margin="40,40,0,20" VerticalAlignment="Top">
                 <TextBlock Foreground="White" FontSize="25" Text="Events"/>
                 <ListView>
                     <ListView.ItemTemplate>
@@ -53,7 +53,7 @@
                     </ListView.Items>
                 </ListView>
             </StackPanel>
-            <Grid Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
@@ -77,24 +77,18 @@
                         Margin="0,0,0,20" />
                     <TimePicker ClockIdentifier="24HourClock" Header="Start Time" Margin="0,0,0,20" />
                     <TimePicker ClockIdentifier="24HourClock" Header="End Time" Margin="0,0,0,20" />
-                    
+
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <muxc:DropDownButton Content="Notify Users" Margin="0,0,0,20" >
-                        <muxc:DropDownButton.Flyout>
-                            <MenuFlyout Placement="Bottom">
-                                <MenuFlyoutItem Text="Do Not Notify"/>
-                                <MenuFlyoutItem Text="Notify Secretary"/>
-                                <MenuFlyoutItem Text="Notify All Staff"/>
-                                <MenuFlyoutItem Text="Notify All Staff and Students"/>
-                            </MenuFlyout>
-                        </muxc:DropDownButton.Flyout>
-                    </muxc:DropDownButton>
+                    <ComboBox Header="Notify Users" PlaceholderText="Choose a category" Margin="0,0,0,20">
+                        <x:String>Do Not Notify</x:String>
+                        <x:String>Secretary</x:String>
+                        <x:String>All Staff</x:String>
+                        <x:String>All Staff and Students</x:String>
+                    </ComboBox>
                     <Button  Content="Create Event" HorizontalAlignment="Center" />
                 </StackPanel>
             </Grid>
-            
-
         </Grid>
     </Grid>
 </Page>
