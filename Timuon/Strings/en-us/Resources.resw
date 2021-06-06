@@ -147,7 +147,7 @@
   </data>
   <data name="TwoPaneViewTitle.Text" xml:space="preserve">
     <value>TwoPaneView</value>
-    <comment>Title for TwoPaneViewPage</comment>
+    <comment>Github Title</comment>
   </data>
   <data name="Shell_TwoPaneView.Content" xml:space="preserve">
     <value>TwoPaneView</value>
@@ -202,7 +202,7 @@
     <comment>Second Pivot item title for TabbedPivot</comment>
   </data>
   <data name="Shell_TabbedPivot.Content" xml:space="preserve">
-    <value>TabbedPivot</value>
+    <value>Experience</value>
     <comment>Navigation view item name for TabbedPivot</comment>
   </data>
   <data name="Shell_TabView.Content" xml:space="preserve">
@@ -244,15 +244,18 @@ This application is being implemented as part of a mandatory project of the Soft
     <comment>About this application description for Settings</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>Privacy Statement</value>
-    <comment>Privacy Statement link content for Settings</comment>
+    <value>TimuOn Github Account</value>
+    <comment>Github</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
-    <value>https://YourPrivacyUrlGoesHere/</value>
-    <comment>Here is your Privacy Statement url for Settings</comment>
+    <value>https://github.com/timuon/TimuOn.git</value>
+    <comment>Github</comment>
   </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
     <comment>Personalization text for Settings</comment>
+  </data>
+  <data name="Git_About" xml:space="preserve">
+    <value>You can find our code on our Github</value>
   </data>
 </root>

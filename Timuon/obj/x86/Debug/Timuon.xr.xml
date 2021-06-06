@@ -235,6 +235,11 @@
     <RootType FullName="Timuon.Helpers.EnumToBooleanConverter">
       <RootProperty Name="EnumType" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Margin" />
     </RootType>
@@ -265,7 +270,10 @@
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="ExpandedModeThresholdWidth" />
       <RootProperty Name="Background" />
+      <RootProperty Name="PaneHeader" />
       <RootProperty Name="MenuItems" />
+      <RootProperty Name="FooterMenuItems" />
+      <RootProperty Name="AutoSuggestBox" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
@@ -274,6 +282,13 @@
     <RootType FullName="Timuon.Helpers.NavHelper">
       <RootMethod Name="GetNavigateTo" />
       <RootMethod Name="SetNavigateTo" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
+      <RootProperty Name="QueryIcon" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Timuon.Views.ShellPage" />
@@ -295,10 +310,6 @@
       <RootProperty Name="Header" />
       <RootProperty Name="Content" />
       <RootProperty Name="ContentTemplate" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
-      <RootMethod Name="GetName" />
-      <RootMethod Name="SetName" />
     </RootType>
     <RootType FullName="Timuon.Views.TabViewPage" />
     <RootType FullName="Telerik.UI.Xaml.Controls.Grid.RadDataGrid">

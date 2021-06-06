@@ -18,6 +18,8 @@
     <Grid Margin="{StaticResource MediumLeftRightMargin}">
         <StackPanel x:ConnectionId='2'
             x:Name="ContentArea">
+            <Image Source="/Assets/Square150x150Logo.scale-400.png" MaxWidth="400" Height="270"/>
+
             <TextBlock x:Uid="Settings_Personalization" Style="{ThemeResource SubtitleTextBlockStyle}" />
             <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
                 <TextBlock x:Uid="Settings_Theme" />
@@ -57,7 +59,7 @@
             </StackPanel>
 
             <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
-
+            
             <StackPanel Margin="{StaticResource XSmallTopMargin}">
                 <TextBlock x:ConnectionId='3' Style="{ThemeResource BodyTextBlockStyle}"                                                           />
                 <TextBlock
@@ -65,7 +67,9 @@
                     Margin="{StaticResource XSmallTopMargin}"
                     Style="{ThemeResource BodyTextBlockStyle}" />
 
+                <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
                 <HyperlinkButton x:Uid="Settings_PrivacyTermsLink" Margin="{StaticResource XSmallTopMargin}" />
+                
             </StackPanel>
         </StackPanel>
     </Grid>    
