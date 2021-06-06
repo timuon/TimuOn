@@ -51,7 +51,7 @@ namespace Timuon
 
         private UIElement CreateShell()
         {
-            return new Views.ShellPage();
+            return new Views.ShellPageOrganization();
         }
     }
 }

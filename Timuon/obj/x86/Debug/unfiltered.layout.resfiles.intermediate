@@ -24,10 +24,18 @@ Views\ListDetailPage.xbf
 Views\LoginPage.xbf
 Views\MainPage.xbf
 Views\MapPage.xbf
+<<<<<<< HEAD
 Views\ScheduleStudentPage.xbf
 Views\SettingsPage.xbf
 Views\ShellPageStudent.xbf
 Views\StudentHomePage.xbf
+=======
+Views\OrganizationEventPage.xbf
+Views\OrganizationHomePage.xbf
+Views\OrganizationSchedulePage.xbf
+Views\SettingsPage.xbf
+Views\ShellPageOrganization.xbf
+>>>>>>> Organization-UI
 Views\TabbedPivotPage.xbf
 Views\TabViewPage.xbf
 Views\TelerikDataGridPage.xbf

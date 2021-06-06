@@ -253,20 +253,17 @@
     <value>Personalization</value>
     <comment>Personalization text for Settings</comment>
   </data>
-  <data name="Courses.Content" xml:space="preserve">
-    <value>Courses</value>
+  <data name="Announcements.Content" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="Events.Content" xml:space="preserve">
+    <value>Events</value>
   </data>
   <data name="Home.Content" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="Announcements.Content" xml:space="preserve">
-    <value>Announcements</value>
-  </data>
   <data name="Messages.Content" xml:space="preserve">
     <value>Messages</value>
-  </data>
-  <data name="Profile.Content" xml:space="preserve">
-    <value>Profile</value>
   </data>
   <data name="Schedule.Content" xml:space="preserve">
     <value>Schedule</value>

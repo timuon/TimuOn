@@ -481,6 +481,7 @@
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ScheduleStudentPage.xbf">
       <PackagePath>Views\ScheduleStudentPage.xbf</PackagePath>
     </AppxPackagedFile>
@@ -492,6 +493,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\CoursesStudentPage.xbf">
       <PackagePath>Views\CoursesStudentPage.xbf</PackagePath>
+=======
+    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
+      <PackagePath>Views\BlankPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\OrganizationSchedulePage.xbf">
+      <PackagePath>Views\OrganizationSchedulePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\OrganizationEventPage.xbf">
+      <PackagePath>Views\OrganizationEventPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\OrganizationHomePage.xbf">
+      <PackagePath>Views\OrganizationHomePage.xbf</PackagePath>
+>>>>>>> Organization-UI
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
@@ -520,8 +534,13 @@
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageStudent.xbf">
       <PackagePath>Views\ShellPageStudent.xbf</PackagePath>
+=======
+    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageOrganization.xbf">
+      <PackagePath>Views\ShellPageOrganization.xbf</PackagePath>
+>>>>>>> Organization-UI
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
