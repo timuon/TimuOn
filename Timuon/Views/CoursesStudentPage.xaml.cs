@@ -7,11 +7,11 @@ using Windows.UI.Xaml.Shapes;
 
 namespace Timuon.Views
 {
-    public sealed partial class BlankPage : Page
+    public sealed partial class CoursesStudentPage : Page
     {
         public CoursesStudentViewModel ViewModel { get; } = new CoursesStudentViewModel();
 
-        public BlankPage()
+        public CoursesStudentPage()
         {
             InitializeComponent();
         }
