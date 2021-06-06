@@ -164,6 +164,10 @@
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
     <Compile Include="ViewModels\BlankViewModel.cs" />
     <Compile Include="ViewModels\ChartViewModel.cs" />
+    <Compile Include="ViewModels\CalendarModel.cs" />
+    <Compile Include="ViewModels\SubscritpionsModel.cs" />
+    <Compile Include="ViewModels\Rss_FeedModel.cs" />
+    <Compile Include="ViewModels\History_LogModel.cs" />
     <Compile Include="ViewModels\ContentGridDetailViewModel.cs" />
     <Compile Include="ViewModels\ContentGridViewModel.cs" />
     <Compile Include="ViewModels\DataGridViewModel.cs" />
@@ -171,7 +175,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\MapViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel.cs" />
-    <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="ViewModels\MainShellViewModel.cs" />
     <Compile Include="ViewModels\TabbedPivotViewModel.cs" />
     <Compile Include="ViewModels\TabViewViewModel.cs" />
     <Compile Include="ViewModels\TelerikDataGridViewModel.cs" />
@@ -179,6 +183,9 @@
     <Compile Include="ViewModels\TwoPaneViewViewModel.cs" />
     <Compile Include="Views\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Calendar.xaml.cs">
+      <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ChartPage.xaml.cs">
       <DependentUpon>ChartPage.xaml</DependentUpon>
@@ -192,6 +199,9 @@
     <Compile Include="Views\DataGridPage.xaml.cs">
       <DependentUpon>DataGridPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\History_Log.xaml.cs">
+      <DependentUpon>History_Log.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ListDetailDetailControl.xaml.cs">
       <DependentUpon>ListDetailDetailControl.xaml</DependentUpon>
     </Compile>
@@ -204,11 +214,17 @@
     <Compile Include="Views\MapPage.xaml.cs">
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Rss_Feed.xaml.cs">
+      <DependentUpon>Rss_Feed.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ShellPage.xaml.cs">
-      <DependentUpon>ShellPage.xaml</DependentUpon>
+    <Compile Include="Views\MainShellPage.xaml.cs">
+      <DependentUpon>MainShellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Subscritpions.xaml.cs">
+      <DependentUpon>Subscritpions.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TabbedPivotPage.xaml.cs">
       <DependentUpon>TabbedPivotPage.xaml</DependentUpon>
@@ -263,6 +279,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Calendar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ChartPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -278,6 +298,10 @@
     <Page Include="Views\DataGridPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\History_Log.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ListDetailDetailControl.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -295,13 +319,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Rss_Feed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\SettingsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\ShellPage.xaml">
+    <Page Include="Views\MainShellPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Subscritpions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\TabbedPivotPage.xaml">
       <Generator>MSBuild:Compile</Generator>
