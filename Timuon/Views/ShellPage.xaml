@@ -37,6 +37,7 @@
             <winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />
             <winui:NavigationViewItem x:Uid="Shell_AdminHome" Icon="Home" helpers:NavHelper.NavigateTo="views:AdminHomePage" />
             <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Save" helpers:NavHelper.NavigateTo="views:AdminSysConstrPage" />
+            <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Globe" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />
             <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
             <winui:NavigationViewItem x:Uid="Shell_TwoPaneView" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
             <winui:NavigationViewItem x:Uid="Shell_TreeView" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
