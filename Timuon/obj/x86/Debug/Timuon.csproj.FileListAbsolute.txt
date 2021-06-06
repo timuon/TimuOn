@@ -717,3 +717,8 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorSchedule.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorSchedule.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorSchedule.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoordinatorProfile.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.g.i.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.g.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.xaml
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.xbf

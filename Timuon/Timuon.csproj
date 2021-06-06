@@ -192,6 +192,9 @@
     <Compile Include="Views\CoordinatorHome.xaml.cs">
       <DependentUpon>CoordinatorHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CoordinatorProfile.xaml.cs">
+      <DependentUpon>CoordinatorProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CoordinatorSchedule.xaml.cs">
       <DependentUpon>CoordinatorSchedule.xaml</DependentUpon>
     </Compile>
@@ -285,6 +288,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\CoordinatorHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CoordinatorProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
