@@ -189,6 +189,7 @@
     </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Timuon.Views.CoordinatorHome" />
+    <RootType FullName="Timuon.Views.coursesCoordinator" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="AutoGenerateColumns" />
       <RootProperty Name="GridLinesVisibility" />

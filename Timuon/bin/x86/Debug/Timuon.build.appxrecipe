@@ -496,6 +496,9 @@
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoordinatorHome.xbf">
       <PackagePath>Views\CoordinatorHome.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoursesCoordinator.xbf">
+      <PackagePath>Views\CoursesCoordinator.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
     </AppxPackagedFile>

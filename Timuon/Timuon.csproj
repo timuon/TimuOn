@@ -192,6 +192,9 @@
     <Compile Include="Views\CoordinatorHome.xaml.cs">
       <DependentUpon>CoordinatorHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CoursesCoordinator.xaml.cs">
+      <DependentUpon>CoursesCoordinator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DataGridPage.xaml.cs">
       <DependentUpon>DataGridPage.xaml</DependentUpon>
     </Compile>
@@ -279,6 +282,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\CoordinatorHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CoursesCoordinator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

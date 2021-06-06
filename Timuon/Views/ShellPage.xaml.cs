@@ -13,6 +13,7 @@ namespace Timuon.Views
 
         public ShellPage()
         {
+
             InitializeComponent();
             DataContext = ViewModel;
             ViewModel.Initialize(shellFrame, navigationView, KeyboardAccelerators);

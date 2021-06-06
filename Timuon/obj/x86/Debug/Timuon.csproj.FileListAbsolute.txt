@@ -707,3 +707,8 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorHome.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorHome.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorHome.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoursesCoordinator.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoursesCoordinator.g.i.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoursesCoordinator.g.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoursesCoordinator.xaml
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoursesCoordinator.xbf
