@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="9191EE33-51A0-446B-BCBB-7068502F1771" Publisher="CN=A. Androutsopoulos" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="9191EE33-51A0-446B-BCBB-7068502F1771" Publisher="CN=A. Androutsopoulos" Version="0.2.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="9191EE33-51A0-446B-BCBB-7068502F1771" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Timuon</DisplayName>
@@ -26,9 +26,9 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="Timuon.exe" EntryPoint="Timuon.App">
-      <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="ms-resource:AppDescription" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="ms-resource:AppDescription" BackgroundColor="black">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"></uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
       </uap:VisualElements>
       <Extensions></Extensions>
     </Application>

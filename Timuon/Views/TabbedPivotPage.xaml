@@ -7,7 +7,24 @@
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
 
-    <Grid 
+
+
+    <!--<Pivot>
+        <Pivot.RightHeader>
+            <CommandBar>
+                <AppBarButton Icon="Add"/>
+                <AppBarSeparator/>
+                <AppBarButton Icon="Edit"/>
+                <AppBarButton Icon="Delete"/>
+                <AppBarSeparator/>
+                <AppBarButton Icon="Save"/>
+            </CommandBar>
+        </Pivot.RightHeader>
+    </Pivot>-->
+
+
+    <Grid
+        
         x:Name="ContentArea"
         Margin="{StaticResource SmallLeftRightMargin}">
         <Pivot
@@ -17,6 +34,16 @@
                     <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="{Binding}" />
                 </DataTemplate>
             </Pivot.HeaderTemplate>
+            <!--<Pivot.RightHeader>
+                <CommandBar>
+                    <AppBarButton Icon="Add"/>
+                    <AppBarSeparator/>
+                    <AppBarButton Icon="Edit"/>
+                    <AppBarButton Icon="Delete"/>
+                    <AppBarSeparator/>
+                    <AppBarButton Icon="Save"/>
+                </CommandBar>
+            </Pivot.RightHeader>-->
             <PivotItem x:Uid="TabbedPivot_PivotItem1">
                 <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
                     <!--

@@ -12,6 +12,9 @@
         <helper:EnumToBooleanConverter x:Key="EnumToBooleanConverter" EnumType="ElementTheme" />
     </Page.Resources>
 
+
+    
+    
     <Grid Margin="{StaticResource MediumLeftRightMargin}">
         <StackPanel x:ConnectionId='2'
             x:Name="ContentArea">
