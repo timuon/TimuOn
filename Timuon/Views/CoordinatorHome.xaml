@@ -5,19 +5,33 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:Telerik.UI.Xaml.Controls.Data"
+    xmlns:Custom1="using:Microsoft.Toolkit.Uwp.UI.Controls"
     x:Class="Timuon.Views.CoordinatorHome"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="307*"/>
+            <ColumnDefinition Width="173*"/>
+        </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Hello Aristeidis" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Height="59" Width="162"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Saturday 6 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Width="231" Height="37"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,73,0,0" Text="Today's Tasks" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="133" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="16"/>
-        <ListView x:Name="Courses" SelectionChanged="Courses_SelectionChanged" Margin="10,99,1687,892">
-            <x:String>Computer Networks</x:String>
-            <x:String>Software Engineering</x:String>
-        </ListView>
+        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Saturday 6 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Width="231" Height="37" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,83,0,0" Text="Today's Tasks" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="133" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="16"/>
+        <Line Y1="110"
+                X2="10000" Y2="110"
+                Stroke="Black"
+                StrokeThickness="2" Margin="0,0,0,2" X1="10" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="10,183,0,0" Text="Software Engineering" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,160,0,0" Text="Computer Networks" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,133,0,0" Text="Courses" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841"/>
+        <Line Y1="158"
+              X2="100" Y2="158"
+              Stroke="Black"
+              StrokeThickness="2" Margin="0,0,0,2" X1="10" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="179,169,0,0" Text="11:00 - 14:00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7"/>
+        <TextBlock HorizontalAlignment="Left" Margin="179,194,0,0" Text="17:00 - 21:00" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7"/>
 
     </Grid>
 </Page>
