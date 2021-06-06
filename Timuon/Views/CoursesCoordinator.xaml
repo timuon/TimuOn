@@ -44,5 +44,32 @@
             StrokeThickness="2" Margin="-3,121,3,-119" X1="10" />
         <CheckBox Content="Yes" Margin="10,428,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="No" Margin="135,428,0,0" VerticalAlignment="Top"/>
+        <ComboBox Margin="10,492,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
+            <x:String>Computer Networks</x:String>
+            <x:String>Software Engineering</x:String>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="10,570,0,0" Text="Select date to cancel" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarDatePicker Margin="10,594,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,652,0,0" Text="Do you want to set a replacement date?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="-3,391,3,-389" X1="10" />
+        <CheckBox Content="Yes" Margin="10,698,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="135,698,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="429,142,0,0" Text="Select preferable date" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarDatePicker Margin="429,166,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="437,215,0,0" Text="Reason for request" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="424,-46,-424,48" X1="10" Grid.ColumnSpan="2" />
+        <TextBox HorizontalAlignment="Left" Margin="429,256,0,0" Text="Reason" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <CommandBar VerticalAlignment="Bottom">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,450,0"/>
+        </CommandBar>
     </Grid>
 </Page>
