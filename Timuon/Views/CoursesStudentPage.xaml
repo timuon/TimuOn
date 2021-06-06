@@ -39,10 +39,10 @@
             <TextBlock HorizontalAlignment="Left" Height="16" Margin="52,187,0,0" Text="Gallopoulos Eustratios" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" FontSize="9"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,282,0,0" Text="Gounaridis Giannis" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,386,0,0" Text="Makris Christos" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-            <TextBox HorizontalAlignment="Left" Margin="796,328,0,0" Text="So, everything is ready for your courses!" TextWrapping="Wrap" VerticalAlignment="Top" Height="141" Width="318"/>
+            <!--<TextBox HorizontalAlignment="Left" Margin="796,328,0,0" Text="So, everything is ready for your courses!" TextWrapping="Wrap" VerticalAlignment="Top" Height="141" Width="318"/>
             <TextBlock HorizontalAlignment="Left" Margin="808,371,0,0" Text="Maybe you want to redirect to Schedule tab to see your schedule!" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="290"/>
             <Button Content="Go to Schedule" Margin="822,424,0,0" VerticalAlignment="Top"/>
-            <Button Content="Close dialog" Margin="986,424,0,0" VerticalAlignment="Top"/>
+            <Button Content="Close dialog" Margin="986,424,0,0" VerticalAlignment="Top"/>-->
 
         </Grid>
     </Grid>
