@@ -30,5 +30,19 @@
               StrokeThickness="2" Margin="-3,8,3,-6" X1="10" />
         <TextBlock HorizontalAlignment="Left" Margin="176,177,0,0" Text="2 hours per week" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="60"/>
         <TextBlock HorizontalAlignment="Left" Margin="176,202,0,0" Text="4 hours per week" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="58"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,269,0,0" Text="Do you want to request extra hours?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+              X2="260" Y2="291"
+              Stroke="Black"
+              StrokeThickness="2" Margin="-3,8,3,-6" X1="10" />
+        <CheckBox Content="Yes" Margin="10,315,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="135,315,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,382,0,0" Text="Do you want to cancel a scheduled course?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="-3,121,3,-119" X1="10" />
+        <CheckBox Content="Yes" Margin="10,428,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="135,428,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
