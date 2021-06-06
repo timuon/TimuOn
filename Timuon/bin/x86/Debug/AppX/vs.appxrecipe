@@ -30,17 +30,17 @@
     <AppXManifest Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T09:30:07.831</Modified>
+      <Modified>2021-06-06T09:57:47.760</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
-      <Modified>2021-06-06T09:30:06.313</Modified>
+      <Modified>2021-06-06T09:57:46.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
-      <Modified>2021-06-06T09:03:51.336</Modified>
+      <Modified>2021-06-05T22:46:06.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -260,7 +260,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
-      <Modified>2021-06-06T09:14:39.001</Modified>
+      <Modified>2021-06-06T09:46:04.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
       <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
@@ -614,107 +614,107 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
-      <Modified>2021-06-06T09:30:05.827</Modified>
+      <Modified>2021-06-06T09:53:04.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:49:22.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:57:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:57:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:57:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:57:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:57:45.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
       <PackagePath>Views\BlankPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:49:22.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:49:22.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.891</Modified>
+      <Modified>2021-06-06T09:49:22.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:49:22.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoordinatorHome.xbf">
       <PackagePath>Views\CoordinatorHome.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:57:45.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.939</Modified>
+      <Modified>2021-06-06T09:49:22.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.898</Modified>
+      <Modified>2021-06-06T09:49:22.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.909</Modified>
+      <Modified>2021-06-06T09:49:22.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.940</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.941</Modified>
+      <Modified>2021-06-06T09:49:22.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.927</Modified>
+      <Modified>2021-06-06T09:49:22.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.932</Modified>
+      <Modified>2021-06-06T09:49:22.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.941</Modified>
+      <Modified>2021-06-06T09:49:22.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T09:30:05.938</Modified>
+      <Modified>2021-06-06T09:49:22.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -730,11 +730,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-06T09:30:06.783</Modified>
+      <Modified>2021-06-06T09:46:22.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
-      <Modified>2021-06-06T09:30:07.825</Modified>
+      <Modified>2021-06-06T09:57:47.754</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

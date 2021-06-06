@@ -1,14 +1,19 @@
 ﻿<Page
-    x:Class="Timuon.Views.CoordinatorHome"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Timuon.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Telerik.UI.Xaml.Controls.Data"
+    x:Class="Timuon.Views.CoordinatorHome"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Hello Aristeidis" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Height="59" Width="162"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Saturday 6 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Width="231" Height="37"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,73,0,0" Text="Today's Tasks" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="133" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="16"/>
 
     </Grid>
 </Page>
