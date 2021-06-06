@@ -1,1 +1,1 @@
-C:\Users\A. Androutsopoulos\source\repos\Timuon\Timuon\Timuon.csproj;x86
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Timuon.csproj;x86
