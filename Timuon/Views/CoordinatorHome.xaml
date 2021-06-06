@@ -14,6 +14,10 @@
         <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Saturday 6 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="16" Width="231" Height="37"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,73,0,0" Text="Today's Tasks" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="133" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="16"/>
+        <ListView x:Name="Courses" SelectionChanged="Courses_SelectionChanged" Margin="10,99,1687,892">
+            <x:String>Computer Networks</x:String>
+            <x:String>Software Engineering</x:String>
+        </ListView>
 
     </Grid>
 </Page>

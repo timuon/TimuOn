@@ -178,6 +178,16 @@
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Timuon.Views.ContentGridPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="System.String" />
     <RootType FullName="Timuon.Views.CoordinatorHome" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="AutoGenerateColumns" />
@@ -401,12 +411,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Pane1" />
       <RootProperty Name="Pane2" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="IsItemClickEnabled" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedItem" />
-      <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Timuon.Views.TwoPaneViewPage" />
   </Roots.RootTypes>

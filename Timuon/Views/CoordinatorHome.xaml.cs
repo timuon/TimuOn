@@ -36,5 +36,10 @@ namespace Timuon.Views
         {
 
         }
+
+        private void Courses_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
