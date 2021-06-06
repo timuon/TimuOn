@@ -41,5 +41,10 @@ namespace Timuon.Views
         {
 
         }
+
+        private void TextBlock_SelectionChanged_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
