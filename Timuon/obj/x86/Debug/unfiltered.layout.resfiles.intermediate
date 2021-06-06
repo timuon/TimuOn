@@ -23,8 +23,11 @@ Views\ListDetailDetailControl.xbf
 Views\ListDetailPage.xbf
 Views\MainPage.xbf
 Views\MapPage.xbf
+Views\OrganizationEventPage.xbf
+Views\OrganizationHomePage.xbf
+Views\OrganizationSchedulePage.xbf
 Views\SettingsPage.xbf
-Views\ShellPage.xbf
+Views\ShellPageOrganization.xbf
 Views\TabbedPivotPage.xbf
 Views\TabViewPage.xbf
 Views\TelerikDataGridPage.xbf

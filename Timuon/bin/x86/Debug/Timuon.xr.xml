@@ -48,11 +48,14 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="MaxLines" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Style" />
-      <RootProperty Name="Text" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Style" />
       <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
@@ -78,6 +81,64 @@
       <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Timuon.Views.BlankPage" />
+    <RootType FullName="Timuon.Behaviors.NavigationViewHeaderBehavior">
+      <RootProperty Name="DefaultHeader" />
+      <RootProperty Name="DefaultHeaderTemplate" />
+      <RootMethod Name="GetHeaderMode" />
+      <RootMethod Name="SetHeaderMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Line">
+      <RootProperty Name="X1" />
+      <RootProperty Name="Y1" />
+      <RootProperty Name="X2" />
+      <RootProperty Name="Y2" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush" />
+    <RootType FullName="System.String" />
+    <RootType FullName="Timuon.Views.OrganizationSchedulePage" />
+    <RootType FullName="Timuon.Views.OrganizationEventPage" />
+    <RootType FullName="Timuon.Views.OrganizationHomePage" />
     <RootType FullName="Telerik.UI.Xaml.Controls.Chart.RadCartesianChart">
       <RootProperty Name="HorizontalAxis" />
       <RootProperty Name="VerticalAxis" />
@@ -201,12 +262,6 @@
     <RootType FullName="Timuon.Views.ListDetailDetailControl">
       <RootProperty Name="ListMenuItem" />
     </RootType>
-    <RootType FullName="Timuon.Behaviors.NavigationViewHeaderBehavior">
-      <RootProperty Name="DefaultHeader" />
-      <RootProperty Name="DefaultHeaderTemplate" />
-      <RootMethod Name="GetHeaderMode" />
-      <RootMethod Name="SetHeaderMode" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
@@ -276,7 +331,7 @@
       <RootMethod Name="SetNavigateTo" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
-    <RootType FullName="Timuon.Views.ShellPage" />
+    <RootType FullName="Timuon.Views.ShellPageOrganization" />
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
       <RootProperty Name="HeaderTemplate" />
       <RootProperty Name="Items" />
@@ -353,16 +408,6 @@
       <RootProperty Name="ItemTemplateSelector" />
     </RootType>
     <RootType FullName="Timuon.Behaviors.TreeViewCollapseBehavior" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Command" />
-      <RootProperty Name="Background" />
-    </RootType>
     <RootType FullName="Timuon.Views.TreeViewPage" />
     <RootType FullName="Timuon.Converters.DateTimeFormatConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
