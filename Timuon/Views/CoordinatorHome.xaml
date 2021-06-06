@@ -36,8 +36,11 @@
             <CommandBar.Content>
                 <Grid/>
             </CommandBar.Content>
-            <AppBarButton Icon="Accept" Label="AppBarButton"/>
-            <AppBarButton Icon="Cancel" Label="AppBarButton"/>
+            <AppBarButton Icon="Add" Label="AppBarButton" Margin="0,0,0,0"/>
+            <AppBarButton Icon="Edit" Label="AppBarButton" Margin="0,0,0,0"/>
+            <AppBarButton Icon="Delete" Label="AppBarButton" Margin="0,0,0,0"/>
+            <AppBarButton Icon="Download" Label="AppBarButton" Margin="0,0,0,0"/>
+            <AppBarButton Icon="Share" Label="AppBarButton" Margin="0,0,450,0"/>
         </CommandBar>
 
     </Grid>
