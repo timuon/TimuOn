@@ -35,6 +35,7 @@
             -->
             <winui:NavigationViewItem x:Uid="Shell_CoordinatorHome" Icon="Home" helpers:NavHelper.NavigateTo="views:CoordinatorHome" />
             <winui:NavigationViewItem x:Uid="Shell_Courses_Coordinator" Icon="Globe" helpers:NavHelper.NavigateTo="views:coursesCoordinator" />
+            <winui:NavigationViewItem x:Uid="Shell_Schedule" Icon="Calendar" helpers:NavHelper.NavigateTo="views:CoordinatorSchedule" />
             <winui:NavigationViewItem x:Uid="Shell_Main" Icon="Like" helpers:NavHelper.NavigateTo="views:MainPage" />
             <winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />
             <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />

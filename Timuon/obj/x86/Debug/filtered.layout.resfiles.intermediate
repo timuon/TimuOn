@@ -19,6 +19,7 @@ Views\ChartPage.xbf
 Views\ContentGridDetailPage.xbf
 Views\ContentGridPage.xbf
 Views\CoordinatorHome.xbf
+Views\CoordinatorSchedule.xbf
 Views\CoursesCoordinator.xbf
 Views\DataGridPage.xbf
 Views\ListDetailDetailControl.xbf

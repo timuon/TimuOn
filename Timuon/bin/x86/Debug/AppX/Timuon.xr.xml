@@ -206,6 +206,7 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Timuon.Views.CoordinatorHome" />
+    <RootType FullName="Timuon.Views.CoordinatorSchedule" />
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
@@ -222,6 +223,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="PlaceholderText" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
