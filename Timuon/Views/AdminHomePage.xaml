@@ -39,7 +39,7 @@
                 CalendarIdentifier="GregorianCalendar" />
             <StackPanel Grid.Row="1" Grid.Column="1" Margin="40,40,0,20" VerticalAlignment="Top">
                 <TextBlock Foreground="White" FontSize="25" Text="Events"/>
-                <ListView>
+                <ListView SelectionMode="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Height="84" Padding="20">

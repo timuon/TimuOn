@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Timuon.Views.ShellPage"
+    x:Class="Timuon.Views.AdminShellPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -34,11 +34,11 @@
             Edit String/en-US/Resources.resw: Add a menu item title for each page
             -->
             <winui:NavigationViewItem x:Uid="Shell_Main" Icon="Like" helpers:NavHelper.NavigateTo="views:MainPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />
+            <!--<winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />-->
             <winui:NavigationViewItem x:Uid="Shell_AdminHome" Icon="Home" helpers:NavHelper.NavigateTo="views:AdminHomePage" />
-            <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Save" helpers:NavHelper.NavigateTo="views:AdminSysConstrPage" />
-            <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Globe" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />
-            <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
+            <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Remote" helpers:NavHelper.NavigateTo="views:AdminSysConstrPage" />
+            <winui:NavigationViewItem x:Uid="Shell_UserSettings" Icon="Setting" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />
+            <!--<winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
             <winui:NavigationViewItem x:Uid="Shell_TwoPaneView" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
             <winui:NavigationViewItem x:Uid="Shell_TreeView" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
             <winui:NavigationViewItem x:Uid="Shell_ContentGrid" Icon="Refresh" helpers:NavHelper.NavigateTo="views:ContentGridPage" />
@@ -47,7 +47,7 @@
             <winui:NavigationViewItem x:Uid="Shell_Chart" Icon="Document" helpers:NavHelper.NavigateTo="views:ChartPage" />
             <winui:NavigationViewItem x:Uid="Shell_TabbedPivot" Icon="Document" helpers:NavHelper.NavigateTo="views:TabbedPivotPage" />
             <winui:NavigationViewItem x:Uid="Shell_TabView" Icon="Document" helpers:NavHelper.NavigateTo="views:TabViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Map" Icon="Document" helpers:NavHelper.NavigateTo="views:MapPage" />
+            <winui:NavigationViewItem x:Uid="Shell_Map" Icon="Document" helpers:NavHelper.NavigateTo="views:MapPage" />-->
         </winui:NavigationView.MenuItems>
         <i:Interaction.Behaviors>
             <behaviors:NavigationViewHeaderBehavior

@@ -20,7 +20,7 @@ using WinUI = Microsoft.UI.Xaml.Controls;
 
 namespace Timuon.ViewModels
 {
-    public class ShellViewModel : ObservableObject
+    public class AdminShellViewModel : ObservableObject
     {
         private readonly KeyboardAccelerator _altLeftKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.Left, VirtualKeyModifiers.Menu);
         private readonly KeyboardAccelerator _backKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.GoBack);
@@ -48,7 +48,7 @@ namespace Timuon.ViewModels
 
         public ICommand ItemInvokedCommand => _itemInvokedCommand ?? (_itemInvokedCommand = new RelayCommand<WinUI.NavigationViewItemInvokedEventArgs>(OnItemInvoked));
 
-        public ShellViewModel()
+        public AdminShellViewModel()
         {
         }
 
