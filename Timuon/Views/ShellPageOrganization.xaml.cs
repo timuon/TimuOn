@@ -13,6 +13,7 @@ namespace Timuon.Views
 
         public ShellPageOrganization()
         {
+            //geia
             InitializeComponent();
             DataContext = ViewModel;
             ViewModel.Initialize(shellFrame, navigationView, KeyboardAccelerators);
