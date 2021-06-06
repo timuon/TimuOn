@@ -28,7 +28,7 @@ Views\ListDetailPage.xbf
 Views\MainPage.xbf
 Views\MapPage.xbf
 Views\SettingsPage.xbf
-Views\ShellPage.xbf
+Views\ShellPageCoordinator.xbf
 Views\TabbedPivotPage.xbf
 Views\TabViewPage.xbf
 Views\TelerikDataGridPage.xbf

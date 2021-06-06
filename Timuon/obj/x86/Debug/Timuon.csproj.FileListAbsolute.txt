@@ -442,7 +442,6 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf
-D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ShellPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf
@@ -572,8 +571,6 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\MapPage.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\SettingsPage.g.i.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\SettingsPage.g.cs
-D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPage.g.i.cs
-D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPage.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabbedPivotPage.g.i.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabbedPivotPage.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabViewPage.g.i.cs
@@ -605,7 +602,6 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\MainPage.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\MapPage.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\SettingsPage.xaml
-D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPage.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabbedPivotPage.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabViewPage.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TelerikDataGridPage.xaml
@@ -629,7 +625,6 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\MainPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\MapPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\SettingsPage.xbf
-D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabbedPivotPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TabViewPage.xbf
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\TelerikDataGridPage.xbf
@@ -722,3 +717,8 @@ D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.g.cs
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.xaml
 D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\CoordinatorProfile.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageCoordinator.xbf
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPageCoordinator.g.i.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPageCoordinator.g.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPageCoordinator.xaml
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\Views\ShellPageCoordinator.xbf
