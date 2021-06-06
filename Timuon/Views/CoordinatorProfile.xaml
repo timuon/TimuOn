@@ -18,9 +18,9 @@
         <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,91,0,0" Text="Profile" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="291" FontSize="16"/>
         <Line Y1="90"
-              X2="10000" Y2="90"
-              Stroke="Black"
-              StrokeThickness="2" Margin="-52,254,-360,-253" X1="10" Grid.ColumnSpan="2" />
+            X2="10000" Y2="90"
+            Stroke="Black"
+            StrokeThickness="2" Margin="-52,254,-360,-253" X1="10" Grid.ColumnSpan="2" />
 
         <CommandBar VerticalAlignment="Bottom">
             <CommandBar.Content>
@@ -52,19 +52,46 @@
         <TextBlock HorizontalAlignment="Left" Margin="491,177,0,0" Text="Computer Networks" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
         <TextBlock HorizontalAlignment="Left" Margin="491,150,0,0" Text="Courses" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841" Height="19" Width="55"/>
         <Line Y1="158"
-              X2="145" Y2="158"
-              Stroke="Black"
-              StrokeThickness="2" Margin="481,17,-481,-15" X1="10" Grid.ColumnSpan="2" />
+            X2="145" Y2="158"
+            Stroke="Black"
+            StrokeThickness="2" Margin="481,17,-481,-15" X1="10" Grid.ColumnSpan="2" />
 
         <Line Y1="90"
-              X2="10000" Y2="90"
-              Stroke="Black"
-              StrokeThickness="2" Margin="-447,37,35,-36" X1="10" />
+            X2="10000" Y2="90"
+            Stroke="Black"
+            StrokeThickness="2" Margin="-447,37,35,-36" X1="10" />
         <TextBlock HorizontalAlignment="Left" Margin="13,204,0,0" Text="Role" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
         <TextBlock HorizontalAlignment="Left" Margin="13,228,0,0" Text="E-mail" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
         <TextBlock HorizontalAlignment="Left" Margin="181,186,0,0" Text="Aristidis Ilias" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128" SelectionChanged="TextBlock_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="144,212,0,0" Text="Teaching Assistant" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
         <TextBlock HorizontalAlignment="Left" Margin="108,234,0,0" Text="aristeid@ceid.upatras.gr" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,310,0,0" Text="Available Hours" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarView Margin="12,356,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="474,408,0,0" Text="11:00 - 12:00" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="132"/>
+        <TextBlock HorizontalAlignment="Left" Margin="474,385,0,0" Text="08:00 - 11:00" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
+        <TextBlock HorizontalAlignment="Left" Margin="474,358,0,0" Text="Morning" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841" Height="19" Width="97"/>
+        <Line Y1="158"
+            X2="220" Y2="158"
+            Stroke="Black"
+            StrokeThickness="2" Margin="464,225,-464,-224" X1="10" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="643,394,0,0" Text="At the office" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="616,417,0,0" Text="Thesis meetings only" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="79"/>
+        <TextBlock HorizontalAlignment="Left" Margin="840,407,0,0" Text="18:00 - 20:00" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="132"/>
+        <TextBlock HorizontalAlignment="Left" Margin="840,384,0,0" Text="15:00 - 17:00" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
+        <TextBlock HorizontalAlignment="Left" Margin="840,357,0,0" Text="Afternoon" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841" Height="19" Width="97"/>
+        <Line Y1="158"
+            X2="255" Y2="158"
+            Stroke="Black"
+            StrokeThickness="2" Margin="830,224,-830,-223" X1="10" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="1009,393,0,0" Text="For online meetings only" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="93"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1009,418,0,0" Text="Only for emergencies" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="77"/>
+        <TextBlock HorizontalAlignment="Left" Margin="479,538,0,0" Text="Expect important phonecall" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" Margin="479,511,0,0" Text="Notes" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841" Height="19" Width="97"/>
+        <Line Y1="158"
+            X2="254" Y2="158"
+            Stroke="Black"
+            StrokeThickness="2" Margin="469,378,-469,-377" X1="10" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" Margin="693,546,0,0" Text="Morning" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="40"/>
 
     </Grid>
 </Page>
