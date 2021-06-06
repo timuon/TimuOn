@@ -79,8 +79,6 @@
       <RootProperty Name="BorderBrush" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
     </RootType>
@@ -194,6 +192,18 @@
       <RootProperty Name="StrokeThickness" />
       <RootProperty Name="Margin" />
       <RootProperty Name="X1" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Label" />
     </RootType>
     <RootType FullName="Timuon.Views.CoordinatorHome" />
     <RootType FullName="Timuon.Views.coursesCoordinator" />
