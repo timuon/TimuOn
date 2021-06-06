@@ -18,6 +18,7 @@ Views\BlankPage.xbf
 Views\ChartPage.xbf
 Views\ContentGridDetailPage.xbf
 Views\ContentGridPage.xbf
+Views\CoordinatorHome.xbf
 Views\DataGridPage.xbf
 Views\ListDetailDetailControl.xbf
 Views\ListDetailPage.xbf

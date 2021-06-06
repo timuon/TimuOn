@@ -24,6 +24,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Style" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Transitions" />
       <RootProperty Name="Resources" />
     </RootType>
@@ -174,6 +175,7 @@
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Timuon.Views.ContentGridPage" />
+    <RootType FullName="Timuon.Views.CoordinatorHome" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="AutoGenerateColumns" />
       <RootProperty Name="GridLinesVisibility" />
