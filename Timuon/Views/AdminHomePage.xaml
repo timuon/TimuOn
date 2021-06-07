@@ -56,18 +56,18 @@
                     </ListView.Items>
                 </ListView>
             </StackPanel>
-            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,0">
+            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="80,0,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1.5*"/>
                     <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1.5*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="6*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="40,10,0,0" HorizontalAlignment="Left"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="0,10,0,0" HorizontalAlignment="Left"/>
                 <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical"
                     HorizontalAlignment="Stretch" MaxWidth="300" VerticalAlignment="Top" Margin="0,10,0,0">
                     <TextBox Header="Name" Margin="0,0,0,20" />
@@ -76,7 +76,7 @@
                     <DatePicker Header="Date" />
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical"
-                    HorizontalAlignment="Stretch" MaxWidth="300" VerticalAlignment="Top" Margin="0,10,0,0">
+                    HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" Margin="20,10,0,0">
                     <CheckBox Content="All-Day Event"
                         Margin="0,0,0,20" />
                     <TimePicker ClockIdentifier="24HourClock" Header="Start Time" Margin="0,0,0,20" />
