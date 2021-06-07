@@ -30,17 +30,19 @@
             <Border Grid.Row="1" Grid.Column="0" Background="#152630"/>
             <Border Grid.Row="1" Grid.Column="1" Background="#152648"/>
             <Border Grid.Row="2" Grid.ColumnSpan="2" Background="#152951"/>-->
-            <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <StackPanel Grid.Row="0" Grid.Column="1"
+                        Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right">
                 <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Date" HorizontalAlignment="Right"/>
                 <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Department" HorizontalAlignment="Right"/>
             </StackPanel>
-            <CalendarView Grid.Row="1" Grid.Column="0" Margin="20,20,20,20" MaxHeight="490" MaxWidth="490"
-                          VerticalAlignment="Center" HorizontalAlignment="Stretch"
+            <CalendarView Grid.Row="1" Grid.Column="0" Margin="60,20,60,20" 
+                          MaxHeight="490" MaxWidth="490" VerticalAlignment="Center" HorizontalAlignment="Stretch"
                 SelectionMode="Single"
                 IsOutOfScopeEnabled="True"
                 Language="en"
                 CalendarIdentifier="GregorianCalendar" />
-            <StackPanel Grid.Row="1" Grid.Column="1" Margin="40,40,40,20" VerticalAlignment="Top" HorizontalAlignment="Stretch" MaxWidth="500">
+            <StackPanel Grid.Row="1" Grid.Column="1" Margin="40,40,40,20"
+                        VerticalAlignment="Top" HorizontalAlignment="Stretch" MaxWidth="500">
                 <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Events"/>
                 <ListView SelectionMode="None">
                     <ListView.ItemTemplate>
@@ -56,34 +58,61 @@
                     </ListView.Items>
                 </ListView>
             </StackPanel>
-            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="80,0,0,0">
+            <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="40,0,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="1.5*"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="1.25*"/>
+                    <ColumnDefinition Width="0.25*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="0.75*"/>
                     <RowDefinition Height="1*"/>
-                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="0,10,0,0" HorizontalAlignment="Left"/>
-                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical"
-                    HorizontalAlignment="Stretch" MaxWidth="300" VerticalAlignment="Top" Margin="0,10,0,0">
+                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event"
+                           Margin="20,0,0,10" HorizontalAlignment="Left"/>
+                <TextBox Grid.Row="1" Grid.Column="0" Header="Name"
+                         Margin="0,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
+                <TextBox Grid.Row="2" Grid.Column="0" AutomationProperties.Name="multi-line TextBox" Header="Description"
+                        TextWrapping="Wrap" Margin="0,0,10,20" MaxWidth="350" VerticalAlignment="Top"/>
+                <DatePicker Grid.Row="3" Grid.Column="0" Header="Date"
+                            Margin="0,0,10,0" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
+                <CheckBox Grid.Row="1" Grid.Column="1" Content="All-Day Event"
+                        Margin="10,10,0,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Center" />
+                <TimePicker Grid.Row="2" Grid.Column="1" ClockIdentifier="24HourClock" Header="Start Time"
+                            Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
+                <TimePicker Grid.Row="3" Grid.Column="1" ClockIdentifier="24HourClock" Header="End Time"
+                            Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" />
+                <ComboBox Grid.Row="1" Grid.Column="2" Header="Notify Users" PlaceholderText="Choose a category"
+                          Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="200" VerticalAlignment="Top">
+                    <x:String>Do Not Notify</x:String>
+                    <x:String>Secretary</x:String>
+                    <x:String>All Staff</x:String>
+                    <x:String>All Staff and Students</x:String>
+                </ComboBox>
+                <Button Grid.Row="3" Grid.Column="2" Content="Create Event" Margin="10,20,10,0" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                <!--<TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="30,10,0,0" HorizontalAlignment="Left"/>-->
+                <!--<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical"
+                    HorizontalAlignment="Stretch" MaxWidth="300" VerticalAlignment="Top" Margin="0,0,0,0">
+                    <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="0,0,0,10" HorizontalAlignment="Left"/>
                     <TextBox Header="Name" Margin="0,0,0,20" />
                     <TextBox AutomationProperties.Name="multi-line TextBox" Header="Description"
                         TextWrapping="Wrap" Margin="0,0,0,20" />
                     <DatePicker Header="Date" />
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical"
-                    HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" Margin="20,10,0,0">
+                </StackPanel>-->
+                <!--<StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical"
+                    HorizontalAlignment="Stretch" MaxWidth="250" VerticalAlignment="Top" Margin="0,20,0,0">
+                    <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="" Margin="0,10,0,0" HorizontalAlignment="Left"/>
                     <CheckBox Content="All-Day Event"
                         Margin="0,0,0,20" />
                     <TimePicker ClockIdentifier="24HourClock" Header="Start Time" Margin="0,0,0,20" />
                     <TimePicker ClockIdentifier="24HourClock" Header="End Time" Margin="0,0,0,20" />
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="2"  VerticalAlignment="Top" Margin="0,10,0,0"
-                            HorizontalAlignment="Center" MaxWidth="400">
+                </StackPanel>-->
+                <!--<StackPanel Grid.Row="0" Grid.Column="2"  VerticalAlignment="Top" Margin="0,10,0,0"
+                            HorizontalAlignment="Center" MaxWidth="200">
+                    <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="" Margin="0,10,0,0" HorizontalAlignment="Left"/>
                     <ComboBox Header="Notify Users" PlaceholderText="Choose a category" Margin="0,0,0,90">
                         <x:String>Do Not Notify</x:String>
                         <x:String>Secretary</x:String>
@@ -91,7 +120,7 @@
                         <x:String>All Staff and Students</x:String>
                     </ComboBox>
                     <Button HorizontalAlignment="Center" Content="Create Event" />
-                </StackPanel>
+                </StackPanel>-->
             </Grid>
         </Grid>
     </Grid>
