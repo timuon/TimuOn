@@ -1,16 +1,12 @@
 using System;
-using Calendarnamespace;
 
-namespace Meetingnamespace
+namespace Timuon.Models
 {
     public class Meeting : Calendar
     {
+        // TODO: probably just associated with Calendar
         public string Users { get; set; }
-        public DateTime Date {get; set;}
-        //new public static void Main(string[] args)
-        //{
-        //    Meeting meeting01= new Meeting();
-        //}
+        public DateTime Date { get; set; }
     }
 }
 

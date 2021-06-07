@@ -1,7 +1,6 @@
 using System;
-using Usernamespace;
 
-namespace Adminnamespace
+namespace Timuon.Models
 {
     public class Admin : User
     {
@@ -12,14 +11,23 @@ namespace Adminnamespace
         public string[] Students { get; set; }
         public string Channel { get; set; }
 
-        public Admin(string Username, string Password, string Email, string FirstName, string LastName, string Organization, string Department) : 
-            base(Username, Password, Email, FirstName, LastName)
+        public Admin(string username, string password, string email,
+            int phone_number, string address, DateTime registration_date,
+            string firstName, string lastName, int id, string calendars,
+            string platforms, string preferences, string userOrganization,
+            string department, string[] auditoriums, string[] coordinators,
+            string[] students, string channel) :
+            base(username, password, email, phone_number, address,
+                registration_date, firstName, lastName, id, calendars,
+                platforms, preferences)
         {
-            this.UserOrganization = Organization;
-            this.Department = Department;
+            UserOrganization = userOrganization;
+            Department = department;
+            Auditoriums = auditoriums;
+            Coordinators = coordinators;
+            Students = students;
+            Channel = channel;
         }
-
-
     }
 }
 

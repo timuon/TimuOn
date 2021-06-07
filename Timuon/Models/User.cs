@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Usernamespace
+namespace Timuon.Models
 {
     public class User
     {
@@ -16,14 +16,24 @@ namespace Usernamespace
         private string Calendars { get; set; }
         private string Platforms { get; set; }
         private string Preferences { get; set; }
-        
-        public User(string Username, string Password, string Email, string FirstName, string LastName)
+
+        public User(string username, string password, string email,
+            int phone_number, string address, DateTime registration_date,
+            string firstName, string lastName, int id, string calendars,
+            string platforms, string preferences)
         {
-            this.Username = Username;
-            this.Password = Password;
-            this.Email = Email;
-            this.FirstName = FirstName;
-            this.LastName = LastName;
+            Username = username;
+            Password = password;
+            Email = email;
+            Phone_number = phone_number;
+            Address = address;
+            Registration_date = registration_date;
+            FirstName = firstName;
+            LastName = lastName;
+            Id = id;
+            Calendars = calendars;
+            Platforms = platforms;
+            Preferences = preferences;
         }
     }
 }
