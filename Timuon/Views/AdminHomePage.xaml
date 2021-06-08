@@ -5,13 +5,13 @@
     xmlns:local="using:Timuon"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:events="using:Eventnamespace"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     Style="{StaticResource PageStyle}"
     xmlns:behaviors="using:Timuon.Behaviors"
-    behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"-->
 
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
@@ -73,26 +73,29 @@
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event"
                            Margin="20,0,0,10" HorizontalAlignment="Left"/>
-                <TextBox Grid.Row="1" Grid.Column="0" Header="Name"
+                <TextBox Grid.Row="1" Grid.Column="0" Header="Name" x:Name="NameBox"
                          Margin="0,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
-                <TextBox Grid.Row="2" Grid.Column="0" AutomationProperties.Name="multi-line TextBox" Header="Description"
-                        TextWrapping="Wrap" Margin="0,0,10,20" MaxWidth="350" VerticalAlignment="Top"/>
-                <DatePicker Grid.Row="3" Grid.Column="0" Header="Date"
+                <TextBox Grid.Row="2" Grid.Column="0" Header="Description" x:Name="DescriptionBox"
+                        AutomationProperties.Name="multi-line TextBox" TextWrapping="Wrap" Margin="0,0,10,20"
+                         MaxWidth="350" VerticalAlignment="Top"/>
+                <DatePicker Grid.Row="3" Grid.Column="0" Header="Date" x:Name="EventDatePicker"
                             Margin="0,0,10,0" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
-                <CheckBox Grid.Row="1" Grid.Column="1" Content="All-Day Event"
+                <CheckBox Grid.Row="1" Grid.Column="1" Content="All-Day Event" x:Name="AllDayCheckBox"
+                          Checked="AllDayCheckBox_Checked" Unchecked="AllDayCheckBox_Unchecked"
                         Margin="10,10,0,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Center" />
-                <TimePicker Grid.Row="2" Grid.Column="1" ClockIdentifier="24HourClock" Header="Start Time"
-                            Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
-                <TimePicker Grid.Row="3" Grid.Column="1" ClockIdentifier="24HourClock" Header="End Time"
-                            Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" />
-                <ComboBox Grid.Row="1" Grid.Column="2" Header="Notify Users" PlaceholderText="Choose a category"
+                <TimePicker Grid.Row="2" Grid.Column="1" ClockIdentifier="24HourClock" Header="Start Time" x:Name="StartTimePicker"
+                            MinuteIncrement="5" Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top"/>
+                <TimePicker Grid.Row="3" Grid.Column="1" ClockIdentifier="24HourClock" Header="End Time" x:Name="EndTimePicker"
+                            MinuteIncrement="5" Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" />
+                <ComboBox Grid.Row="1" Grid.Column="2" Header="Notify Users" PlaceholderText="Choose a category" x:Name="RecipientsCombo"
                           Margin="10,0,10,20" HorizontalAlignment="Stretch" MaxWidth="200" VerticalAlignment="Top">
                     <x:String>Do Not Notify</x:String>
                     <x:String>Secretary</x:String>
                     <x:String>All Staff</x:String>
                     <x:String>All Staff and Students</x:String>
                 </ComboBox>
-                <Button Grid.Row="3" Grid.Column="2" Content="Create Event" Margin="10,20,10,0" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                <Button Grid.Row="3" Grid.Column="2" Content="Create Event" Click="Button_ClickAsync"
+                        Margin="10,20,10,0" HorizontalAlignment="Center" VerticalAlignment="Top" />
                 <!--<TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource TitleTextBlockStyle}" Text="New Event" Margin="30,10,0,0" HorizontalAlignment="Left"/>-->
                 <!--<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical"
                     HorizontalAlignment="Stretch" MaxWidth="300" VerticalAlignment="Top" Margin="0,0,0,0">
