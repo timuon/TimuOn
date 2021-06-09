@@ -17,6 +17,10 @@ namespace Timuon.Views
         public ObservableCollection<RSSFeed> ActiveFeeds { get { return activeFeeds; } }
         private RSSFeed NewFeed;
         private bool URLStatusCheck;
+        ObservableCollection<Platform> activePlatforms = new ObservableCollection<Platform>();
+        public ObservableCollection<Platform> ActivePlatforms { get { return activePlatforms; } }
+        private bool[] PlatformsToAdd = new bool[] { false, false, false, false, false };
+        //private Platform NewPlatform;
 
         public UserSettingsPage()
         {
@@ -26,6 +30,10 @@ namespace Timuon.Views
             activeFeeds.Add(new RSSFeed("news.com", "News", EmptyArray));
             activeFeeds.Add(new RSSFeed("ceid.upatras.gr", "CEID", EmptyArray));
             URLStatusCheck = false;
+            ConnectedPlatformsList.ItemsSource = ActivePlatforms;
+            activePlatforms.Add(new Platform("Zoom", "someone@hotgmail.com"));
+            activePlatforms.Add(new Platform("Teams", "someone@hotgmail.com"));
+            activePlatforms.Add(new Platform("Discord", "BroThorPlaysVideogames"));
         }
 
         private void ClearButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -90,6 +98,114 @@ namespace Timuon.Views
                 CloseButtonText = "OK"
             };
             result = await FeedStatusCheckInfoDialog.ShowAsync();
+        }
+
+        private async void ConnectWebexButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ContentDialogResult result;
+            ContentDialog ExternalPlatformInfoDialog = new ContentDialog
+            {
+                Title = "External Platform Connection",
+                Content = "IMPORTANT INFO: This application does not connect to any external systems " +
+                "(out of project scope), so let's pretend that the appropriate authorisation was given.",
+                CloseButtonText = "OK"
+            };
+            result = await ExternalPlatformInfoDialog.ShowAsync();
+            ConnectWebexButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            PlatformsToAdd[0] = true;
+        }
+
+        private async void ConnectSkypeButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ContentDialogResult result;
+            ContentDialog ExternalPlatformInfoDialog = new ContentDialog
+            {
+                Title = "External Platform Connection",
+                Content = "IMPORTANT INFO: This application does not connect to any external systems " +
+                "(out of project scope), so let's pretend that the appropriate authorisation was given.",
+                CloseButtonText = "OK"
+            };
+            result = await ExternalPlatformInfoDialog.ShowAsync();
+            ConnectSkypeButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            PlatformsToAdd[1] = true;
+        }
+
+        private async void ConnectFbButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ContentDialogResult result;
+            ContentDialog ExternalPlatformInfoDialog = new ContentDialog
+            {
+                Title = "External Platform Connection",
+                Content = "IMPORTANT INFO: This application does not connect to any external systems " +
+                "(out of project scope), so let's pretend that the appropriate authorisation was given.",
+                CloseButtonText = "OK"
+            };
+            result = await ExternalPlatformInfoDialog.ShowAsync();
+            ConnectFbButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            PlatformsToAdd[2] = true;
+        }
+
+        private void AddPlatformButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            if (PlatformsToAdd[0])
+            {
+                activePlatforms.Add(new Platform("Webex", "someone@upatras.gr"));
+                // Move platform to active list
+                WebexBlock.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (PlatformsToAdd[1])
+            {
+                activePlatforms.Add(new Platform("Skype", "someone_98"));
+                // Move platform to active list
+                SkypeBlock.Visibility = Windows.UI.Xaml.Visibility.Collapsed;                
+            }
+            if (PlatformsToAdd[2])
+            {
+                activePlatforms.Add(new Platform("Facebook", "someone@hotgmail.com"));
+                // Move platform to active list
+                FbBlock.Visibility = Windows.UI.Xaml.Visibility.Collapsed;                
+            }
+            if (PlatformsToAdd[3])
+            {
+                activePlatforms.Add(new Platform("Google", "someone@hotgmail.com"));
+                // Move platform to active list
+                OtherPlatformCombo.Items.Remove(OtherPlatformCombo.SelectedItem);
+                // TODO: merge calendar
+            }
+            if (PlatformsToAdd[4])
+            {
+                activePlatforms.Add(new Platform("Yahoo", "someone@yahoo.gr"));
+                // Move platform to active list
+                OtherPlatformCombo.Items.Remove(OtherPlatformCombo.SelectedItem);
+                // TODO: merge calendar
+            }
+
+            PlatformsToAdd = new bool[] { false, false, false, false, false };
+        }
+
+        private async void OtherPlatformCombo_DropDownClosed(object sender, object e)
+        {
+            if (OtherPlatformCombo.SelectedValue != null)
+            {
+                ContentDialogResult result;
+                ContentDialog ExternalPlatformInfoDialog = new ContentDialog
+                {
+                    Title = "External Platform Connection",
+                    Content = "IMPORTANT INFO: This application does not connect to any external systems " +
+                    "(out of project scope), so let's pretend that the appropriate authorisation was given.",
+                    CloseButtonText = "OK"
+                };
+                result = await ExternalPlatformInfoDialog.ShowAsync();
+
+                if ((string)OtherPlatformCombo.SelectedValue == "Google")
+                {
+                    PlatformsToAdd[3] = true;
+                }
+                else
+                {
+                    PlatformsToAdd[4] = true;
+                }
+            }
         }
     }
 }

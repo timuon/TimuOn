@@ -160,6 +160,7 @@
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Meeting.cs" />
     <Compile Include="Models\Organization.cs" />
+    <Compile Include="Models\Platform.cs" />
     <Compile Include="Models\Request.cs" />
     <Compile Include="Models\RSSFeed.cs" />
     <Compile Include="Models\Schedule.cs" />
