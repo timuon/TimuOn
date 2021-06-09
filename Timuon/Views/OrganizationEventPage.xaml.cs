@@ -33,19 +33,25 @@ namespace Timuon.Views
         {
             if (EventAction.SelectedValue.ToString() == "Add Event")
             {
+                // Add event elements
                 AddEventBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
-                AddEventBlock.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 AddEventDate.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 CalendarEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
-
-                //EndTimePicker.Visibility = Windows.UI.Xaml.Visibility.Collapsed;}
+                AuditoriumAddEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                NumberLongAddEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                MessageSec.Visibility = Windows.UI.Xaml.Visibility.Visible;
             }
             else
             {
+                // Add event elements
                 AddEventBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                AddEventBlock.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 AddEventDate.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 CalendarEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumAddEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                NumberLongAddEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                MessageSec.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
 
             }
