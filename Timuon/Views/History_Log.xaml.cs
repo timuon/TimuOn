@@ -17,7 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Timuon.Views
 {
-    public sealed partial class History_Log : ContentDialog
+    public sealed partial class History_Log : Page
     {
         public History_Log()
         {
@@ -30,6 +30,28 @@ namespace Timuon.Views
 
         private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
+        }
+
+        private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Add "using Windows.UI;" for Color and Colors.
+            string colorName = e.AddedItems[0].ToString();
+            string color;
+            switch (colorName)
+            {
+                case "Yellow":
+                    color = "Yellow";
+                    break;
+                case "Green":
+                    color = "Green";
+                    break;
+                case "Blue":
+                    color = "Blue";
+                    break;
+                case "Red":
+                    color = "Red";
+                    break;
+            }
         }
     }
 }

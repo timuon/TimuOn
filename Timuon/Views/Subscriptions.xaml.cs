@@ -17,9 +17,9 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Timuon.Views
 {
-    public sealed partial class Subscritpions : ContentDialog
+    public sealed partial class Subscriptions : Page
     {
-        public Subscritpions()
+        public Subscriptions()
         {
             this.InitializeComponent();
         }

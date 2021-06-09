@@ -17,7 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Timuon.Views
 {
-    public sealed partial class Calendar : ContentDialog
+    public sealed partial class Calendar : Page
     {
         public Calendar()
         {

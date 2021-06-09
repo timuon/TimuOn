@@ -223,8 +223,8 @@
     <Compile Include="Views\MainShellPage.xaml.cs">
       <DependentUpon>MainShellPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Subscritpions.xaml.cs">
-      <DependentUpon>Subscritpions.xaml</DependentUpon>
+    <Compile Include="Views\Subscriptions.xaml.cs">
+      <DependentUpon>Subscriptions.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TabbedPivotPage.xaml.cs">
       <DependentUpon>TabbedPivotPage.xaml</DependentUpon>
@@ -331,7 +331,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Subscritpions.xaml">
+    <Page Include="Views\Subscriptions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

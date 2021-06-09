@@ -699,8 +699,8 @@
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
       <PackagePath>Views\MainShellPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Subscritpions.xbf">
-      <PackagePath>Views\Subscritpions.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
+      <PackagePath>Views\Subscriptions.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>

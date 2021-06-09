@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-09T17:04:46.050</Modified>
+      <Modified>2021-06-09T18:20:55.800</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
-      <Modified>2021-06-09T17:04:44.818</Modified>
+      <Modified>2021-06-09T18:20:54.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
@@ -834,119 +834,119 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
-      <Modified>2021-06-09T16:51:35.028</Modified>
+      <Modified>2021-06-09T18:17:05.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.410</Modified>
+      <Modified>2021-06-09T18:20:54.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.404</Modified>
+      <Modified>2021-06-09T18:20:53.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.405</Modified>
+      <Modified>2021-06-09T18:20:53.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.406</Modified>
+      <Modified>2021-06-09T18:20:53.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.407</Modified>
+      <Modified>2021-06-09T18:20:53.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.409</Modified>
+      <Modified>2021-06-09T18:20:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
       <PackagePath>Views\BlankPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.411</Modified>
+      <Modified>2021-06-09T18:20:54.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
       <PackagePath>Views\Calendar.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.412</Modified>
+      <Modified>2021-06-09T18:20:54.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.413</Modified>
+      <Modified>2021-06-09T18:20:54.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.360</Modified>
+      <Modified>2021-06-09T18:20:53.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.416</Modified>
+      <Modified>2021-06-09T18:20:54.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.418</Modified>
+      <Modified>2021-06-09T18:20:54.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
       <PackagePath>Views\History_Log.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.419</Modified>
+      <Modified>2021-06-09T18:20:54.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.367</Modified>
+      <Modified>2021-06-09T18:20:53.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.422</Modified>
+      <Modified>2021-06-09T18:20:54.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.424</Modified>
+      <Modified>2021-06-09T18:20:54.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.425</Modified>
+      <Modified>2021-06-09T18:20:54.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
       <PackagePath>Views\Rss_Feed.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.427</Modified>
+      <Modified>2021-06-09T18:20:54.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.428</Modified>
+      <Modified>2021-06-09T18:20:54.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
       <PackagePath>Views\MainShellPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.378</Modified>
+      <Modified>2021-06-09T18:20:53.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Subscritpions.xbf">
-      <PackagePath>Views\Subscritpions.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.431</Modified>
+    <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
+      <PackagePath>Views\Subscriptions.xbf</PackagePath>
+      <Modified>2021-06-09T18:20:54.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.432</Modified>
+      <Modified>2021-06-09T18:20:54.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.434</Modified>
+      <Modified>2021-06-09T18:20:54.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.435</Modified>
+      <Modified>2021-06-09T18:20:54.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.394</Modified>
+      <Modified>2021-06-09T18:20:53.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.398</Modified>
+      <Modified>2021-06-09T18:20:53.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.440</Modified>
+      <Modified>2021-06-09T18:20:54.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
-      <Modified>2021-06-09T17:04:44.403</Modified>
+      <Modified>2021-06-09T18:20:53.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -962,11 +962,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-09T12:42:05.085</Modified>
+      <Modified>2021-06-09T18:19:08.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
-      <Modified>2021-06-09T17:04:46.029</Modified>
+      <Modified>2021-06-09T18:20:55.778</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
