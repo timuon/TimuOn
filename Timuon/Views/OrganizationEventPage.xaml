@@ -29,11 +29,11 @@
                 X2="700" Y2="140"
                 Stroke="Black"
                 StrokeThickness="2" Margin="0,0,0,2" />
-            <Line
+            <Line x:Name="Linee"
                 X1="811" Y1="140"
                 X2="1200" Y2="140"
                 Stroke="Black"
-                StrokeThickness="2" Margin="0,0,0,2" />
+                StrokeThickness="2" Margin="0,0,0,2" Visibility="Collapsed"/>
             <!--<Line 
                 X1="520" Y1="300"
                 X2="735" Y2="300"
@@ -62,7 +62,7 @@
                 <x:String>Edit Event</x:String>
                 <x:String>Delete Event</x:String>
             </ComboBox>
-            <TextBox HorizontalAlignment="Left" Margin="520,277,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Header="Event's name" Height="34" x:Name="AddEventBox" Visibility="Collapsed" />
+            <TextBox HorizontalAlignment="Left" Margin="520,265,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Header="Event's name" Height="50" x:Name="AddEventBox" Visibility="Collapsed" />
             <TextBlock x:Name="AddEventDate" HorizontalAlignment="Left" Margin="520,333,0,0" Text="Which date?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <CalendarDatePicker x:Name="CalendarEvent" Margin="520,370,0,0" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="AuditoriumCombobox" Margin="812,164,0,0" Header="Free Auditoriums" PlaceholderText="Auditoriums" Width="120" Visibility="Collapsed">
@@ -79,20 +79,21 @@
                     <ImageBrush/>
                 </TextBox.Background>
             </TextBox>
-            <Button Content="Submit" Margin="959,626,0,0" VerticalAlignment="Top" Width="89"/>
-            <TextBlock x:Name="EditEvent" HorizontalAlignment="Left" Margin="520,277,0,0" Text="Which event do you want to edit?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <Button Content="Submit" Margin="936,626,0,0" VerticalAlignment="Top" Width="89"/>
+
+            <!-- EDIT EVENT-->
+            <TextBlock x:Name="EditEvent" HorizontalAlignment="Left" Margin="520,277,0,0" Text="Which event do you want to edit?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="EventsCombobox" Margin="520,315,0,0" Header="Events" PlaceholderText="Event" Width="120" Visibility="Collapsed">
                 <x:String>Patras IQ</x:String>
                 <x:String>Student Elections</x:String>
                 <x:String>Blood donation</x:String>
             </ComboBox>
-            <TextBlock x:Name="ChangeTitle" HorizontalAlignment="Left" Margin="812,111,0,0" Text="What change do you want to make?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <TextBlock x:Name="ChangeTitle" HorizontalAlignment="Left" Margin="812,111,0,0" Text="What change do you want to make?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="ChangesCombobox" Margin="812,148,0,0" Header="Changes" PlaceholderText="Change" Width="120" Visibility="Collapsed">
                 <x:String>Date of event</x:String>
-                <x:String>Name of event</x:String>
                 <x:String>Auditorium of event</x:String>
             </ComboBox>
-            <TextBlock x:Name="AuditoriumEditTitle" HorizontalAlignment="Left" Margin="812,228,0,0" Text="Which auditorium do you want for this event?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <TextBlock x:Name="AuditoriumEditTitle" HorizontalAlignment="Left" Margin="812,228,0,0" Text="Which auditorium do you want for this event?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="AuditoriumsEdit" Margin="812,258,0,0" Header="Auditoriums" PlaceholderText="Available" Width="120" Visibility="Collapsed">
                 <x:String>CEID BA</x:String>
                 <x:String>AFE</x:String>
@@ -100,6 +101,11 @@
             </ComboBox>
             <CalendarDatePicker x:Name="CalendarPickerEdit" Margin="1028,281,0,0" VerticalAlignment="Top" Visibility="Collapsed"/>
             <TextBox x:Name="ReasonEdit" HorizontalAlignment="Left" Margin="520,419,0,0" Text="" Header="Reason of this change" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <!-- DELETE EVENT-->
+            <TextBlock x:Name="DeleteEvent" HorizontalAlignment="Left" Margin="520,282,0,0" Text="Which event do you want to delete?" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource BaseTextBlockStyle}" Visibility="Collapsed"/>
+            <TextBox x:Name="ChangeDelete" Header="Why do you want to delete this event?" HorizontalAlignment="Left" Margin="812,178,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+
+
         </Grid>
     </Grid>
 </Page>

@@ -27,7 +27,7 @@ namespace Timuon.Views
         public OrganizationEventsViewModel ViewModel { get; } = new OrganizationEventsViewModel();
         public OrganizationEventPage()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
         private void EventAction_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -41,6 +41,51 @@ namespace Timuon.Views
                 NumberLongAddEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 MessageSec.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                Linee.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+                // Edit event elements
+                ChangeTitle.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ChangesCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ReasonEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumEditTitle.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                CalendarPickerEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                EventsCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                EditEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+                // Delete event elements
+                DeleteEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ChangeDelete.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            }
+            else if (EventAction.SelectedValue.ToString() == "Edit Event")
+            {
+                // Add event elements
+                AddEventBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AddEventDate.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                CalendarEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumAddEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                NumberLongAddEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                MessageSec.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+
+                // Edit event elements
+                ChangeTitle.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                ChangesCombobox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                ReasonEdit.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                AuditoriumEditTitle.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                CalendarPickerEdit.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                EventsCombobox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                EditEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                Linee.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+                // Delete event elements
+                DeleteEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ChangeDelete.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
             }
             else
             {
@@ -52,9 +97,25 @@ namespace Timuon.Views
                 NumberLongAddEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 MessageSec.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
+                // Edit event elements
+                ChangeTitle.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ChangesCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                ReasonEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumEditTitle.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                CalendarPickerEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                EventsCombobox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                EditEvent.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
+                // Delete event elements
+                DeleteEvent.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                ChangeDelete.Visibility = Windows.UI.Xaml.Visibility.Visible;
             }
-        }
+
+
+            
+    }
     }
 }
