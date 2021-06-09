@@ -17,7 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Timuon.Views
 {
-    public sealed partial class Rss_Feed : ContentDialog
+    public sealed partial class Rss_Feed : Page
     {
         public Rss_Feed()
         {

@@ -1,11 +1,12 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="Timuon.Views.TabbedPivotPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+                        >
 
 
 
@@ -31,7 +32,7 @@
             x:Name="Items">
             <Pivot.HeaderTemplate>
                 <DataTemplate>
-                    <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="{Binding}" />
+                    <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="{Binding}"/>
                 </DataTemplate>
             </Pivot.HeaderTemplate>
             <!--<Pivot.RightHeader>
@@ -62,6 +63,39 @@
                     -->
 
                 </Grid>
+            </PivotItem>
+            <PivotItem x:Uid="TabbedPivot_PivotItem3">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <!--
+                        The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
+                        Place your content here.
+                    -->
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Uid="TabbedPivot_PivotItem4">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <!--
+                        The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
+                        Place your content here.
+                    -->
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Uid="TabbedPivot_PivotItem5">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <!--
+                        The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
+                        Place your content here.
+                    -->
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:ConnectionId='5' Header="Store"                          >
+                    <Frame x:ConnectionId='7' x:Name="Rss_Feed_frame" />
+            </PivotItem>
+            <PivotItem Header="Library">
+                <Frame x:ConnectionId='6' x:Name="Calendar_frame" />
             </PivotItem>
         </Pivot>
     </Grid>

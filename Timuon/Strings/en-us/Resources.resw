@@ -194,11 +194,11 @@
     <comment>Navigation view item name for Chart</comment>
   </data>
   <data name="TabbedPivot_PivotItem1.Header" xml:space="preserve">
-    <value>Item 1</value>
+    <value>History(Log)</value>
     <comment>First Pivot item title for TabbedPivot</comment>
   </data>
   <data name="TabbedPivot_PivotItem2.Header" xml:space="preserve">
-    <value>Item 2</value>
+    <value>Subscriptions</value>
     <comment>Second Pivot item title for TabbedPivot</comment>
   </data>
   <data name="Shell_TabbedPivot.Content" xml:space="preserve">
@@ -257,5 +257,14 @@ This application is being implemented as part of a mandatory project of the Soft
   </data>
   <data name="Git_About" xml:space="preserve">
     <value>You can find our code on our Github</value>
+  </data>
+  <data name="TabbedPivot_PivotItem3.Header" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="TabbedPivot_PivotItem4.Header" xml:space="preserve">
+    <value>Teams</value>
+  </data>
+  <data name="TabbedPivot_PivotItem5.Header" xml:space="preserve">
+    <value>Rss Feed</value>
   </data>
 </root>

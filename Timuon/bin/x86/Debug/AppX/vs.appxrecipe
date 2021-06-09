@@ -30,17 +30,17 @@
     <AppXManifest Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T20:34:34.614</Modified>
+      <Modified>2021-06-09T17:04:46.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
-      <Modified>2021-06-06T20:34:32.291</Modified>
+      <Modified>2021-06-09T17:04:44.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
-      <Modified>2021-06-05T15:24:29.296</Modified>
+      <Modified>2021-06-06T21:27:05.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -260,7 +260,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
-      <Modified>2021-06-05T15:27:42.732</Modified>
+      <Modified>2021-06-09T12:17:37.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
       <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
@@ -573,27 +573,27 @@
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.631</Modified>
+      <Modified>2021-06-06T21:18:18.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.678</Modified>
+      <Modified>2021-06-06T21:18:18.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.734</Modified>
+      <Modified>2021-06-06T21:18:18.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.819</Modified>
+      <Modified>2021-06-06T21:18:18.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.063</Modified>
+      <Modified>2021-06-06T21:18:18.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
@@ -602,202 +602,202 @@
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:58.959</Modified>
+      <Modified>2021-06-06T21:18:18.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.025</Modified>
+      <Modified>2021-06-06T21:18:18.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.057</Modified>
+      <Modified>2021-06-06T21:18:18.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.092</Modified>
+      <Modified>2021-06-06T21:18:18.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.131</Modified>
+      <Modified>2021-06-06T21:18:18.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.720</Modified>
+      <Modified>2021-06-06T21:18:18.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.778</Modified>
+      <Modified>2021-06-06T21:18:18.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.851</Modified>
+      <Modified>2021-06-06T21:18:18.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.280</Modified>
+      <Modified>2021-06-06T21:18:18.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.161</Modified>
+      <Modified>2021-06-06T21:18:18.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.193</Modified>
+      <Modified>2021-06-06T21:18:18.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.228</Modified>
+      <Modified>2021-06-06T21:18:18.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.339</Modified>
+      <Modified>2021-06-06T21:18:18.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.533</Modified>
+      <Modified>2021-06-06T21:18:18.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.559</Modified>
+      <Modified>2021-06-06T21:18:18.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.668</Modified>
+      <Modified>2021-06-06T21:18:18.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.582</Modified>
+      <Modified>2021-06-06T21:18:18.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.605</Modified>
+      <Modified>2021-06-06T21:18:18.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.381</Modified>
+      <Modified>2021-06-06T21:18:18.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.503</Modified>
+      <Modified>2021-06-06T21:18:18.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.431</Modified>
+      <Modified>2021-06-06T21:18:18.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.462</Modified>
+      <Modified>2021-06-06T21:18:18.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.086</Modified>
+      <Modified>2021-06-06T21:18:18.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.108</Modified>
+      <Modified>2021-06-06T21:18:18.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.131</Modified>
+      <Modified>2021-06-06T21:18:18.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.185</Modified>
+      <Modified>2021-06-06T21:18:18.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.213</Modified>
+      <Modified>2021-06-06T21:18:18.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.244</Modified>
+      <Modified>2021-06-06T21:18:18.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.350</Modified>
+      <Modified>2021-06-06T21:18:18.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.278</Modified>
+      <Modified>2021-06-06T21:18:18.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.307</Modified>
+      <Modified>2021-06-06T21:18:18.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.304</Modified>
+      <Modified>2021-06-06T21:18:18.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.331</Modified>
+      <Modified>2021-06-06T21:18:18.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.357</Modified>
+      <Modified>2021-06-06T21:18:18.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.384</Modified>
+      <Modified>2021-06-06T21:18:18.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:01.425</Modified>
+      <Modified>2021-06-06T21:18:18.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:53:17.640</Modified>
+      <Modified>2021-06-06T21:18:18.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:53:17.688</Modified>
+      <Modified>2021-06-06T21:18:18.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:53:17.755</Modified>
+      <Modified>2021-06-06T21:18:18.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:53:17.998</Modified>
+      <Modified>2021-06-06T21:18:18.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -806,27 +806,27 @@
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.951</Modified>
+      <Modified>2021-06-06T21:18:18.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:43:59.272</Modified>
+      <Modified>2021-06-06T21:18:18.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.157</Modified>
+      <Modified>2021-06-06T21:18:18.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T16:44:00.405</Modified>
+      <Modified>2021-06-06T21:18:18.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:53:17.837</Modified>
+      <Modified>2021-06-06T21:18:18.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -834,119 +834,119 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
-      <Modified>2021-06-06T19:23:54.331</Modified>
+      <Modified>2021-06-09T16:51:35.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.682</Modified>
+      <Modified>2021-06-09T17:04:44.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.674</Modified>
+      <Modified>2021-06-09T17:04:44.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.676</Modified>
+      <Modified>2021-06-09T17:04:44.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.677</Modified>
+      <Modified>2021-06-09T17:04:44.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.679</Modified>
+      <Modified>2021-06-09T17:04:44.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.680</Modified>
+      <Modified>2021-06-09T17:04:44.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
       <PackagePath>Views\BlankPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.683</Modified>
+      <Modified>2021-06-09T17:04:44.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
       <PackagePath>Views\Calendar.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.685</Modified>
+      <Modified>2021-06-09T17:04:44.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.686</Modified>
+      <Modified>2021-06-09T17:04:44.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.606</Modified>
+      <Modified>2021-06-09T17:04:44.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.688</Modified>
+      <Modified>2021-06-09T17:04:44.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.690</Modified>
+      <Modified>2021-06-09T17:04:44.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
       <PackagePath>Views\History_Log.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.691</Modified>
+      <Modified>2021-06-09T17:04:44.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.614</Modified>
+      <Modified>2021-06-09T17:04:44.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.694</Modified>
+      <Modified>2021-06-09T17:04:44.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.696</Modified>
+      <Modified>2021-06-09T17:04:44.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.697</Modified>
+      <Modified>2021-06-09T17:04:44.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
       <PackagePath>Views\Rss_Feed.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.699</Modified>
+      <Modified>2021-06-09T17:04:44.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.700</Modified>
+      <Modified>2021-06-09T17:04:44.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
       <PackagePath>Views\MainShellPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.627</Modified>
+      <Modified>2021-06-09T17:04:44.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\Subscritpions.xbf">
       <PackagePath>Views\Subscritpions.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.703</Modified>
+      <Modified>2021-06-09T17:04:44.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.704</Modified>
+      <Modified>2021-06-09T17:04:44.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.706</Modified>
+      <Modified>2021-06-09T17:04:44.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.707</Modified>
+      <Modified>2021-06-09T17:04:44.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.662</Modified>
+      <Modified>2021-06-09T17:04:44.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.667</Modified>
+      <Modified>2021-06-09T17:04:44.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.713</Modified>
+      <Modified>2021-06-09T17:04:44.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T20:34:31.673</Modified>
+      <Modified>2021-06-09T17:04:44.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -962,11 +962,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-06T20:34:33.247</Modified>
+      <Modified>2021-06-09T12:42:05.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A. Androutsopoulos\Documents\GitHub\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
-      <Modified>2021-06-06T20:34:34.588</Modified>
+      <Modified>2021-06-09T17:04:46.029</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
