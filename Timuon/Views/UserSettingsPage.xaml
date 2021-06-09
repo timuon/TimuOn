@@ -107,17 +107,27 @@
                     </StackPanel>
                     <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical"
                     Margin="40,20,40,40" VerticalAlignment="Top" HorizontalAlignment="Stretch" MaxWidth="300">
+                        
                         <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Add RSS Feed"/>
-                        <TextBox Header="RSS Feed URL" Margin="0,20,0,10" />
-                        <TextBox Header="Name" Margin="0,0,0,10" />
-                        <ComboBox Header="Category" PlaceholderText="Choose a category" Margin="0,0,0,10" MinWidth="150">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Stretch" MaxWidth="300">
+                            <TextBox x:Name="URLBox" Header="URL" HorizontalAlignment="Left" Margin="0,20,0,10" MinWidth="260"/>
+                            <Button x:Name="SyncFeedButton" FontFamily="Segoe MDL2 Assets" Content="&#xE895;" Click="SyncFeedButton_Click"
+                                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,40,0,10" />
+                            <TextBlock x:Name="FeedStatusBox" FontFamily="Segoe MDL2 Assets" Text="&#xE73E;" Foreground="Green"
+                                       HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,40,0,10" Visibility="Collapsed"/>
+                        </StackPanel>
+                        
+                        <TextBox x:Name="NameBox" Header="Name" Margin="0,0,0,10" />
+                        <ComboBox x:Name="CategoryCombo" Header="Category" PlaceholderText="Choose a category" Margin="0,0,0,10" MinWidth="150">
                             <x:String>Studies</x:String>
                             <x:String>Uni</x:String>
                             <x:String>Scientific</x:String>
                         </ComboBox>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,20">
-                            <Button Content="Add Feed" HorizontalAlignment="Left" Margin="10,0,0,0" />
-                            <Button Content="Clear" HorizontalAlignment="Right" Margin="10,0,0,0"/>
+                            <Button x:Name="AddButton" Content="Add Feed" Click="AddButton_Click"
+                                    HorizontalAlignment="Left" Margin="10,0,0,0" />
+                            <Button x:Name="ClearButton" Content="Clear" Click="ClearButton_Click"
+                                    HorizontalAlignment="Right" Margin="10,0,0,0"/>
                         </StackPanel>
                     </StackPanel>
                     <StackPanel Grid.Row="2" Grid.Column="2" Margin="40,20,40,40"
