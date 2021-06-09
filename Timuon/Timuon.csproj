@@ -161,6 +161,7 @@
     <Compile Include="Models\Meeting.cs" />
     <Compile Include="Models\Organization.cs" />
     <Compile Include="Models\Request.cs" />
+    <Compile Include="Models\RSSFeed.cs" />
     <Compile Include="Models\Schedule.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\TabViewItemData.cs" />
