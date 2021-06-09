@@ -11,8 +11,11 @@ namespace Timuon.Models
         public string Audience { get; set; }
         public string Channel { get; set; }
         public string Schedule { get; set; }
+        public string Description { get; set; }
+        public string DisplayString { get; set; }
         public Event(string name, DateTime date, string auditorium,
-            TimeSpan duration, string audience, string channel, string schedule)
+            TimeSpan duration, string audience, string channel,
+            string schedule, string description)
         {
             Name = name;
             Date = date;
@@ -21,6 +24,16 @@ namespace Timuon.Models
             Audience = audience;
             Channel = channel;
             Schedule = schedule;
+            Description = description;
+            if (duration.TotalDays >= 1)
+            {
+                DisplayString = name + " | All Day";
+            }
+            else
+            {
+                DisplayString = name + " | " + date.ToString("HH:mm") + " - "
+                + date.Add(duration).ToString("HH:mm");
+            }
         }
     }
 }

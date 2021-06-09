@@ -8,9 +8,9 @@ namespace Timuon.Models
 
         public Schedule(string Name, DateTime date,
             string Auditorium, TimeSpan Duration, string Audience,
-            string Channel, string Schedule, string conflict) :
+            string Channel, string Schedule, string description, string conflict) :
             base(Name, date, Auditorium, Duration, Audience,
-                Channel, Schedule)
+                Channel, Schedule, description)
         {
             Conflict = conflict;
         }

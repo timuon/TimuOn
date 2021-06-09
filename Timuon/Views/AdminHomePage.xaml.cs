@@ -1,5 +1,7 @@
 ﻿using System;
 
+using System.Collections.ObjectModel;
+
 using Timuon.Models;
 
 using Timuon.ViewModels;
@@ -11,10 +13,14 @@ namespace Timuon.Views
     public sealed partial class AdminHomePage : Page
     {
         public AdminHomeViewModel ViewModel { get; } = new AdminHomeViewModel();
+        ObservableCollection<Event> eventsToday = new ObservableCollection<Event>();
+        public ObservableCollection<Event> EventsToday { get { return eventsToday; } }
+        //private Event NewEvent;
 
         public AdminHomePage()
         {
             InitializeComponent();
+            EventsList.ItemsSource = EventsToday;
         }
 
         private void AllDayCheckBox_Checked(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -30,37 +36,36 @@ namespace Timuon.Views
         }
         private async void Button_ClickAsync(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            string eventName = NameBox.Text;
-            string eventDescription = DescriptionBox.Text;
-            DateTime eventDate = new DateTime();
-            TimeSpan eventDuration;
+            string EventName = NameBox.Text;
+            string EventDescription = DescriptionBox.Text;
+            DateTime EventDate;
+            TimeSpan EventDuration;
 
             if ((bool)AllDayCheckBox.IsChecked)
             {
                 // All-day event
-                eventDate = EventDatePicker.Date.DateTime;
-                eventDuration = new TimeSpan(24, 0, 0);
+                EventDate = EventDatePicker.Date.DateTime;
+                EventDuration = new TimeSpan(24, 0, 0);
             }
             else
             {
                 // Specified start time
-                eventDate = EventDatePicker.Date.DateTime + StartTimePicker.Time;
-                DateTime endDateTime = EventDatePicker.Date.DateTime + EndTimePicker.Time;
-                eventDuration = endDateTime - eventDate;
+                EventDate = EventDatePicker.Date.DateTime + StartTimePicker.Time; 
+                DateTime EndDateTime = EventDatePicker.Date.DateTime + EndTimePicker.Time;
+                EventDuration = EndDateTime - EventDate;
             }
 
-            Event newEvent = new Event(eventName, eventDate, "", eventDuration, "", "", "");
-            //string test = newEvent.Name;
-            // TODO: handle description
+            EventDate = DateTime.SpecifyKind(EventDate, DateTimeKind.Local);
+            Event NewEvent = new Event(EventName, EventDate, "", EventDuration, "", "", "", EventDescription);
             /*
              * Schedule userSchedule = currentUser.Schedule;
              * bool conflict = userSchedule.checkConflict(newEvent);
              */
 
-            //bool conflict = false;
-            bool conflict = true;
+            //bool Conflict = false;
+            bool Conflict = true;
             ContentDialogResult result;
-            if (conflict)
+            if (Conflict)
             {
                 // Option to proceed with the new event addition or cancel it
                 ContentDialog overlappingEventsDialog = new ContentDialog
@@ -79,7 +84,7 @@ namespace Timuon.Views
                 if (result == ContentDialogResult.Primary)
                 {
                     // Event addition and confirmation
-                    // TODO: add event as above
+                    // TODO: pass event to user
                     ContentDialog successDialog = new ContentDialog
                     {
                         Title = "Success!",
@@ -88,12 +93,18 @@ namespace Timuon.Views
                     };
 
                     result = await successDialog.ShowAsync();
-                    // TODO update today's events list if applicable
+
+                    // TODO fix difference!!!
+                    if (DateTime.Compare(NewEvent.Date, DateTime.Now) >= 0)
+                    {
+                        EventsToday.Add(NewEvent);
+                    }
                 }
             }
             else
             {
                 // Event addition and confirmation
+                // TODO: pass event to user
                 ContentDialog overlappingEventsDialog = new ContentDialog
                 {
                     Title = "Success!",
@@ -105,7 +116,10 @@ namespace Timuon.Views
                 };
 
                 result = await overlappingEventsDialog.ShowAsync();
-                // TODO update today's events list if applicable
+                if (DateTime.Compare(NewEvent.Date, DateTime.Now) == 0)
+                {
+                    EventsToday.Add(NewEvent);
+                }
 
             }
 
