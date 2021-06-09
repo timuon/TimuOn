@@ -52,15 +52,15 @@
             <TextBlock HorizontalAlignment="Left" Margin="53,212,0,0" Text="20 March 2021" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,299,0,0" Text="1 May 2021" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,403,0,0" Text="21 March 2021" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" />
-            <ComboBox Margin="520,164,0,0" Header="Actions" PlaceholderText="Action" Width="120">
+            <ComboBox x:Name="EventAction" Margin="520,164,0,0" Header="Actions" SelectionChanged="EventAction_SelectedIndexChanged" PlaceholderText="Action"  Width="120">
                 <x:String>Add Event</x:String>
                 <x:String>Edit Event</x:String>
                 <x:String>Delete Event</x:String>
             </ComboBox>
-            <TextBlock HorizontalAlignment="Left" Margin="520,243,0,0" Text="Event's Name" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Margin="520,277,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="34"/>
-            <TextBlock HorizontalAlignment="Left" Margin="520,333,0,0" Text="Which date?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <CalendarDatePicker Margin="520,370,0,0" VerticalAlignment="Top"/>
+            <TextBlock x:Name="AddEventBlock"  HorizontalAlignment="Left" Margin="520,243,0,0" Text="Event's Name" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <TextBox HorizontalAlignment="Left" Margin="520,277,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="34" x:Name="AddEventBox" Visibility="Collapsed" />
+            <TextBlock x:Name="AddEventDate" HorizontalAlignment="Left" Margin="520,333,0,0" Text="Which date?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <CalendarDatePicker x:Name="CalendarEvent" Margin="520,370,0,0" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox Margin="812,164,0,0" Header="Free Auditoriums" PlaceholderText="Auditoriums" Width="120">
                 <x:String>AFE</x:String>
                 <x:String>CEID BA</x:String>
