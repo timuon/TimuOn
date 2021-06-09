@@ -19,14 +19,12 @@ namespace Timuon.Views
 
         private void AllDayCheckBox_Checked(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // TODO: make time pickers invisible
             StartTimePicker.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             EndTimePicker.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void AllDayCheckBox_Unchecked(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // TODO: make time pickers visible
             StartTimePicker.Visibility = Windows.UI.Xaml.Visibility.Visible;
             EndTimePicker.Visibility = Windows.UI.Xaml.Visibility.Visible;
         }
@@ -115,11 +113,10 @@ namespace Timuon.Views
             // Clear form
             NameBox.Text = "";
             DescriptionBox.Text = "";
-            EventDatePicker.Date = DateTime.Now;
-            TimeSpan timeSpan = new TimeSpan(DateTime.Now.Ticks);
+            EventDatePicker.SelectedDate = null;
             AllDayCheckBox.IsChecked = false;
-            StartTimePicker.Time = timeSpan;
-            EndTimePicker.Time = timeSpan;
+            StartTimePicker.SelectedTime = null;
+            EndTimePicker.SelectedTime = null;
             RecipientsCombo.SelectedIndex = -1;
 
         }
