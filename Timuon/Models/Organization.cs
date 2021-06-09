@@ -27,7 +27,7 @@ namespace Timuon.Models
         public bool Availability { get; set; }
         public string Events { get; set; }
 
-        public static void addEvent(string name, DateTime Date1, string auditorium, int days_duration, string Audience, string Channel, string Schedule)
+        public static void addEvent(string name, DateTime Date1, string auditorium, TimeSpan days_duration, string Audience, string Channel, string Schedule)
         {
             Event event02 = new Event(name, Date1, auditorium, days_duration, Audience, Channel, Schedule);
 

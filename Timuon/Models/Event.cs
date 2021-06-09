@@ -7,12 +7,12 @@ namespace Timuon.Models
         public string Name { get; set; }
         public DateTime Date { get; set; }
         public string Auditorium { get; set; }
-        public double Duration { get; set; }
+        public TimeSpan Duration { get; set; }
         public string Audience { get; set; }
         public string Channel { get; set; }
         public string Schedule { get; set; }
         public Event(string name, DateTime date, string auditorium,
-            double duration, string audience, string channel, string schedule)
+            TimeSpan duration, string audience, string channel, string schedule)
         {
             Name = name;
             Date = date;

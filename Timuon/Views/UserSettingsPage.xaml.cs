@@ -17,6 +17,8 @@ namespace Timuon.Views
         public ObservableCollection<RSSFeed> ActiveFeeds { get { return activeFeeds; } }
         private RSSFeed NewFeed;
         private bool URLStatusCheck;
+        ObservableCollection<EclassIntegration> eclassAccounts = new ObservableCollection<EclassIntegration>();
+        public ObservableCollection<EclassIntegration> EclassAccounts { get { return eclassAccounts; } }
         ObservableCollection<Platform> activePlatforms = new ObservableCollection<Platform>();
         public ObservableCollection<Platform> ActivePlatforms { get { return activePlatforms; } }
         private bool[] PlatformsToAdd = new bool[] { false, false, false, false, false };
@@ -30,10 +32,29 @@ namespace Timuon.Views
             activeFeeds.Add(new RSSFeed("news.com", "News", EmptyArray));
             activeFeeds.Add(new RSSFeed("ceid.upatras.gr", "CEID", EmptyArray));
             URLStatusCheck = false;
+            EclassAccountsList.ItemsSource = EclassAccounts;
             ConnectedPlatformsList.ItemsSource = ActivePlatforms;
             activePlatforms.Add(new Platform("Zoom", "someone@hotgmail.com"));
             activePlatforms.Add(new Platform("Teams", "someone@hotgmail.com"));
             activePlatforms.Add(new Platform("Discord", "BroThorPlaysVideogames"));
+        }
+
+        private async void SyncFeedButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            // Dummy URL status check & relevant info message
+            SyncFeedButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            FeedStatusBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            URLStatusCheck = true;
+            NewFeed = new RSSFeed(URLBox.Text);
+            ContentDialogResult result;
+            ContentDialog FeedStatusCheckInfoDialog = new ContentDialog
+            {
+                Title = "RSS Feed Status Check",
+                Content = "IMPORTANT INFO: This application does not connect to any external systems " +
+                "(out of project scope), so any URL entered is considered valid by the status check.",
+                CloseButtonText = "OK"
+            };
+            result = await FeedStatusCheckInfoDialog.ShowAsync();
         }
 
         private void ClearButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -48,8 +69,9 @@ namespace Timuon.Views
             URLStatusCheck = false;
         }
 
-        private async void AddButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        private async void AddRSSButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
+            // TODO: pass new platform object to user
             if (URLStatusCheck)
             {
                 // Update RSS Feed info
@@ -82,22 +104,20 @@ namespace Timuon.Views
             }
         }
 
-        private async void SyncFeedButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        private async void EclassButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // Dummy URL status check & relevant info message
-            SyncFeedButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-            FeedStatusBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
-            URLStatusCheck = true;
-            NewFeed = new RSSFeed(URLBox.Text);
             ContentDialogResult result;
-            ContentDialog FeedStatusCheckInfoDialog = new ContentDialog
+            ContentDialog ExternalPlatformInfoDialog = new ContentDialog
             {
-                Title = "RSS Feed Status Check",
+                Title = "External Platform Connection",
                 Content = "IMPORTANT INFO: This application does not connect to any external systems " +
-                "(out of project scope), so any URL entered is considered valid by the status check.",
+                "(out of project scope), so let's pretend that the appropriate authorisation was given.",
                 CloseButtonText = "OK"
             };
-            result = await FeedStatusCheckInfoDialog.ShowAsync();
+            result = await ExternalPlatformInfoDialog.ShowAsync();
+            EclassAccounts.Add(new EclassIntegration("UPatras Eclass", "ceidou1621"));
+            ConnectEclassPrompt.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            EclassAccountsList.Visibility = Windows.UI.Xaml.Visibility.Visible;
         }
 
         private async void ConnectWebexButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)

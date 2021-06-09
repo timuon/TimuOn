@@ -83,13 +83,29 @@
                     <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical"
                     HorizontalAlignment="Stretch" MaxWidth="350" VerticalAlignment="Top" Margin="40,20,40,40">
                         <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Add Eclass Integration"/>
-                        <StackPanel Background="{ThemeResource SystemControlPageBackgroundChromeMediumLowBrush}" Margin="0,20,0,40">
+                        <StackPanel x:Name="ConnectEclassPrompt" Background="{ThemeResource SystemControlPageBackgroundChromeMediumLowBrush}" Margin="0,20,0,40">
                             <TextBlock Style="{StaticResource BaseTextBlockStyle}" TextAlignment="Center"
                                    Text="Log in to integrate your Eclass account!" Margin="10,10,10,0"/>
                             <TextBlock Style="{StaticResource BodyTextBlockStyle}" TextAlignment="Justify" Margin="10,0,10,0"
                                    Text="We all like an integrated system in the palm of our hands. Connect to your digital classroom now!"/>
-                            <Button  Content="Connect" HorizontalAlignment="Center" Margin="0,20,0,10" />
+                            <Button x:Name="EclassButton" Content="Connect" Click="EclassButton_Click" HorizontalAlignment="Center" Margin="0,20,0,10" />
                         </StackPanel>
+                        <ListView x:Name="EclassAccountsList" ItemsSource="{Binding EclassAccounts}" SelectionMode="None" Visibility="Collapsed">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid HorizontalAlignment="Stretch" MinWidth="220" Padding="-10,10,10,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="2*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0" Text="{Binding DomainName}" Style="{StaticResource BaseTextBlockStyle}"
+                                                   HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,4,0,0"/>
+                                        <TextBlock Grid.Column="1" Text="{Binding UserName}" Style="{StaticResource CaptionTextBlockStyle}"
+                                                   HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="40,4,0,0"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
                     </StackPanel>
                     <StackPanel Grid.Row="1" Grid.Column="2" Margin="40,20,40,40" VerticalAlignment="Top"
                                 HorizontalAlignment="Stretch" MaxWidth="350">
@@ -114,7 +130,7 @@
                     <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical"
                     Margin="40,20,40,40" VerticalAlignment="Top" HorizontalAlignment="Stretch" MaxWidth="300">
                         <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Add RSS Feed"/>
-                        <Grid >
+                        <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="0.85*"/>
                                 <ColumnDefinition Width="0.15*"/>
@@ -132,7 +148,7 @@
                             <x:String>Scientific</x:String>
                         </ComboBox>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,20">
-                            <Button x:Name="AddButton" Content="Add Feed" Click="AddButton_Click"
+                            <Button x:Name="AddRSSButton" Content="Add Feed" Click="AddRSSButton_Click"
                                     HorizontalAlignment="Left" Margin="10,0,0,0" />
                             <Button x:Name="ClearButton" Content="Clear" Click="ClearButton_Click"
                                     HorizontalAlignment="Right" Margin="10,0,0,0"/>

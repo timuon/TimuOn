@@ -33,21 +33,20 @@ namespace Timuon.Views
             string eventName = NameBox.Text;
             string eventDescription = DescriptionBox.Text;
             DateTime eventDate = new DateTime();
-            double eventDuration;
+            TimeSpan eventDuration;
 
             if ((bool)AllDayCheckBox.IsChecked)
             {
                 // All-day event
                 eventDate = EventDatePicker.Date.DateTime;
-                eventDuration = 24.0;
+                eventDuration = new TimeSpan(24, 0, 0);
             }
             else
             {
                 // Specified start time
                 eventDate = EventDatePicker.Date.DateTime + StartTimePicker.Time;
                 DateTime endDateTime = EventDatePicker.Date.DateTime + EndTimePicker.Time;
-                TimeSpan interval = endDateTime - eventDate;
-                eventDuration = interval.TotalHours;
+                eventDuration = endDateTime - eventDate;
             }
 
             Event newEvent = new Event(eventName, eventDate, "", eventDuration, "", "", "");
@@ -107,7 +106,7 @@ namespace Timuon.Views
 
                 result = await overlappingEventsDialog.ShowAsync();
                 // TODO update today's events list if applicable
-                
+
             }
 
             // Clear form
@@ -120,6 +119,5 @@ namespace Timuon.Views
             RecipientsCombo.SelectedIndex = -1;
 
         }
-
     }
 }
