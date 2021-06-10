@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8K0hkBjMFx1Rb4IlSg90x3f/T4+k1tEh0QQfTvHpuXHz1C3tRXY3YSyMd2D4bMogeYPP04lSZoWLxJPdje42ag==",
+  "dgSpecHash": "5lkZNKlj0wtBx+1OAUcZVPVkiPd1ZIM8Hc1oKSi+qrhQeXZ0nj3Cb24NaQgkhQszOerlL86tLMvajwu/h6Ll3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
+  "projectFilePath": "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klelia\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\klelia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",

@@ -58,6 +58,9 @@ Styles\_Thickness.xbf
 Styles\Page.xbf
 Styles\TextBlock.xbf
 Timuon.xr.xml
+Views\AdminHomePage.xbf
+Views\AdminShellPage.xbf
+Views\AdminSysConstrPage.xbf
 Views\BlankPage.xbf
 Views\Calendar.xbf
 Views\ChartPage.xbf
@@ -80,4 +83,5 @@ Views\TreeViewPage.xbf
 Views\TwoPaneViewDetailControl.xbf
 Views\TwoPaneViewListItemControl.xbf
 Views\TwoPaneViewPage.xbf
+Views\UserSettingsPage.xbf
 Properties\Default.rd.xml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {}
+    "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
+    "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
+        "projectUniqueName": "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
         "projectName": "Timuon.Core",
-        "projectPath": "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
+        "projectPath": "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
         "packagesPath": "C:\\Users\\klelia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon.Core\\obj\\",
+        "outputPath": "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

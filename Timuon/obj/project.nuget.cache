@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuZy1SIti1dloV22o/GQmGO2gbsuo87H+DxOWpPZJCGd/njaqfJqA5LcIqviL32pnbLHdjZrVjUlBIeZlr3jKg==",
+  "dgSpecHash": "DCLxkj3XVrXrZZLiLPkRt6wxqa7G5QZY8uGUJOCnYy7tWUFTrH5k4wPgdeBxAy2ZSlQLKwT2zpbol8j0cyAacQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klelia\\source\\repos\\timuon\\TimuOn\\Timuon\\Timuon.csproj",
+  "projectFilePath": "C:\\Users\\klelia\\Source\\Repos\\timuon\\TimuOn\\Timuon\\Timuon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klelia\\.nuget\\packages\\colorcode.core\\2.0.6\\colorcode.core.2.0.6.nupkg.sha512",
     "C:\\Users\\klelia\\.nuget\\packages\\colorcode.uwp\\2.0.6\\colorcode.uwp.2.0.6.nupkg.sha512",

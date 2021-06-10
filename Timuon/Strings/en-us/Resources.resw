@@ -267,7 +267,6 @@ This application is being implemented as part of a mandatory project of the Soft
   <data name="TabbedPivot_PivotItem5.Header" xml:space="preserve">
     <value>Rss Feed</value>
   </data>
-</root>
   <data name="Shell_AdminSysConstr.Content" xml:space="preserve">
     <value>System Constraints</value>
     <comment>Admin system constraints page</comment>

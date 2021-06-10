@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9191EE33-51A0-446B-BCBB-7068502F1771</PackageIdentityName>
     <PackageIdentityPublisher>CN=A. Androutsopoulos</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
@@ -193,7 +193,7 @@
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
@@ -427,301 +427,313 @@
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\map.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminHomePage.xbf">
+      <PackagePath>Views\AdminHomePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminSysConstrPage.xbf">
+      <PackagePath>Views\AdminSysConstrPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
       <PackagePath>Views\BlankPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
       <PackagePath>Views\Calendar.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
       <PackagePath>Views\History_Log.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
       <PackagePath>Views\Rss_Feed.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminShellPage.xbf">
+      <PackagePath>Views\AdminShellPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
       <PackagePath>Views\MainShellPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
       <PackagePath>Views\Subscriptions.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\UserSettingsPage.xbf">
+      <PackagePath>Views\UserSettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -732,10 +744,10 @@
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

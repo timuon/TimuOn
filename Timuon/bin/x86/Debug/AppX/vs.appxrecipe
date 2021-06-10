@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9191EE33-51A0-446B-BCBB-7068502F1771</PackageIdentityName>
     <PackageIdentityPublisher>CN=A. Androutsopoulos</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8EA58646188D84355011888735D1E75BF06A350B14C2109E307AA8EA0D76F044</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>75929539E361CFED6A18B6261BA760166E1D0AEC5E81AC58D63D3C881F477B17</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9191EE33-51A0-446B-BCBB-7068502F1771_0.2.1.0_x86__m92hh20z0kpw8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9191EE33-51A0-446B-BCBB-7068502F1771_m92hh20z0kpw8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>9191EE33-51A0-446B-BCBB-7068502F1771</RegisteredPackageID>
@@ -27,20 +27,20 @@
     <RegisteredVersion>0.2.1.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-10T18:18:11.048</Modified>
+      <Modified>2021-06-10T18:36:51.640</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
-      <Modified>2021-06-10T18:18:08.240</Modified>
+      <Modified>2021-06-10T18:34:22.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
-      <Modified>2021-06-10T18:15:56.897</Modified>
+      <Modified>2021-06-05T17:04:31.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -258,9 +258,9 @@
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
       <Modified>2021-02-24T22:36:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
-      <Modified>2021-06-10T18:17:25.526</Modified>
+      <Modified>2021-06-10T18:34:01.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\klelia\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
       <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
@@ -570,383 +570,399 @@
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
       <Modified>2018-05-11T03:59:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.357</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\map.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
       <Modified>2021-06-05T17:04:31.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-06-05T17:04:31.270</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-06-10T18:15:54.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-06-05T17:04:31.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
-      <Modified>2021-06-10T18:17:49.293</Modified>
+      <Modified>2021-06-10T18:34:21.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.823</Modified>
+      <Modified>2021-06-10T18:36:47.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.815</Modified>
+      <Modified>2021-06-10T18:36:47.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.817</Modified>
+      <Modified>2021-06-10T18:36:47.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.819</Modified>
+      <Modified>2021-06-10T18:36:47.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.820</Modified>
+      <Modified>2021-06-10T18:36:47.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.822</Modified>
+      <Modified>2021-06-10T18:36:47.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminHomePage.xbf">
+      <PackagePath>Views\AdminHomePage.xbf</PackagePath>
+      <Modified>2021-06-10T18:36:47.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminSysConstrPage.xbf">
+      <PackagePath>Views\AdminSysConstrPage.xbf</PackagePath>
+      <Modified>2021-06-10T18:36:47.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\BlankPage.xbf">
       <PackagePath>Views\BlankPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.825</Modified>
+      <Modified>2021-06-10T18:36:47.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Calendar.xbf">
       <PackagePath>Views\Calendar.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.826</Modified>
+      <Modified>2021-06-10T18:36:47.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.828</Modified>
+      <Modified>2021-06-10T18:36:47.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.759</Modified>
+      <Modified>2021-06-10T18:36:47.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.831</Modified>
+      <Modified>2021-06-10T18:36:47.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.832</Modified>
+      <Modified>2021-06-10T18:36:47.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\History_Log.xbf">
       <PackagePath>Views\History_Log.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.834</Modified>
+      <Modified>2021-06-10T18:36:47.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.778</Modified>
+      <Modified>2021-06-10T18:36:47.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.838</Modified>
+      <Modified>2021-06-10T18:36:47.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.839</Modified>
+      <Modified>2021-06-10T18:36:47.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.841</Modified>
+      <Modified>2021-06-10T18:36:47.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Rss_Feed.xbf">
       <PackagePath>Views\Rss_Feed.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.842</Modified>
+      <Modified>2021-06-10T18:36:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.844</Modified>
+      <Modified>2021-06-10T18:36:47.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\AdminShellPage.xbf">
+      <PackagePath>Views\AdminShellPage.xbf</PackagePath>
+      <Modified>2021-06-10T18:36:47.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\MainShellPage.xbf">
       <PackagePath>Views\MainShellPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.789</Modified>
+      <Modified>2021-06-10T18:36:47.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\Subscriptions.xbf">
       <PackagePath>Views\Subscriptions.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.847</Modified>
+      <Modified>2021-06-10T18:36:47.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.848</Modified>
+      <Modified>2021-06-10T18:36:47.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.850</Modified>
+      <Modified>2021-06-10T18:36:47.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.852</Modified>
+      <Modified>2021-06-10T18:36:47.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.806</Modified>
+      <Modified>2021-06-10T18:36:47.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.810</Modified>
+      <Modified>2021-06-10T18:36:47.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.857</Modified>
+      <Modified>2021-06-10T18:36:47.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
-      <Modified>2021-06-10T18:18:07.815</Modified>
+      <Modified>2021-06-10T18:36:47.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Views\UserSettingsPage.xbf">
+      <PackagePath>Views\UserSettingsPage.xbf</PackagePath>
+      <Modified>2021-06-10T18:36:47.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -960,13 +976,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-12-03T07:46:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-10T18:18:09.474</Modified>
+      <Modified>2021-06-10T18:36:48.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\klelia\source\repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
+    <AppxPackagedFile Include="C:\Users\klelia\Source\Repos\timuon\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
-      <Modified>2021-06-10T18:18:11.025</Modified>
+      <Modified>2021-06-10T18:36:51.605</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
