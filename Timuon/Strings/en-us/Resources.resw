@@ -304,4 +304,22 @@ This application is being implemented as part of a mandatory project of the Soft
   <data name="YourOrganization.Content" xml:space="preserve">
     <value>Your Organization</value>
   </data>
+  <data name="Announcements.Content" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="Events.Content" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="Home.Content" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Messages.Content" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Schedule.Content" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="YourOrganization.Content" xml:space="preserve">
+    <value>Your Organization</value>
+  </data>
 </root>

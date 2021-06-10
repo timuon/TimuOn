@@ -184,6 +184,9 @@
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\CoursesStudentViewModel.cs" />
     <Compile Include="ViewModels\ChartViewModel.cs" />
+    <Compile Include="ViewModels\OrganizationScheduleViewModel.cs" />
+    <Compile Include="ViewModels\OrganizationEventsViewModel.cs" />
+    <Compile Include="ViewModels\OrganizationHomeViewModel.cs" />
     <Compile Include="ViewModels\ContentGridDetailViewModel.cs" />
     <Compile Include="ViewModels\ContentGridViewModel.cs" />
     <Compile Include="ViewModels\DataGridViewModel.cs" />
@@ -194,6 +197,7 @@
     <Compile Include="ViewModels\ShellStudentViewModel.cs" />
     <Compile Include="ViewModels\MainShellViewModel.cs" />
     <Compile Include="ViewModels\AdminShellViewModel.cs" />
+    <Compile Include="ViewModels\ShellOrganizationViewModel.cs" />
     <Compile Include="ViewModels\TabbedPivotViewModel.cs" />
     <Compile Include="ViewModels\TabViewViewModel.cs" />
     <Compile Include="ViewModels\TelerikDataGridViewModel.cs" />
@@ -220,6 +224,15 @@
     </Compile>
     <Compile Include="Views\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrganizationSchedulePage.xaml.cs">
+      <DependentUpon>OrganizationSchedulePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrganizationEventPage.xaml.cs">
+      <DependentUpon>OrganizationEventPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrganizationHomePage.xaml.cs">
+      <DependentUpon>OrganizationHomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ChartPage.xaml.cs">
       <DependentUpon>ChartPage.xaml</DependentUpon>
@@ -254,6 +267,9 @@
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ShellPageOrganization.xaml.cs">
+      <DependentUpon>ShellPageOrganization.xaml</DependentUpon>
+	</Compile>
     <Compile Include="Views\MainShellPage.xaml.cs">
       <DependentUpon>MainShellPage.xaml</DependentUpon>
     </Compile>
@@ -336,6 +352,18 @@
     </Page>
     <Page Include="Views\AdminHomePage.xaml">
       <SubType>Designer</SubType>
+	  <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrganizationSchedulePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrganizationEventPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrganizationHomePage.xaml">
+      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AdminSysConstrPage.xaml">
@@ -390,6 +418,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\ShellPageOrganization.xaml">
+		<Generator>MSBuild:Compile</Generator>
+		<SubType>Designer</SubType>
+	</Page>
     <Page Include="Views\ShellPageStudent.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
