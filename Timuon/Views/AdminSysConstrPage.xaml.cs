@@ -65,11 +65,15 @@ namespace Timuon.Views
         private async void ApplyButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             int ind = DeptAuditoriums.IndexOf((Auditorium)AuditoriumCombo.SelectedItem);
-            DeptAuditoriums[ind].Capacity = (int)EditCapacityBox.Value;
-            DeptAuditoriums[ind].Accessibility = (bool)EditAccessibilityBox.IsChecked;
-            DeptAuditoriums[ind].Availability = (bool)EditAvailabilityBox.IsChecked;
-            DeptAuditoriums[ind].UpdateDisplayString();
-
+            Auditorium ToChange = DeptAuditoriums[ind];
+            Auditorium Temp = new Auditorium(ToChange.Name, "", "", (int)EditCapacityBox.Value,
+                (bool)EditAccessibilityBox.IsChecked, (bool)EditAvailabilityBox.IsChecked);
+            //DeptAuditoriums[ind].Capacity = (int)EditCapacityBox.Value;
+            //DeptAuditoriums[ind].Accessibility = (bool)EditAccessibilityBox.IsChecked;
+            //DeptAuditoriums[ind].Availability = (bool)EditAvailabilityBox.IsChecked;
+            //DeptAuditoriums[ind].UpdateDisplayString();
+            DeptAuditoriums.RemoveAt(ind);
+            DeptAuditoriums.Insert(ind, Temp);
             ContentDialogResult result;
             ContentDialog TestDialog = new ContentDialog
             {
