@@ -3286,25 +3286,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pkava\\.nuget\\packages\\": {},
-    "D:\\Programms\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kolop\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
+      "projectUniqueName": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
       "projectName": "Timuon.Core",
-      "projectPath": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
-      "packagesPath": "C:\\Users\\pkava\\.nuget\\packages\\",
-      "outputPath": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon.Core\\obj\\",
+      "projectPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj",
+      "packagesPath": "C:\\Users\\kolop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programms\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pkava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kolop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3313,7 +3311,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\pkava\\Documents\\TimuOn\\packages_nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3365,7 +3362,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

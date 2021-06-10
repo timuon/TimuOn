@@ -103,23 +103,13 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsChecked" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Items" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -135,7 +125,17 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Command" />
       <RootProperty Name="Background" />
-      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CalendarDatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Timuon.Views.ScheduleStudentPage" />
