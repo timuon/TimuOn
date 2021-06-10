@@ -62,7 +62,7 @@ namespace Timuon.Views
             }
             else if ((No2.IsChecked == true) & (Yes2.IsChecked == false))
             {
-                
+
                 ReasonTimePeriod.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 SubmitButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 CommonHours.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
@@ -96,9 +96,18 @@ namespace Timuon.Views
                 SubmitButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 MessageMeeting.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
-
-
             }
+
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog submitt = new ContentDialog()
+            {
+                Title = "Submit condition",
+                Content = "Your request of a meeting with Kavvadias has been submitted. He will be informed in a minute!",
+                CloseButtonText = "Ok"
+            };
+            submitt.ShowAsync();
         }
     }
 }

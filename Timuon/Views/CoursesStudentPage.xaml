@@ -67,7 +67,7 @@
                 <x:String>Data Mining</x:String>
             </ComboBox>
             <TextBox x:Name="ReasonAttend" HorizontalAlignment="Left" Margin="569,402,0,0" Text="" Header="Why can't you attend these classes? We will inform the coordinators on your behalf." TextWrapping="Wrap" VerticalAlignment="Top" Height="89" Width="543" Visibility="Collapsed"/>
-            <Button x:Name="SubmitButton" Content="Submit" Margin="780,582,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.189,0.523" Visibility="Collapsed"/>
+            <Button x:Name="SubmitButton" Click="Button_Click" Content="Submit" Margin="780,582,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.189,0.523" Visibility="Collapsed"/>
 
             <!--<TextBox HorizontalAlignment="Left" Margin="796,328,0,0" Text="So, everything is ready for your courses!" TextWrapping="Wrap" VerticalAlignment="Top" Height="141" Width="318"/>
             <TextBlock HorizontalAlignment="Left" Margin="808,371,0,0" Text="Maybe you want to redirect to Schedule tab to see your schedule!" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="290"/>

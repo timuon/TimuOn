@@ -27,6 +27,14 @@ namespace Timuon.Views
             else if ((NoAdd.IsChecked == true) &(YesAdd.IsChecked == false))
             {
                 AddCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+                ContentDialog coursee = new ContentDialog()
+                {
+                    Title = "So, everything is ready for your courses!",
+                    Content = "Maybe you want to redirect to Schedule tab to see your schedule!",
+                    CloseButtonText = "Close dialog"
+                };
+                coursee.ShowAsync();
             }
         }
       
@@ -56,6 +64,16 @@ namespace Timuon.Views
                 ReasonAttend.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 SubmitButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
             }
+        }
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ContentDialog submitt = new ContentDialog()
+            {
+                Title = "Schedule reminder!",
+                Content = "For any schedule changes you want to make, visit the schedule tab and submit your preferable time period for the course you want!",
+                CloseButtonText = "Close dialog"
+            };
+            submitt.ShowAsync();
         }
     }
 }

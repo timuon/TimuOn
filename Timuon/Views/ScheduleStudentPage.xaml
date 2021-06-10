@@ -65,7 +65,7 @@
             <CheckBox x:Name="Yes2" Content="Yes" Margin="725,161,0,0" VerticalAlignment="Top" Visibility="Collapsed" Checked="Box2_CheckedChanged" Unchecked="Box2_CheckedChanged"/>
             <CheckBox x:Name="No2" Content="No" Margin="1033,159,0,0" VerticalAlignment="Top" Visibility="Collapsed" Checked="Box2_CheckedChanged" Unchecked="Box2_CheckedChanged"/>
             <TextBox x:Name="ReasonTimePeriod" HorizontalAlignment="Center" Margin="0,529,0,0" Text="" Header="Reason for changing th time period" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Height="73" Visibility="Collapsed"/>
-            <Button x:Name="SubmitButton" Content="Submit" Margin="0,632,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,-0.799" HorizontalAlignment="Center" Width="119" Visibility="Collapsed"/>
+            <Button x:Name="SubmitButton" Click="Button_Click" Content="Submit" Margin="0,632,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,-0.799" HorizontalAlignment="Center" Width="119" Visibility="Collapsed"/>
             <ComboBox x:Name="Userss"  Margin="725,213,0,0" SelectionChanged="Contanct_SelectedIndexChanged" Header="Choose a user from your contacts" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
                 <x:String>Androutsopoulos</x:String>
                 <x:String>Kavvadias</x:String>
