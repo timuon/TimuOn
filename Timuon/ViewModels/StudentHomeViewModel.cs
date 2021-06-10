@@ -4,9 +4,9 @@ using Microsoft.Toolkit.Mvvm.ComponentModel;
 
 namespace Timuon.ViewModels
 {
-    public class BlankViewModel : ObservableObject
+    public class StudentHomeViewModel : ObservableObject
     {
-        public BlankViewModel()
+        public StudentHomeViewModel()
         {
         }
     }

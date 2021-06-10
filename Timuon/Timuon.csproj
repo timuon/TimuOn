@@ -177,14 +177,11 @@
     <Compile Include="Services\ThemeSelectorService.cs" />
     <Compile Include="StateTriggers\ControlSizeTrigger.cs" />
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
-    <Compile Include="ViewModels\AdminHomeViewModel.cs" />
-    <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
-    <Compile Include="ViewModels\BlankViewModel.cs" />
+    <Compile Include="ViewModels\ScheduleStudentViewModel.cs" />
+    <Compile Include="ViewModels\StudentHomeViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\CoursesStudentViewModel.cs" />
     <Compile Include="ViewModels\ChartViewModel.cs" />
-    <Compile Include="ViewModels\CalendarModel.cs" />
-    <Compile Include="ViewModels\SubscritpionsModel.cs" />
-    <Compile Include="ViewModels\Rss_FeedModel.cs" />
-    <Compile Include="ViewModels\History_LogModel.cs" />
     <Compile Include="ViewModels\ContentGridDetailViewModel.cs" />
     <Compile Include="ViewModels\ContentGridViewModel.cs" />
     <Compile Include="ViewModels\DataGridViewModel.cs" />
@@ -192,6 +189,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\MapViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel.cs" />
+    <Compile Include="ViewModels\ShellStudentViewModel.cs" />
     <Compile Include="ViewModels\MainShellViewModel.cs" />
     <Compile Include="ViewModels\AdminShellViewModel.cs" />
     <Compile Include="ViewModels\TabbedPivotViewModel.cs" />
@@ -208,6 +206,15 @@
     </Compile>
     <Compile Include="Views\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StudentHomePage.xaml.cs">
+      <DependentUpon>StudentHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CoursesStudentPage.xaml.cs">
+      <DependentUpon>CoursesStudentPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
@@ -253,6 +260,9 @@
     </Compile>
     <Compile Include="Views\Subscriptions.xaml.cs">
       <DependentUpon>Subscriptions.xaml</DependentUpon>
+	</Compile>
+    <Compile Include="Views\ShellPageStudent.xaml.cs">
+      <DependentUpon>ShellPageStudent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TabbedPivotPage.xaml.cs">
       <DependentUpon>TabbedPivotPage.xaml</DependentUpon>
@@ -306,6 +316,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ScheduleStudentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StudentHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CoursesStudentPage.xaml">
+		<SubType>Designer</SubType>
+		<Generator>MSBuild:Compile</Generator>
+	</Page>
     <Page Include="Views\AdminHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -363,6 +389,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ShellPageStudent.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

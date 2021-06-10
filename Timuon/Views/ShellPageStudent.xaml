@@ -33,18 +33,13 @@
             Or to use an IconElement instead of a Symbol see https://github.com/Microsoft/WindowsTemplateStudio/blob/release/docs/UWP/projectTypes/navigationpane.md
             Edit String/en-US/Resources.resw: Add a menu item title for each page
             -->
-            <winui:NavigationViewItem x:Uid="Shell_Main" Icon="Like" helpers:NavHelper.NavigateTo="views:MainPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />
-            <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TwoPaneView" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TreeView" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_ContentGrid" Icon="Refresh" helpers:NavHelper.NavigateTo="views:ContentGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_DataGrid" Icon="Remote" helpers:NavHelper.NavigateTo="views:DataGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TelerikDataGrid" Icon="Document" helpers:NavHelper.NavigateTo="views:TelerikDataGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Chart" Icon="Document" helpers:NavHelper.NavigateTo="views:ChartPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TabbedPivot" Icon="Document" helpers:NavHelper.NavigateTo="views:TabbedPivotPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TabView" Icon="Document" helpers:NavHelper.NavigateTo="views:TabViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Map" Icon="Document" helpers:NavHelper.NavigateTo="views:MapPage" />
+            <winui:NavigationViewItem x:Uid="Home" Icon="Home" helpers:NavHelper.NavigateTo="views:StudentHomePage" />
+            <winui:NavigationViewItem x:Uid="Courses" Icon="Globe" helpers:NavHelper.NavigateTo="views:CoursesStudentPage" />
+            <winui:NavigationViewItem x:Uid="Schedule" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ScheduleStudentPage" />
+            <winui:NavigationViewItem x:Uid="Announcements" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
+            <winui:NavigationViewItem x:Uid="Messages" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
+            <winui:NavigationViewItem x:Uid="Profile" Icon="Refresh" helpers:NavHelper.NavigateTo="views:ContentGridPage" />
+            <winui:NavigationViewItem x:Uid="YourOrganization" Icon="Remote" helpers:NavHelper.NavigateTo="views:DataGridPage" />
         </winui:NavigationView.MenuItems>
         <i:Interaction.Behaviors>
             <behaviors:NavigationViewHeaderBehavior
