@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-TSFCL9P</Machine>
-    <WindowsUser>kolop</WindowsUser>
+    <Machine>PANAGIOTIS</Machine>
+    <WindowsUser>pkava</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,538 +10,538 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9191EE33-51A0-446B-BCBB-7068502F1771</PackageIdentityName>
     <PackageIdentityPublisher>CN=A. Androutsopoulos</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\kolop\Downloads\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
       <PackagePath>ColorCode.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
       <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit\7.0.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit\7.0.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.mvvm\7.0.1\lib\netstandard2.0\Microsoft.Toolkit.Mvvm.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.mvvm\7.0.1\lib\netstandard2.0\Microsoft.Toolkit.Mvvm.dll">
       <PackagePath>Microsoft.Toolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.animations\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.animations\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Animations.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.core\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.core\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Core.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.input\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Input.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.input\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Input.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Input.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.layout\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Layout.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.layout\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Layout.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Layout.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.markdown\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.markdown\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Markdown.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.media\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Media.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.media\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Media.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Media.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.primitives\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.primitives\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
       <PackagePath>Remotion.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
       <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.data.sqlclient\4.6.1\runtimes\win\lib\uap10.0.16299\System.Data.SqlClient.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.data.sqlclient\4.6.1\runtimes\win\lib\uap10.0.16299\System.Data.SqlClient.dll">
       <PackagePath>System.Data.SqlClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
       <PackagePath>System.Interactive.Async.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
       <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.security.permissions\4.7.0\lib\netstandard2.0\System.Security.Permissions.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.security.permissions\4.7.0\lib\netstandard2.0\System.Security.Permissions.dll">
       <PackagePath>System.Security.Permissions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.text.encodings.web\4.7.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.text.encodings.web\4.7.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\system.text.json\4.7.2\lib\netstandard2.0\System.Text.Json.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\system.text.json\4.7.2\lib\netstandard2.0\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Core.dll">
       <PackagePath>Telerik.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Data.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Data.dll">
       <PackagePath>Telerik.Data.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Geospatial.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Geospatial.UWP.dll">
       <PackagePath>Telerik.Geospatial.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Chart.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Input.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Primitives.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Primitives.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
       <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
       <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.winmd">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.winmd">
       <PackagePath>Telerik.UI.Drawing.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.Core\Properties\default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.Core\Properties\default.rd.xml">
       <PackagePath>Telerik.Core\Properties\default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.core\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.core\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.input\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.input\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.layout\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.layout\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.markdown\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.markdown\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.toolkit.uwp.ui.controls.media\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.toolkit.uwp.ui.controls.media\7.0.1\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Data\Properties\default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.Data\Properties\default.rd.xml">
       <PackagePath>Telerik.Data\Properties\default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml">
       <PackagePath>Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml">
       <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml">
       <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png">
       <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
       <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\map.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ScheduleStudentPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ScheduleStudentPage.xbf">
       <PackagePath>Views\ScheduleStudentPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\StudentHomePage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\StudentHomePage.xbf">
       <PackagePath>Views\StudentHomePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\LoginPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\CoursesStudentPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\CoursesStudentPage.xbf">
       <PackagePath>Views\CoursesStudentPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageStudent.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageStudent.xbf">
       <PackagePath>Views\ShellPageStudent.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -550,103 +550,103 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
+    <AppxPackagedFile Include="D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
       <Name>Microsoft.UI.Xaml.2.5</Name>
       <Version>2.52012.2002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx">
       <Name>Microsoft.UI.Xaml.2.5</Name>
       <Version>2.52012.2002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx">
       <Name>Microsoft.UI.Xaml.2.5</Name>
       <Version>2.52012.2002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx">
       <Name>Microsoft.UI.Xaml.2.5</Name>
       <Version>2.52012.2002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx">
       <Name>Microsoft.UI.Xaml.2.5</Name>
       <Version>2.52012.2002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.5, MinVersion = 2.52012.2002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\microsoft.ui.xaml\2.5.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.5.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\kolop\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\pkava\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\kolop\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\pkava\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
