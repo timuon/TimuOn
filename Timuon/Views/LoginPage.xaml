@@ -9,10 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Login" Margin="446,479,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="0.523,1.894" FontSize="20"/>
+        <Button Content="Login" Margin="446,479,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="0.523,1.894" FontSize="20" Click="Button_Click"/>
         <Button Content="Exit" Margin="788,478,0,0" VerticalAlignment="Top" Width="123" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="618,201,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
-        <TextBox HorizontalAlignment="Left" Margin="618,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="618,201,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="618,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
         <TextBlock HorizontalAlignment="Left" Margin="332,201,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="90"/>
         <TextBlock HorizontalAlignment="Left" Margin="332,287,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
 
