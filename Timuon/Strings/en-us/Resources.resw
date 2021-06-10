@@ -147,7 +147,7 @@
   </data>
   <data name="TwoPaneViewTitle.Text" xml:space="preserve">
     <value>TwoPaneView</value>
-    <comment>Title for TwoPaneViewPage</comment>
+    <comment>Github Title</comment>
   </data>
   <data name="Shell_TwoPaneView.Content" xml:space="preserve">
     <value>TwoPaneView</value>
@@ -194,15 +194,15 @@
     <comment>Navigation view item name for Chart</comment>
   </data>
   <data name="TabbedPivot_PivotItem1.Header" xml:space="preserve">
-    <value>Item 1</value>
+    <value>History(Log)</value>
     <comment>First Pivot item title for TabbedPivot</comment>
   </data>
   <data name="TabbedPivot_PivotItem2.Header" xml:space="preserve">
-    <value>Item 2</value>
+    <value>Subscriptions</value>
     <comment>Second Pivot item title for TabbedPivot</comment>
   </data>
   <data name="Shell_TabbedPivot.Content" xml:space="preserve">
-    <value>TabbedPivot</value>
+    <value>Experience</value>
     <comment>Navigation view item name for TabbedPivot</comment>
   </data>
   <data name="Shell_TabView.Content" xml:space="preserve">
@@ -238,20 +238,34 @@
     <comment>About this application title for Settings</comment>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>Settings page placeholder text.  Your app description goes here.</value>
+    <value>TimeuOn is an integrated and centralised time management application for individuals and groups. Every user is either independent or a member of one or more organisations, within which they are assigned roles. The application incorporates meeting arrangement, room scheduling and announcements into standard calendar functionalities. It is an attempt to resolve a prominent issue that arises in modern societies: fast-paced everyday life and an overabundance of commitments render proper time management essential.
+
+This application is being implemented as part of a mandatory project of the Software Engineering course (CEID_NΥ232), offered in the academic year 2020-21 by the Department of Computer Engineering and Informatics of the University of Patras in Greece. Thus, the scope of the original idea has been narrowed to a solution catering to Greek tertiary education institutions.</value>
     <comment>About this application description for Settings</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>Privacy Statement</value>
-    <comment>Privacy Statement link content for Settings</comment>
+    <value>TimuOn Github Account</value>
+    <comment>Github</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
-    <value>https://YourPrivacyUrlGoesHere/</value>
-    <comment>Here is your Privacy Statement url for Settings</comment>
+    <value>https://github.com/timuon/TimuOn.git</value>
+    <comment>Github</comment>
   </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
     <comment>Personalization text for Settings</comment>
+  </data>
+  <data name="Git_About" xml:space="preserve">
+    <value>You can find our code on our Github</value>
+  </data>
+  <data name="TabbedPivot_PivotItem3.Header" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="TabbedPivot_PivotItem4.Header" xml:space="preserve">
+    <value>Teams</value>
+  </data>
+  <data name="TabbedPivot_PivotItem5.Header" xml:space="preserve">
+    <value>Rss Feed</value>
   </data>
   <data name="Shell_AdminSysConstr.Content" xml:space="preserve">
     <value>System Constraints</value>

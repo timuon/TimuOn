@@ -60,9 +60,15 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="MaxLines" />
       <RootProperty Name="Foreground" />
+<<<<<<< HEAD:Timuon/obj/x86/Release/ilc/in/Timuon.xr.xml
       <RootProperty Name="Style" />
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
+=======
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Style" />
+>>>>>>> Settings-Module:Timuon/obj/x86/Debug/Timuon.xr.xml
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontFamily" />
@@ -338,11 +344,23 @@
       <RootProperty Name="CellTemplate" />
     </RootType>
     <RootType FullName="Timuon.Views.DataGridPage" />
+<<<<<<< HEAD:Timuon/obj/x86/Release/ilc/in/Timuon.xr.xml
+=======
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+>>>>>>> Settings-Module:Timuon/obj/x86/Debug/Timuon.xr.xml
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+<<<<<<< HEAD:Timuon/obj/x86/Release/ilc/in/Timuon.xr.xml
       <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
@@ -350,12 +368,42 @@
       <RootProperty Name="Stroke" />
       <RootProperty Name="Width" />
       <RootProperty Name="Fill" />
+=======
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Background" />
+>>>>>>> Settings-Module:Timuon/obj/x86/Debug/Timuon.xr.xml
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="Header" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
     </RootType>
+<<<<<<< HEAD:Timuon/obj/x86/Release/ilc/in/Timuon.xr.xml
+=======
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="System.String" />
+>>>>>>> Settings-Module:Timuon/obj/x86/Debug/Timuon.xr.xml
     <RootType FullName="Timuon.Views.History_Log" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
@@ -431,7 +479,10 @@
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="ExpandedModeThresholdWidth" />
       <RootProperty Name="Background" />
+      <RootProperty Name="PaneHeader" />
       <RootProperty Name="MenuItems" />
+      <RootProperty Name="FooterMenuItems" />
+      <RootProperty Name="AutoSuggestBox" />
       <RootProperty Name="Content" />
       <RootProperty Name="PaneHeader" />
       <RootProperty Name="FooterMenuItems" />
@@ -444,10 +495,25 @@
       <RootMethod Name="GetNavigateTo" />
       <RootMethod Name="SetNavigateTo" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
+      <RootProperty Name="QueryIcon" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+<<<<<<< HEAD:Timuon/obj/x86/Release/ilc/in/Timuon.xr.xml
     <RootType FullName="Timuon.Views.AdminShellPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
       <RootProperty Name="QueryIcon" />
+=======
+    <RootType FullName="Timuon.Views.ShellPage" />
+    <RootType FullName="Timuon.Views.Subscriptions" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Content" />
+      <RootEvent Name="Loaded" />
+>>>>>>> Settings-Module:Timuon/obj/x86/Debug/Timuon.xr.xml
     </RootType>
     <RootType FullName="Timuon.Views.ShellPage" />
     <RootType FullName="Timuon.Views.Subscriptions" />
