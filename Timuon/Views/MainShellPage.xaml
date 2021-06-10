@@ -38,7 +38,7 @@
             Edit String/en-US/Resources.resw: Add a menu item title for each page
             -->
             <winui:NavigationViewItem x:Uid="Shell_Main" Icon="Like" helpers:NavHelper.NavigateTo="views:MainPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />
+            <!--<winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />-->
             <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
             <winui:NavigationViewItem x:Uid="Shell_TwoPaneView" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
             <winui:NavigationViewItem x:Uid="Shell_TreeView" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
