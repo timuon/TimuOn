@@ -15,15 +15,5 @@ namespace Timuon.Views
         {
             InitializeComponent();
         }
-
-        private void TextBlock_SelectionChanged(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }
