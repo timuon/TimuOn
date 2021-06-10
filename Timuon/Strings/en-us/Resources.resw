@@ -255,6 +255,23 @@ This application is being implemented as part of a mandatory project of the Soft
     <value>Personalization</value>
     <comment>Personalization text for Settings</comment>
   </data>
+  <data name="Shell_AdminSysConstr.Content" xml:space="preserve">
+    <value>System Constraints</value>
+    <comment>Admin system constraints page</comment>
+  </data>
+  <data name="Shell_AdminHome.Content" xml:space="preserve">
+    <value>Home</value>
+    <comment>Admin home page</comment>
+  </data>
+  <data name="Shell_UserSettings.Content" xml:space="preserve">
+    <value>TimuOn Settings</value>
+    <comment>Custom settings page (incomplete)</comment>
+  </data>
+  <data name="TabbedPivot_PivotRSSFeeds.Header" xml:space="preserve">
+    <value>RSS Feeds</value>
+    <comment>RSS Feeds pivot tab of custom settings page (incomplete)</comment>
+  </data>
+</root>
   <data name="Git_About" xml:space="preserve">
     <value>You can find our code on our Github</value>
   </data>

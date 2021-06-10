@@ -154,7 +154,22 @@
     <Compile Include="Helpers\IBackNavigationHandler.cs" />
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Helpers\SettingsStorageExtensions.cs" />
+    <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Auditorium.cs" />
+    <Compile Include="Models\Calendar.cs" />
+    <Compile Include="Models\Coordinator.cs" />
+    <Compile Include="Models\EclassIntegration.cs" />
+    <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\Meeting.cs" />
+    <Compile Include="Models\Organization.cs" />
+    <Compile Include="Models\Platform.cs" />
+    <Compile Include="Models\Request.cs" />
+    <Compile Include="Models\RSSFeed.cs" />
+    <Compile Include="Models\Schedule.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Models\TabViewItemData.cs" />
+    <Compile Include="Models\TempRescheduleRequest.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Services\ActivationService.cs" />
     <Compile Include="Activation\DefaultActivationHandler.cs" />
     <Compile Include="Services\LocationService.cs" />
@@ -162,6 +177,8 @@
     <Compile Include="Services\ThemeSelectorService.cs" />
     <Compile Include="StateTriggers\ControlSizeTrigger.cs" />
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
+    <Compile Include="ViewModels\AdminHomeViewModel.cs" />
+    <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
     <Compile Include="ViewModels\BlankViewModel.cs" />
     <Compile Include="ViewModels\ChartViewModel.cs" />
     <Compile Include="ViewModels\CalendarModel.cs" />
@@ -175,12 +192,20 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\MapViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel.cs" />
+    <Compile Include="ViewModels\AdminShellViewModel.cs" />
     <Compile Include="ViewModels\MainShellViewModel.cs" />
     <Compile Include="ViewModels\TabbedPivotViewModel.cs" />
     <Compile Include="ViewModels\TabViewViewModel.cs" />
     <Compile Include="ViewModels\TelerikDataGridViewModel.cs" />
     <Compile Include="ViewModels\TreeViewViewModel.cs" />
     <Compile Include="ViewModels\TwoPaneViewViewModel.cs" />
+    <Compile Include="ViewModels\UserSettingsViewModel.cs" />
+    <Compile Include="Views\AdminHomePage.xaml.cs">
+      <DependentUpon>AdminHomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdminSysConstrPage.xaml.cs">
+      <DependentUpon>AdminSysConstrPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
     </Compile>
@@ -220,6 +245,8 @@
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\AdminShellPage.xaml.cs">
+      <DependentUpon>AdminShellPage.xaml</DependentUpon>
     <Compile Include="Views\MainShellPage.xaml.cs">
       <DependentUpon>MainShellPage.xaml</DependentUpon>
     </Compile>
@@ -247,6 +274,9 @@
     <Compile Include="Views\TwoPaneViewPage.xaml.cs">
       <DependentUpon>TwoPaneViewPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\UserSettingsPage.xaml.cs">
+      <DependentUpon>UserSettingsPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -272,6 +302,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\TextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdminHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdminSysConstrPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -327,6 +365,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\AdminShellPage.xaml">
     <Page Include="Views\MainShellPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -362,6 +401,10 @@
     <Page Include="Views\TwoPaneViewPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\UserSettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

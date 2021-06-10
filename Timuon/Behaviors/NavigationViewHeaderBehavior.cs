@@ -35,8 +35,9 @@ namespace Timuon.Behaviors
             item.SetValue(HeaderModeProperty, value);
         }
 
+        /* NO MORE HEADER TEXT!!! */
         public static readonly DependencyProperty HeaderModeProperty =
-            DependencyProperty.RegisterAttached("HeaderMode", typeof(bool), typeof(NavigationViewHeaderBehavior), new PropertyMetadata(NavigationViewHeaderMode.Always, (d, e) => _current.UpdateHeader()));
+            DependencyProperty.RegisterAttached("HeaderMode", typeof(bool), typeof(NavigationViewHeaderBehavior), new PropertyMetadata(NavigationViewHeaderMode.Never, (d, e) => _current.UpdateHeader()));
 
         public static object GetHeaderContext(Page item)
         {
