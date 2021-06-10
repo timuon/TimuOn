@@ -155,6 +155,7 @@
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Helpers\SettingsStorageExtensions.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Auditorium.cs" />
     <Compile Include="Models\Calendar.cs" />
     <Compile Include="Models\Coordinator.cs" />
     <Compile Include="Models\EclassIntegration.cs" />
@@ -214,6 +215,9 @@
     </Compile>
     <Compile Include="Views\DataGridPage.xaml.cs">
       <DependentUpon>DataGridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditAuditoriumDialog.xaml.cs">
+      <DependentUpon>EditAuditoriumDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ListDetailDetailControl.xaml.cs">
       <DependentUpon>ListDetailDetailControl.xaml</DependentUpon>
@@ -312,6 +316,10 @@
     <Page Include="Views\DataGridPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditAuditoriumDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ListDetailDetailControl.xaml">
       <Generator>MSBuild:Compile</Generator>

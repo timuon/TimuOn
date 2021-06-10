@@ -1,0 +1,34 @@
+﻿<ContentDialog
+    x:Class="Timuon.Views.EditAuditoriumDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Timuon"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Title="Edit Properties">
+
+    <Grid Width="500"
+    Height="250">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="6.5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <muxc:NumberBox x:Name="CapacityBox" Grid.Row="0" Grid.Column="0" Header="Capacity" SpinButtonPlacementMode="Inline"
+                        HorizontalAlignment="Left" MaxWidth="150" Margin="0,10,0,0"/>
+        <CheckBox x:Name="AccessibilityBox" Grid.Row="1" Grid.Column="0" Margin="0,10,0,10">Accessible to available Attendees</CheckBox>
+        <CheckBox x:Name="AvailabilittyBox" Grid.Row="2" Grid.Column="0">Available this Semester</CheckBox>
+        <Button x:Name="ApplyButton" Grid.Row="3" Grid.Column="0" Content="Apply" HorizontalAlignment="Right" Margin="10" Width="80"/>
+        <TextBox x:Name="DescriptionBox" Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Header="Reason for Status Update"
+                        AutomationProperties.Name="multi-line TextBox" TextWrapping="Wrap" Margin="0,10,0,0"
+                         MaxWidth="250" Height="160" VerticalAlignment="Top"/>
+        <Button x:Name="CancelButton" Grid.Row="3" Grid.Column="1" Content="Cancel" HorizontalAlignment="Left" Margin="10" Width="80"/>
+    </Grid>
+</ContentDialog>
