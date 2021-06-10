@@ -180,6 +180,7 @@
     <Compile Include="ViewModels\AdminHomeViewModel.cs" />
     <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
     <Compile Include="ViewModels\ScheduleStudentViewModel.cs" />
+    <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="ViewModels\StudentHomeViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\CoursesStudentViewModel.cs" />
@@ -281,7 +282,7 @@
     </Compile>
     <Compile Include="Views\ShellPageOrganization.xaml.cs">
       <DependentUpon>ShellPageOrganization.xaml</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\MainShellPage.xaml.cs">
       <DependentUpon>MainShellPage.xaml</DependentUpon>
     </Compile>
@@ -293,7 +294,7 @@
     </Compile>
     <Compile Include="Views\ShellPageStudent.xaml.cs">
       <DependentUpon>ShellPageStudent.xaml</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\ShellPageCoordinator.xaml.cs">
       <DependentUpon>ShellPageCoordinator.xaml</DependentUpon>
     </Compile>
@@ -353,6 +354,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ShellPageCoordinator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\StudentHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -367,7 +372,7 @@
     </Page>
     <Page Include="Views\AdminHomePage.xaml">
       <SubType>Designer</SubType>
-	  <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\OrganizationSchedulePage.xaml">
       <SubType>Designer</SubType>
@@ -450,9 +455,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\ShellPageOrganization.xaml">
-		<Generator>MSBuild:Compile</Generator>
-		<SubType>Designer</SubType>
-	</Page>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\ShellPageStudent.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
