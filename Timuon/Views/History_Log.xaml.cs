@@ -36,22 +36,22 @@ namespace Timuon.Views
         {
             // Add "using Windows.UI;" for Color and Colors.
             string colorName = e.AddedItems[0].ToString();
-            string color;
-            switch (colorName)
-            {
-                case "Yellow":
-                    color = "Yellow";
-                    break;
-                case "Green":
-                    color = "Green";
-                    break;
-                case "Blue":
-                    color = "Blue";
-                    break;
-                case "Red":
-                    color = "Red";
-                    break;
-            }
+            //string color;
+            //switch (colorName)
+            //{
+            //    case "Yellow":
+            //        color = "Yellow";
+            //        break;
+            //    case "Green":
+            //        color = "Green";
+            //        break;
+            //    case "Blue":
+            //        color = "Blue";
+            //        break;
+            //    case "Red":
+            //        color = "Red";
+            //        break;
+            //}
         }
     }
 }
