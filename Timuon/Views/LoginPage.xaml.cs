@@ -34,7 +34,22 @@ namespace Timuon.Views
             if (email.Text.Equals("student@upatras.gr") && password.Text.Equals("student"))
             {
                 NavigationService.Navigate<Views.ShellPageStudent>();
-                NavigationService.Navigate<Views.MainPage>();
+                NavigationService.Navigate<Views.StudentHomePage>();
+            }
+            else if (email.Text.Equals("upatras@upatras.gr") && password.Text.Equals("upatras"))
+            {
+                NavigationService.Navigate<Views.ShellPageOrganization>();
+                NavigationService.Navigate<Views.OrganizationHomePage>();
+            }
+            else if (email.Text.Equals("professor@upatras.gr") && password.Text.Equals("professor"))
+            {
+                NavigationService.Navigate<Views.ShellPageCoordinator>();
+                NavigationService.Navigate<Views.CoordinatorHome>();
+            }
+            else if (email.Text.Equals("secretary@upatras.gr") && password.Text.Equals("secretary"))
+            {
+                NavigationService.Navigate<Views.AdminShellPage>();
+                NavigationService.Navigate<Views.AdminHomePage>();
             }
             else
             {
