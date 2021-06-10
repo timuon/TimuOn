@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="Timuon.Views.coursesCoordinator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Timuon.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,46,0,0" Text="Hello Aristeidis" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Height="59" Width="162"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Wednesday 3 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="231" Height="37"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
+        <Line Y1="90"
+              X2="10000" Y2="90"
+              Stroke="Black"
+              StrokeThickness="2" Margin="-117,33,47,-32" X1="10" />
+        <TextBlock HorizontalAlignment="Left" Margin="7,191,0,0" Text="Software Engineering" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="132"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,168,0,0" Text="Computer Networks" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="128"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,141,0,0" Text="Your Courses" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.325,1.841" Height="19" Width="82"/>
+        <Line Y1="158"
+              X2="100" Y2="158"
+              Stroke="Black"
+              StrokeThickness="2" Margin="-3,8,3,-6" X1="10" />
+        <TextBlock HorizontalAlignment="Left" Margin="176,177,0,0" Text="2 hours per week" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="176,202,0,0" Text="4 hours per week" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="7" Height="9" Width="58"/>
+        <TextBlock HorizontalAlignment="Left" Margin="428,326,0,0" Text="Do you want to request extra hours?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+              X2="290" Y2="291"
+              Stroke="Black"
+              StrokeThickness="2" Margin="415,65,-415,-63" X1="10" Grid.ColumnSpan="2" />
+        <CheckBox Content="Yes" Margin="428,372,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="553,372,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="17,268,0,0" Text="Do you want to cancel a scheduled course?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="4,7,-4,-5" X1="10" Grid.ColumnSpan="2" />
+        <CheckBox Content="Yes" Margin="17,314,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="142,314,0,0" VerticalAlignment="Top"/>
+        <ComboBox Margin="17,378,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
+            <x:String>Computer Networks</x:String>
+            <x:String>Software Engineering</x:String>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="17,456,0,0" Text="Select date to cancel" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarDatePicker Margin="17,480,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="17,538,0,0" Text="Do you want to set a replacement date?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="4,277,-4,-275" X1="10" Grid.ColumnSpan="2" />
+        <CheckBox Content="Yes" Margin="17,584,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="142,584,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="429,142,0,0" Text="Select preferable date" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarDatePicker Margin="429,166,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBlock HorizontalAlignment="Left" Margin="437,215,0,0" Text="Reason for request" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="416,-46,-416,48" X1="10" Grid.ColumnSpan="2" />
+        <TextBox HorizontalAlignment="Left" Margin="429,256,0,0" Text="Reason" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <CommandBar VerticalAlignment="Bottom">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,600,0"/>
+        </CommandBar>
+        <TextBlock HorizontalAlignment="Left" Margin="427,428,0,0" Text="Do you have preferable dates?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="414,167,-414,-165" X1="10" Grid.ColumnSpan="2" />
+        <CheckBox Content="Yes" Margin="427,474,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" Margin="552,474,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="421,548,0,0" Text="Select preferable dates" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CalendarDatePicker Margin="421,572,0,0" VerticalAlignment="Top" Width="200" PlaceholderText="Select a date"/>
+        <TextBlock HorizontalAlignment="Left" Margin="777,256,0,0" Text="Reason for request" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="756,-5,-756,7" X1="10" Grid.ColumnSpan="2" />
+        <TextBox HorizontalAlignment="Left" Margin="769,297,0,0" Text="Reason" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBlock HorizontalAlignment="Left" Margin="777,147,0,0" Text="Insert number of hours" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Line Y1="291"
+            X2="290" Y2="291"
+            Stroke="Black"
+            StrokeThickness="2" Margin="756,-114,-756,116" X1="10" Grid.ColumnSpan="2" />
+        <TextBox HorizontalAlignment="Left" Margin="769,188,0,0" Text="Reason" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+    </Grid>
+</Page>
