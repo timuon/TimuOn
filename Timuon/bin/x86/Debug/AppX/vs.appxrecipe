@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-06T17:54:47.099</Modified>
+      <Modified>2021-06-10T19:03:13.875</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.exe">
       <PackagePath>entrypoint\Timuon.exe</PackagePath>
-      <Modified>2021-06-06T17:54:43.528</Modified>
+      <Modified>2021-06-10T19:03:11.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.exe.config">
       <PackagePath>Timuon.exe.config</PackagePath>
@@ -260,7 +260,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll">
       <PackagePath>Timuon.Core.dll</PackagePath>
-      <Modified>2021-06-05T19:50:42.963</Modified>
+      <Modified>2021-06-10T00:10:02.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.3\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
       <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
@@ -614,115 +614,115 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Timuon.xr.xml">
       <PackagePath>Timuon.xr.xml</PackagePath>
-      <Modified>2021-06-06T17:51:40.075</Modified>
+      <Modified>2021-06-10T18:42:44.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.671</Modified>
+      <Modified>2021-06-10T19:03:10.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.669</Modified>
+      <Modified>2021-06-10T19:03:10.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.669</Modified>
+      <Modified>2021-06-10T19:03:10.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.670</Modified>
+      <Modified>2021-06-10T19:03:10.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.670</Modified>
+      <Modified>2021-06-10T19:03:10.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.671</Modified>
+      <Modified>2021-06-10T19:03:10.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ScheduleStudentPage.xbf">
       <PackagePath>Views\ScheduleStudentPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.335</Modified>
+      <Modified>2021-06-10T19:03:10.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\StudentHomePage.xbf">
       <PackagePath>Views\StudentHomePage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.349</Modified>
+      <Modified>2021-06-10T19:03:10.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.672</Modified>
+      <Modified>2021-06-10T19:03:10.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\CoursesStudentPage.xbf">
       <PackagePath>Views\CoursesStudentPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.672</Modified>
+      <Modified>2021-06-10T19:03:10.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.673</Modified>
+      <Modified>2021-06-10T19:03:10.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridDetailPage.xbf">
       <PackagePath>Views\ContentGridDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.482</Modified>
+      <Modified>2021-06-10T19:03:10.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ContentGridPage.xbf">
       <PackagePath>Views\ContentGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.674</Modified>
+      <Modified>2021-06-10T19:03:10.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.674</Modified>
+      <Modified>2021-06-10T19:03:10.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailDetailControl.xbf">
       <PackagePath>Views\ListDetailDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.513</Modified>
+      <Modified>2021-06-10T19:03:10.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ListDetailPage.xbf">
       <PackagePath>Views\ListDetailPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.675</Modified>
+      <Modified>2021-06-10T19:03:10.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.675</Modified>
+      <Modified>2021-06-10T19:03:10.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\MapPage.xbf">
       <PackagePath>Views\MapPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.676</Modified>
+      <Modified>2021-06-10T19:03:10.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.676</Modified>
+      <Modified>2021-06-10T19:03:10.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\ShellPageStudent.xbf">
       <PackagePath>Views\ShellPageStudent.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.677</Modified>
+      <Modified>2021-06-10T19:03:10.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TabbedPivotPage.xbf">
       <PackagePath>Views\TabbedPivotPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.678</Modified>
+      <Modified>2021-06-10T19:03:10.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TabViewPage.xbf">
       <PackagePath>Views\TabViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.678</Modified>
+      <Modified>2021-06-10T19:03:10.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TelerikDataGridPage.xbf">
       <PackagePath>Views\TelerikDataGridPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.679</Modified>
+      <Modified>2021-06-10T19:03:10.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TreeViewPage.xbf">
       <PackagePath>Views\TreeViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.626</Modified>
+      <Modified>2021-06-10T19:03:10.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewDetailControl.xbf">
       <PackagePath>Views\TwoPaneViewDetailControl.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.644</Modified>
+      <Modified>2021-06-10T19:03:10.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewListItemControl.xbf">
       <PackagePath>Views\TwoPaneViewListItemControl.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.680</Modified>
+      <Modified>2021-06-10T19:03:10.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Views\TwoPaneViewPage.xbf">
       <PackagePath>Views\TwoPaneViewPage.xbf</PackagePath>
-      <Modified>2021-06-06T17:54:42.667</Modified>
+      <Modified>2021-06-10T19:03:10.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -738,11 +738,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-06T16:59:40.063</Modified>
+      <Modified>2021-06-10T00:10:32.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kolop\Downloads\TimuOn\Timuon\bin\x86\Debug\Core\Timuon.exe">
       <PackagePath>Timuon.exe</PackagePath>
-      <Modified>2021-06-06T17:54:47.087</Modified>
+      <Modified>2021-06-10T19:03:13.864</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
