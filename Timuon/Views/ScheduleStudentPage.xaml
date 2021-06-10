@@ -1,11 +1,12 @@
 ﻿<Page
-    x:Class="Timuon.Views.ScheduleStudentPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Style="{StaticResource PageStyle}"
     xmlns:behaviors="using:Timuon.Behaviors"
+    xmlns:Custom="using:Telerik.UI.Xaml.Controls.Input"
+    x:Class="Timuon.Views.ScheduleStudentPage"
+    Style="{StaticResource PageStyle}"
     behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"
     mc:Ignorable="d">
     <Grid x:Name="ContentArea" Margin="24,0,63,10">
@@ -22,7 +23,7 @@
                 X2="200" Y2="140"
                 Stroke="Black"
                 StrokeThickness="2" Margin="0,0,0,2" />
-            <Line
+            <Line x:Name="ScheduleLine"
                 X1="270" Y1="140"
                 X2="600  " Y2="140"
                 Stroke="Black"
@@ -32,13 +33,14 @@
                 X2="500  " Y2="400"
                 Stroke="Black"
                 StrokeThickness="2" Margin="0,0,0,2" />
-            <Line
+            <Line x:Name="AppointLine"
                 X1="720" Y1="140"
                 X2="1100  " Y2="140"
                 Stroke="Black"
-                StrokeThickness="2" Margin="0,0,0,2" />
-            <CheckBox Content="Yes" Margin="284,424,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="No" Margin="444,420,0,0" VerticalAlignment="Top"/>
+                StrokeThickness="2" Margin="0,0,0,2" Visibility="Collapsed"/>
+            <CheckBox x:Name="Yes1" Content="Yes" Margin="284,424,0,0" VerticalAlignment="Top" Checked="Box_CheckedChanged" Unchecked="Box_CheckedChanged" />
+            <CheckBox x:Name="No1" Content="No" Margin="444,420,0,0" VerticalAlignment="Top" Checked="Box_CheckedChanged" Unchecked="Box_CheckedChanged"/>
+
             <TextBlock HorizontalAlignment="Left" Margin="44,45,0,0" Text="Hello Lampros!" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
             <TextBlock HorizontalAlignment="Left" Margin="986,47,0,0" Text="Wednesday, 18 March 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
             <TextBlock HorizontalAlignment="Left" Margin="986,71,0,0" Text="University of Patras, Computer Engineering and Informatics" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
@@ -46,25 +48,42 @@
             <TextBlock HorizontalAlignment="Left" Margin="271,253,0,0" Text="Thesis Meeting" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" FontSize="16"/>
             <TextBlock HorizontalAlignment="Left" Height="16" Margin="271,201,0,0" Text="BA - Gallopoulos Eustratios" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" FontSize="9"/>
             <TextBlock HorizontalAlignment="Left" Margin="274,297,0,0" Text="Office - Makris Christos" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-            <CalendarDatePicker Margin="44,161,0,0" VerticalAlignment="Top"/>
-            <TextBlock HorizontalAlignment="Left" Margin="284,108,0,0" Text="Your schedule for Wednesday, 18 March 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+            <CalendarDatePicker x:Name="CalendarPickk" Margin="44,161,0,0" VerticalAlignment="Top"/>
+            <TextBlock x:Name="Scheduleheader" HorizontalAlignment="Left" Margin="284,108,0,0" Text="Your schedule for Friday, 11 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
             <TextBlock HorizontalAlignment="Left" Margin="504,161,0,0" Text="10.00-12.00" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Left" Margin="504,255,0,0" Text="12.15-12.45" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <ComboBox Margin="284,509,0,0" Header="Choose an event" PlaceholderText="Events" Width="120">
+            <ComboBox x:Name="EventCombo" Margin="284,509,0,0" SelectionChanged="Event_SelectedIndexChanged" Header="Choose an event" PlaceholderText="Events" Width="120" Visibility="Collapsed">
                 <x:String>Scientific Computing</x:String>
                 <x:String>Thesis Meeting</x:String>
             </ComboBox>
-            <ComboBox Margin="284,609,0,0" Header="Choose an hour" PlaceholderText="Hour"  Width="120">
+            <ComboBox x:Name="HourCombo" Margin="284,609,0,0" SelectionChanged="NewHour_SelectedIndexChanged" Header="Choose an hour" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
                 <x:String>13.00-13.30</x:String>
                 <x:String>13.30-14.00</x:String>
                 <x:String>17.00-17.30</x:String>
             </ComboBox>
-            <TextBlock HorizontalAlignment="Left" Margin="725,109,0,0" Text="Do you want to schedule an appointment with an other user?" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <CheckBox Content="Yes" Margin="725,161,0,0" VerticalAlignment="Top"/>
-            <CheckBox Content="No" Margin="1033,159,0,0" VerticalAlignment="Top"/>
-            <TextBlock HorizontalAlignment="Left" Margin="726,287,0,0" Text="Reason for changing the time period" TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Margin="726,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="226"/>
-            <Button Content="Submit" Margin="0,632,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,-0.799" HorizontalAlignment="Center" Width="119"/>
+            <TextBlock x:Name="Appointment" HorizontalAlignment="Left" Margin="725,109,0,0" Text="Do you want to schedule an appointment with an other user?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <CheckBox x:Name="Yes2" Content="Yes" Margin="725,161,0,0" VerticalAlignment="Top" Visibility="Collapsed" Checked="Box2_CheckedChanged" Unchecked="Box2_CheckedChanged"/>
+            <CheckBox x:Name="No2" Content="No" Margin="1033,159,0,0" VerticalAlignment="Top" Visibility="Collapsed" Checked="Box2_CheckedChanged" Unchecked="Box2_CheckedChanged"/>
+            <TextBox x:Name="ReasonTimePeriod" HorizontalAlignment="Center" Margin="0,529,0,0" Text="" Header="Reason for changing th time period" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Height="73" Visibility="Collapsed"/>
+            <Button x:Name="SubmitButton" Content="Submit" Margin="0,632,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,-0.799" HorizontalAlignment="Center" Width="119" Visibility="Collapsed"/>
+            <ComboBox x:Name="Userss"  Margin="725,213,0,0" SelectionChanged="Contanct_SelectedIndexChanged" Header="Choose a user from your contacts" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
+                <x:String>Androutsopoulos</x:String>
+                <x:String>Kavvadias</x:String>
+                <x:String>Likothanasi</x:String>
+            </ComboBox>
+            <TextBlock x:Name="CommonHours" HorizontalAlignment="Left" Margin="737,338,0,0" Text="You have 3 matching free time periods with Kavvadias!" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
+            <ComboBox x:Name="SelectHour1" Margin="737,390,0,0" SelectionChanged="NewPeriod_SelectedIndexChanged" Header="Choose a hour" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
+                <x:String>13:00</x:String>
+                <x:String>14:00</x:String>
+                <x:String>15:00</x:String>
+                <x:String>Other</x:String>
+            </ComboBox>
+            <ComboBox x:Name="SelectHour2" Margin="951,385,0,0" Header="Choose an other time period for this appointment" PlaceholderText="New period"  Width="202" RenderTransformOrigin="0.461,0.77" Visibility="Collapsed">
+                <x:String>16:00</x:String>
+                <x:String>17:00</x:String>
+                <x:String>18:00</x:String>
+            </ComboBox>
+            <TextBox x:Name="MessageMeeting" HorizontalAlignment="Center" Margin="0,538,0,0" Text="" Header="Message Kavvadias about your meeting!" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.312,0.592" Height="65" Width="270" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>
