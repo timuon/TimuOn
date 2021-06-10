@@ -177,6 +177,8 @@
     <Compile Include="Services\ThemeSelectorService.cs" />
     <Compile Include="StateTriggers\ControlSizeTrigger.cs" />
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
+    <Compile Include="ViewModels\AdminHomeViewModel.cs" />
+    <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
     <Compile Include="ViewModels\ScheduleStudentViewModel.cs" />
     <Compile Include="ViewModels\StudentHomeViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -204,8 +206,8 @@
     <Compile Include="Views\AdminSysConstrPage.xaml.cs">
       <DependentUpon>AdminSysConstrPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\BlankPage.xaml.cs">
-      <DependentUpon>BlankPage.xaml</DependentUpon>
+    <Compile Include="Views\ScheduleStudentPage.xaml.cs">
+      <DependentUpon>ScheduleStudentPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\StudentHomePage.xaml.cs">
       <DependentUpon>StudentHomePage.xaml</DependentUpon>
@@ -254,13 +256,13 @@
     </Compile>
     <Compile Include="Views\MainShellPage.xaml.cs">
       <DependentUpon>MainShellPage.xaml</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\AdminShellPage.xaml.cs">
       <DependentUpon>AdminShellPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Subscriptions.xaml.cs">
       <DependentUpon>Subscriptions.xaml</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\ShellPageStudent.xaml.cs">
       <DependentUpon>ShellPageStudent.xaml</DependentUpon>
     </Compile>
@@ -329,9 +331,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\CoursesStudentPage.xaml">
-		<SubType>Designer</SubType>
-		<Generator>MSBuild:Compile</Generator>
-	</Page>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AdminHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -339,10 +341,6 @@
     <Page Include="Views\AdminSysConstrPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\BlankPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Calendar.xaml">
       <SubType>Designer</SubType>
@@ -397,9 +395,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\AdminShellPage.xaml">
-		<Generator>MSBuild:Compile</Generator>
-		<SubType>Designer</SubType>
-	</Page>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\MainShellPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

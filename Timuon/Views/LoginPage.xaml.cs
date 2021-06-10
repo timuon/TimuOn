@@ -29,11 +29,11 @@ namespace Timuon.Views
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             if (email.Text.Equals("student@upatras.gr") && password.Text.Equals("student"))
             {
-                NavigationService.Navigate<Views.ShellPage>();
+                NavigationService.Navigate<Views.ShellPageStudent>();
                 NavigationService.Navigate<Views.MainPage>();
             }
             else
@@ -44,7 +44,7 @@ namespace Timuon.Views
                     Content = "Wrong email or password. Please try again.",
                     CloseButtonText = "Ok"
                 };
-                wrongPass.ShowAsync();
+                ContentDialogResult result = await wrongPass.ShowAsync();
             }
         }
     }
