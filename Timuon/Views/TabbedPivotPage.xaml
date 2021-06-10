@@ -5,35 +5,73 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
 
-    <Grid 
+
+
+    <!--<Pivot>
+        <Pivot.RightHeader>
+            <CommandBar>
+                <AppBarButton Icon="Add"/>
+                <AppBarSeparator/>
+                <AppBarButton Icon="Edit"/>
+                <AppBarButton Icon="Delete"/>
+                <AppBarSeparator/>
+                <AppBarButton Icon="Save"/>
+            </CommandBar>
+        </Pivot.RightHeader>
+    </Pivot>-->
+
+
+    <Grid
+        
         x:Name="ContentArea"
         Margin="{StaticResource SmallLeftRightMargin}">
         <Pivot
             x:Name="Items">
             <Pivot.HeaderTemplate>
                 <DataTemplate>
-                    <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="{Binding}" />
+                    <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="{Binding}"/>
                 </DataTemplate>
             </Pivot.HeaderTemplate>
-            <PivotItem x:Uid="TabbedPivot_PivotItem1">
+            <!--<Pivot.RightHeader>
+                <CommandBar>
+                    <AppBarButton Icon="Add"/>
+                    <AppBarSeparator/>
+                    <AppBarButton Icon="Edit"/>
+                    <AppBarButton Icon="Delete"/>
+                    <AppBarSeparator/>
+                    <AppBarButton Icon="Save"/>
+                </CommandBar>
+            </Pivot.RightHeader>-->
+            <PivotItem x:Uid="TabbedPivot_PivotItem1" Loaded="PivotItem_Loaded_1">
                 <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-                    <!--
-                        The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
-                        Place your content here.
-                    -->
-
+                    <Frame x:Name="history_frame" />
                 </Grid>
             </PivotItem>
             
-            <PivotItem x:Uid="TabbedPivot_PivotItem2">
+            <PivotItem x:Uid="TabbedPivot_PivotItem2" Loaded="PivotItem_Loaded_2">
                 <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-                    <!--
-                        The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
-                        Place your content here.
-                    -->
-
+                    <Frame x:Name="subs_frame" />
+                </Grid>
+            </PivotItem>
+            
+            <PivotItem x:Uid="TabbedPivot_PivotItem3" Loaded="PivotItem_Loaded_3">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <Frame x:Name="calendar_frame" />
+                </Grid>
+            </PivotItem>
+            
+            <PivotItem x:Uid="TabbedPivot_PivotItem4" Loaded="PivotItem_Loaded_4">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <Frame x:Name="Teams_frame" />
+                </Grid>
+            </PivotItem>
+            
+            <PivotItem x:Uid="TabbedPivot_PivotItem5" Loaded="PivotItem_Loaded_5">
+                <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                    <Frame x:Name="rss_frame" />
                 </Grid>
             </PivotItem>
         </Pivot>
