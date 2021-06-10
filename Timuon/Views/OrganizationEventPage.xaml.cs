@@ -98,6 +98,7 @@ namespace Timuon.Views
                 AuditoriumCombobox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 MessageSec.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 AuditoriumsEdit.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                Linee.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
                 // Edit event elements
                 ChangeTitle.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
