@@ -21,6 +21,8 @@ namespace Timuon.Models
             Events = events;
         }
 
+        
+
         public string Departments { get; set; }
         public string Administrators { get; set; }
         public string Auditoriums { get; set; }
