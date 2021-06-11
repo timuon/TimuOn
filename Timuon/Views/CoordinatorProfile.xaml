@@ -14,7 +14,7 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Hello Aristeidis" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Height="59" Width="162"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Wednesday 3 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="231" Height="37"/>
+        <TextBlock x:Name="DateToday" HorizontalAlignment="Right" Margin="0,21,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="231" Height="37"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,91,0,0" Text="Profile" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="291" FontSize="16"/>
         <Line Y1="90"
