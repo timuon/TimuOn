@@ -14757,18 +14757,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\": {},
+    "C:\\Users\\kolop\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj",
+      "projectUniqueName": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\Timuon.csproj",
       "projectName": "Timuon",
-      "projectPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\Timuon.csproj",
-      "packagesPath": "C:\\Users\\A. Androutsopoulos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon\\obj\\",
+      "projectPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\Timuon.csproj",
+      "packagesPath": "C:\\Users\\kolop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -14776,7 +14776,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\A. Androutsopoulos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kolop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -14790,8 +14790,8 @@
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
-              "projectPath": "C:\\Users\\A. Androutsopoulos\\Documents\\GitHub\\TimuOn\\Timuon.Core\\Timuon.Core.csproj"
+            "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
+              "projectPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj"
             }
           }
         }

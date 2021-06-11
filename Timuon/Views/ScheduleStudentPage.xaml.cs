@@ -34,7 +34,7 @@ namespace Timuon.Views
       
             foreach (Student a in Students)
             {
-                userContacts.Add(a.Username);
+                userContacts.Add(a);
             }
             
         }
