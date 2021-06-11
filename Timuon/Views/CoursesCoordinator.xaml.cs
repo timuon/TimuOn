@@ -25,6 +25,19 @@ namespace Timuon.Views
         public coursesCoordinator()
         {
             this.InitializeComponent();
+            DateToday.Text = DateTime.Now.ToString();
+            CoursesCombo.Items.Add("Computer Networks");
+            CoursesCombo.Items.Add("Software Engineering");
+        }
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            ContentDialog submit = new ContentDialog()
+            {
+                Title = "Submit notification!",
+                Content = "Course changes saved",
+                CloseButtonText = "Close dialog"
+            };
+            submit.ShowAsync();
         }
     }
 }

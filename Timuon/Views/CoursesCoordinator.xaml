@@ -15,7 +15,7 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,46,0,0" Text="Hello Aristeidis" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Height="59" Width="162"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,21,0,0" Text="Wednesday 3 June 2021" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="231" Height="37"/>
+        <TextBlock x:Name="DateToday" HorizontalAlignment="Right" Margin="0,21,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="231" Height="37"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,63,0,0" Text="University of Patras, Computer Engineering and Informatics Department" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" Height="62"/>
         <Line Y1="90"
               X2="10000" Y2="90"
@@ -44,9 +44,7 @@
             StrokeThickness="2" Margin="4,7,-4,-5" X1="10" Grid.ColumnSpan="2" />
         <CheckBox Content="Yes" Margin="17,314,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="No" Margin="142,314,0,0" VerticalAlignment="Top"/>
-        <ComboBox Margin="17,378,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
-            <x:String>Computer Networks</x:String>
-            <x:String>Software Engineering</x:String>
+        <ComboBox x:Name="CoursesCombo" Margin="17,378,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" Margin="17,456,0,0" Text="Select date to cancel" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <CalendarDatePicker Margin="17,480,0,0" VerticalAlignment="Top" Width="200"/>
@@ -69,7 +67,7 @@
             <CommandBar.Content>
                 <Grid/>
             </CommandBar.Content>
-            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,600,0"/>
+            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,600,0" Click="Button_Click"/>
         </CommandBar>
         <TextBlock HorizontalAlignment="Left" Margin="427,428,0,0" Text="Do you have preferable dates?" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Line Y1="291"
