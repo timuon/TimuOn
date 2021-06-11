@@ -21,10 +21,12 @@ namespace Timuon.Models
         public List<Schedule> Course_Schedules { get; set;}
         private string Preferences { get; set; }
 
+        public string Status { get; set; }
+
         public Course(string students, string auditoriums, string coordinator,
             string department, string organization, string title, DateTime start_date,
             DateTime end_date, string level, string timetable, List<Schedule> course_schedules,
-            string preferences)
+            string preferences, string status)
         {
 
             Students = students;
@@ -39,6 +41,7 @@ namespace Timuon.Models
             Timetable = timetable;
             Course_Schedules = course_schedules;
             Preferences = preferences;
+            Status = status;
         }
     }
 }

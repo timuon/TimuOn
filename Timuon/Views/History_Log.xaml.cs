@@ -23,6 +23,14 @@ namespace Timuon.Views
     {
         ObservableCollection<Organization> user_org = new ObservableCollection<Organization>();
         public ObservableCollection<Organization> User_org { get { return user_org; } }
+
+        ObservableCollection<Course> user_course = new ObservableCollection<Course>();
+        public ObservableCollection<Course> User_course { get { return user_course; } }
+        List<Schedule> list_schedule = new List<Schedule>();
+        DateTime date1 = new DateTime(2016, 12, 25);
+        DateTime date2 = new DateTime(2017, 4, 25);
+        DateTime date3 = new DateTime(2018, 7, 25);
+
         public History_Log()
         {
 
@@ -31,6 +39,10 @@ namespace Timuon.Views
             user_org.Add(new Organization("3rd Highschool", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
             user_org.Add(new Organization("Incibio", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
             user_org.Add(new Organization("1st Elementary School", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
+            course_list.ItemsSource = User_course;
+            user_course.Add(new Course("", "", "", "", "", "Mathematics 2", date1, date1, "", "",list_schedule, "", "Pass"));
+            user_course.Add(new Course("", "", "", "", "", "Linear Algebra", date2, date2, "", "", list_schedule, "", "Failed"));
+            user_course.Add(new Course("", "", "", "", "", "Pattern Recognition", date3, date3, "", "", list_schedule, "", "Pass"));
         }
 
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
