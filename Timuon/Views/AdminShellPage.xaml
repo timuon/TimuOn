@@ -26,6 +26,9 @@
         IsSettingsVisible="True"
         ExpandedModeThresholdWidth="1280"
         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
+        <winui:NavigationView.PaneHeader>
+            <Image Source="/Assets/Wide310x150Logo.scale-400.png" />
+        </winui:NavigationView.PaneHeader>
         <winui:NavigationView.MenuItems>
             <!--
             TODO WTS: Change the symbols for each item as appropriate for your app
@@ -37,6 +40,19 @@
             <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Remote" helpers:NavHelper.NavigateTo="views:AdminSysConstrPage" />
             <winui:NavigationViewItem x:Uid="Shell_UserSettings" Icon="Setting" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />
         </winui:NavigationView.MenuItems>
+
+        <winui:NavigationView.FooterMenuItems>
+            <!--
+            TODO WTS: Change the symbols for each item as appropriate for your app
+            More on Segoe UI Symbol icons: https://docs.microsoft.com/windows/uwp/style/segoe-ui-symbol-font
+            Or to use an IconElement instead of a Symbol see https://github.com/Microsoft/WindowsTemplateStudio/blob/release/docs/UWP/projectTypes/navigationpane.md
+            Edit String/en-US/Resources.resw: Add a menu item title for each page
+            -->
+
+            <winui:NavigationViewItem x:Uid="Shell_TabbedPivot" Icon="Admin" helpers:NavHelper.NavigateTo="views:TabbedPivotPage" />
+
+        </winui:NavigationView.FooterMenuItems>
+
         <i:Interaction.Behaviors>
             <behaviors:NavigationViewHeaderBehavior
                 DefaultHeader="{x:Bind ViewModel.Selected.Content, Mode=OneWay}">
@@ -55,6 +71,12 @@
                 <ic:InvokeCommandAction Command="{x:Bind ViewModel.ItemInvokedCommand}" />
             </ic:EventTriggerBehavior>
         </i:Interaction.Behaviors>
+
+
+        <winui:NavigationView.AutoSuggestBox>
+            <AutoSuggestBox QueryIcon="Find" AutomationProperties.Name="Search" />
+        </winui:NavigationView.AutoSuggestBox>
+        
         <Grid>
             <Frame x:Name="shellFrame" />
         </Grid>

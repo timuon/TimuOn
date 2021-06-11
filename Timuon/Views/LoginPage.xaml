@@ -8,13 +8,47 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Button Content="Login" Margin="446,479,0,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="0.523,1.894" FontSize="20" Click="Button_Click"/>
-        <Button Content="Exit" Margin="788,478,0,0" VerticalAlignment="Top" Width="123" FontSize="20"/>
-        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="618,201,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
-        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="618,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293"/>
-        <TextBlock HorizontalAlignment="Left" Margin="332,201,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="90"/>
-        <TextBlock HorizontalAlignment="Left" Margin="332,287,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+    <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
+        <TextBlock HorizontalAlignment="Center"  Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="90" Margin="50"/>
+        <TextBox x:Name="email" HorizontalAlignment="Center" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" Margin="50"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Password" TextWrapping="Wrap" FontSize="24" Margin="50"/>
+        <TextBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" Width="293" Margin="50"/>
+        </StackPanel>
+        
+
+        <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Grid.Row="2">
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Content="Login" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,50,80,0" VerticalAlignment="Top" Width="132" RenderTransformOrigin="0.523,1.894" FontSize="20" Click="Button_Click" Style="{StaticResource ButtonRevealStyle}"/>
+            <Button Content="Exit" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="80,50,0,0" VerticalAlignment="Top" Width="123" FontSize="20" Style="{StaticResource ButtonRevealStyle}"/>
+
+        </Grid>
+
 
     </Grid>
 </Page>
