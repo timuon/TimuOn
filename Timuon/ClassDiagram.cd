@@ -41,6 +41,12 @@
       <HashCode>AAAAAAAAAIAAAAAAAAABAAAAEQAgCAAAAAAAAAAAQAA=</HashCode>
       <FileName>Views\AdminHomePage.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentUser" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="eventsToday" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Views.AdminSysConstrPage">
     <Position X="4.75" Y="10" Width="1.5" />
@@ -48,6 +54,10 @@
       <HashCode>gAAAAIAAAIAAAAAAAQAAAAQAEQAEACAABAARggAAAAg=</HashCode>
       <FileName>Views\AdminSysConstrPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="deptAuditoriums" />
+      <Field Name="studentRequests" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Views.CoordinatorHome">
     <Position X="30" Y="16" Width="1.5" />
@@ -83,6 +93,17 @@
       <HashCode>AAAIAAEgAAABQGECACIAAAEAEAAAACAAIiADACRAAAA=</HashCode>
       <FileName>Views\Calendar.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NewFeed" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="activeFeeds" />
+      <Field Name="eclassAccounts" />
+      <Field Name="activePlatforms" />
+      <Property Name="ActiveFeeds" />
+      <Property Name="ActivePlatforms" />
+      <Property Name="EclassAccounts" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Views.CoursesStudentPage">
     <Position X="7.25" Y="2.75" Width="1.5" />
@@ -97,6 +118,11 @@
       <HashCode>AAAACAAAAAABIEAGACACAAECwAgAIEACIAAhACBAIAg=</HashCode>
       <FileName>Views\History_Log.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="list_schedule" />
+      <Field Name="team_course" />
+      <Field Name="user_course" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Views.OrganizationEventPage">
     <Position X="26.75" Y="1" Width="1.5" />
@@ -159,6 +185,174 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQQAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\TabbedPivotPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Admin">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIgCAAAAAAACAAAAAAAEAAAAAgAQQAAAQAAAAA=</HashCode>
+      <FileName>Models\Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Auditoriums" />
+      <Property Name="DepartmentCalendar" />
+      <Property Name="RescheduleRequests" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Timuon.Models.Student">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAEABACAAAAEAAhAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Announcement">
+    <Position X="22.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Announcement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Auditorium">
+    <Position X="16.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAIAAAAAAAgABAAQCEgAAAAACAAAAABAAAAA=</HashCode>
+      <FileName>Models\Auditorium.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Events" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Timuon.Models.Calendar">
+    <Position X="22.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABQABAAAAoAAAAAAsAAEgCAAAgAAAUQAAARAAAAA=</HashCode>
+      <FileName>Models\Calendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Channel">
+    <Position X="25.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAgAAAAAQAAAAABAAAgAAAAAAAAAg=</HashCode>
+      <FileName>Models\Channel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.CloudDrive">
+    <Position X="28.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CloudDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Communication">
+    <Position X="29.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Communication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Event">
+    <Position X="19.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAmAAAAAAAAAAQAAEAAAAABACAAAAAAAAA=</HashCode>
+      <FileName>Models\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Conflict">
+    <Position X="28.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAFAAAIAAAAAAAAAAAAAAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>Models\Conflict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Course">
+    <Position X="25.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAIAAEAAAAgQIAAAEAAAAAAFQAAAAQAIAEA=</HashCode>
+      <FileName>Models\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Course_Schedules" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Timuon.Models.Schedule">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Schedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.EclassIntegration">
+    <Position X="28.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\EclassIntegration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.History">
+    <Position X="23" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAACAAAAAAAAAAAAAAYAAAAAAAAAQAAAAAAABAA=</HashCode>
+      <FileName>Models\History.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Courses_hist" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Timuon.Models.Log">
+    <Position X="25.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Meeting">
+    <Position X="20.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Meeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Message">
+    <Position X="31.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAAAAAEAAAAEAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Models\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Platform" Collapsed="true">
+    <Position X="30.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Request">
+    <Position X="33" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAgAAAAAAAAAIAAgAAAAAAAAAAAQAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.RSSFeed">
+    <Position X="25.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgQAACAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RSSFeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Teams">
+    <Position X="26" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAAAAAAAQAAAAAAAAAAIAAAAAACAA=</HashCode>
+      <FileName>Models\Teams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.TempRescheduleRequest" Collapsed="true">
+    <Position X="32.25" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAABAAAAAAQAAAAAAAAgA=</HashCode>
+      <FileName>Models\TempRescheduleRequest.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
