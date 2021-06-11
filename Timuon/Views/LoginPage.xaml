@@ -31,7 +31,7 @@
         <!--<TextBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" Width="293" Margin="50"/>-->
         <PasswordBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="293" Margin="50"/>
         </StackPanel>
-        
+
 
         <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}" Grid.Row="2">
 
@@ -49,7 +49,6 @@
             <Button Content="Exit" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="80,50,0,0" VerticalAlignment="Top" Width="123" FontSize="20" Style="{StaticResource ButtonRevealStyle}"/>
 
         </Grid>
-        <PasswordBox/>
 
 
     </Grid>

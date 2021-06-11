@@ -31,5 +31,8 @@ namespace Timuon.Views
         private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
         }
+
+
+        
     }
 }
