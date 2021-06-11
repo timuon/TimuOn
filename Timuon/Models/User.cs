@@ -35,6 +35,11 @@ namespace Timuon.Models
             Platforms = platforms;
             Preferences = preferences;
         }
+
+        public void getOrganizations()
+        {
+
+        }
     }
 }
 

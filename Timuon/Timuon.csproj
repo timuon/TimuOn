@@ -161,6 +161,7 @@
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\EclassIntegration.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\History.cs" />
     <Compile Include="Models\Meeting.cs" />
     <Compile Include="Models\Organization.cs" />
     <Compile Include="Models\Platform.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="Models\Schedule.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\TabViewItemData.cs" />
+    <Compile Include="Models\Teams.cs" />
     <Compile Include="Models\TempRescheduleRequest.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Services\ActivationService.cs" />
