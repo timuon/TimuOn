@@ -25,5 +25,9 @@ namespace Timuon.Models
             Level = level;
             RescheduleRequests = rescheduleRequests;
         }
+        public void addAvailableHours()
+        {
+
+        }
     }
 }
