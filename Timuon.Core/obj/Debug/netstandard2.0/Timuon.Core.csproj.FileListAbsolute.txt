@@ -25,3 +25,11 @@ C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\
 C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
 C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
 C:\Users\klelia\source\repos\timuon\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.deps.json
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.pdb
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfoInputs.cache
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfo.cs
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb

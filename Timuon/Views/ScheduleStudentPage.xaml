@@ -66,10 +66,10 @@
             <CheckBox x:Name="No2" Content="No" Margin="1033,159,0,0" VerticalAlignment="Top" Visibility="Collapsed" Checked="Box2_CheckedChanged" Unchecked="Box2_CheckedChanged"/>
             <TextBox x:Name="ReasonTimePeriod" HorizontalAlignment="Center" Margin="0,529,0,0" Text="" Header="Reason for changing th time period" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Height="73" Visibility="Collapsed"/>
             <Button x:Name="SubmitButton" Click="Button_Click" Content="Submit" Margin="0,632,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,-0.799" HorizontalAlignment="Center" Width="119" Visibility="Collapsed"/>
-            <ComboBox x:Name="Userss"  Margin="725,213,0,0" SelectionChanged="Contanct_SelectedIndexChanged" Header="Choose a user from your contacts" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
-                <x:String>Androutsopoulos</x:String>
+            <ComboBox x:Name="Userss"  ItemsSource="{Binding UserContacts}" Margin="725,213,0,0" SelectionChanged="Contanct_SelectedIndexChanged" Header="Choose a user from your contacts" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">
+               <!-- <x:String>Androutsopoulos</x:String>
                 <x:String>Kavvadias</x:String>
-                <x:String>Likothanasi</x:String>
+                <x:String>Likothanasi</x:String>-->
             </ComboBox>
             <TextBlock x:Name="CommonHours" HorizontalAlignment="Left" Margin="737,338,0,0" Text="You have 3 matching free time periods with Kavvadias!" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="SelectHour1" Margin="737,390,0,0" SelectionChanged="NewPeriod_SelectedIndexChanged" Header="Choose a hour" PlaceholderText="Hour"  Width="120" Visibility="Collapsed">

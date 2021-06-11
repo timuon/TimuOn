@@ -48,5 +48,16 @@ namespace Timuon.Views
             Reason.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog submitt = new ContentDialog()
+            {
+                Title = "Submit notification!",
+                Content = "The departments are being informed of your change as we speak! You may continue to an other action.",
+                CloseButtonText = "Close dialog"
+            };
+            submitt.ShowAsync();
+        }
     }
 }

@@ -79,7 +79,7 @@
                     <ImageBrush/>
                 </TextBox.Background>
             </TextBox>
-            <Button Content="Submit" Margin="936,626,0,0" VerticalAlignment="Top" Width="89"/>
+            <Button x:Name="SubmitBut" Content="Submit" Margin="936,626,0,0" VerticalAlignment="Top" Width="89" Click="SubmitClick"/>
 
             <!-- EDIT EVENT-->
             <TextBlock x:Name="EditEvent" HorizontalAlignment="Left" Margin="520,277,0,0" Text="Which event do you want to edit?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
