@@ -21,10 +21,5 @@ namespace Timuon.Models
 
         }
 
-        public Channel get_Channel_Info(Channel c)
-        {
-            return c;
-        }
-
     }
 }

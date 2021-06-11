@@ -49,14 +49,6 @@ namespace Timuon.Models
             }
             return EventsToday;
         }
-        public List<Channel> searchChannels(String channel)
-        {
-            return new List<Channel>();
-        }
-        public List<Channel> get_Trending_Channels(String channel)
-        {
-            return new List<Channel>();
-        }
     }
 }
 

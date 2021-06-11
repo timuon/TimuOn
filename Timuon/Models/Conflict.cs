@@ -18,14 +18,6 @@ namespace Timuon.Models
             User = user;
             Change = change;
         }
-        public void resolve_conflict()
-        {
-
-        }
-        public void flag_conflict()
-        {
-
-        }
     }
 }
 
