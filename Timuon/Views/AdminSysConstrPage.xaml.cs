@@ -32,15 +32,24 @@ namespace Timuon.Views
             List<Auditorium> Auditoriums = new List<Auditorium>();
             Auditoriums.Add(new Auditorium("BA", "CEID", "UPatras", 250, true, false));
             Auditoriums.Add(new Auditorium("B3", "CEID", "UPatras", 40, true, true));
+            List<Request> Requests = new List<Request>();
+            Requests.Add(new Request("Introduction to Signals and Systems", 200, "Conflict with Numerical Analysis", "Tuesday 11:00-13:00"));
+            Requests.Add(new Request("Software Engineering", 400, "Four hours straight is inhumane.", "Tuesday 17:00-19:00, Thursday 17:00-19:00"));
             CurrentUser = new Admin("Secretary", "secretary", "secretary@upatras.gr", 996981, "Rion",
                 DateTime.Now, "Secretary", "CEID", 2, "Ceid Calendar", "", "", "University of Patras",
-                "ComputerEngineering and Informatics", Auditoriums, EmptyStrArr, EmptyStrArr, DeptEvents, "");
+                "ComputerEngineering and Informatics", Auditoriums, EmptyStrArr, EmptyStrArr, DeptEvents, Requests, "");
             foreach (Auditorium a in Auditoriums)
             {
                 deptAuditoriums.Add(a);
             }
             AuditoriumsList.ItemsSource = DeptAuditoriums;
             AuditoriumCombo.ItemsSource = DeptAuditoriums;
+            foreach (Request r in Requests)
+            {
+                studentRequests.Add(r);
+            }
+            RequestsList.ItemsSource = StudentRequests;
+            RequestCombo.ItemsSource = StudentRequests;
         }
 
         private void AuditoriumCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -128,6 +137,57 @@ namespace Timuon.Views
             NewCapacityBox.Value = 0;
             NewAccessibilityBox.IsChecked = false;
             NewAvailabilityBox.IsChecked = false;
+        }
+
+        private void RequestCancelButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            // Clear form
+            DispStrBox.Text = "";
+            ReasonBox.Text = "";
+            NewSchedBox.Text = "";
+            RequestCombo.SelectedIndex = -1;
+        }
+
+        private void DenyButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            // Mark as denied and remove from list
+            Request Temp = (Request)RequestCombo.SelectedItem;
+            int ind = studentRequests.IndexOf(Temp);
+            foreach (Request r in CurrentUser.RescheduleRequests)
+            {
+                if (r.CourseName == studentRequests[ind].CourseName)
+                {
+                    studentRequests[ind].Decision = "Denied";
+                }
+            }
+            studentRequests.RemoveAt(ind);
+
+            // Clear form
+            DispStrBox.Text = "";
+            ReasonBox.Text = "";
+            NewSchedBox.Text = "";
+            RequestCombo.SelectedIndex = -1;
+        }
+
+        private void AllowButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            // Mark as allowed and remove from list
+            Request Temp = (Request)RequestCombo.SelectedItem;
+            int ind = studentRequests.IndexOf(Temp);
+            foreach (Request r in CurrentUser.RescheduleRequests)
+            {
+                if (r.CourseName == studentRequests[ind].CourseName)
+                {
+                    studentRequests[ind].Decision = "Allowed";
+                }
+            }
+
+            // Clear form
+            studentRequests.RemoveAt(ind);
+            DispStrBox.Text = "";
+            ReasonBox.Text = "";
+            NewSchedBox.Text = "";
+            RequestCombo.SelectedIndex = -1;
         }
     }
 }
