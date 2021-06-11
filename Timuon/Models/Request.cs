@@ -9,9 +9,11 @@ namespace Timuon.Models
         public string Reason { get; set; }
         public string NewSchedule { get; set; }
         public string DisplayString { get; set; }
+        public string Decision { get; set; }
 
         public Request(string courseName, int students, string reason, string newSchedule)
         {
+            CourseName = courseName;
             Students = students;
             Reason = reason;
             NewSchedule = newSchedule;
