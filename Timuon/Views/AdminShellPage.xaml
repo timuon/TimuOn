@@ -38,7 +38,7 @@
             -->
             <winui:NavigationViewItem x:Uid="Shell_AdminHome" Icon="Home" helpers:NavHelper.NavigateTo="views:AdminHomePage" />
             <winui:NavigationViewItem x:Uid="Shell_AdminSysConstr" Icon="Remote" helpers:NavHelper.NavigateTo="views:AdminSysConstrPage" />
-            <winui:NavigationViewItem x:Uid="Shell_UserSettings" Icon="Setting" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />
+            <!--<winui:NavigationViewItem x:Uid="Shell_UserSettings" Icon="Setting" helpers:NavHelper.NavigateTo="views:UserSettingsPage" />-->
         </winui:NavigationView.MenuItems>
 
         <winui:NavigationView.FooterMenuItems>

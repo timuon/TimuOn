@@ -12,7 +12,7 @@ namespace Timuon.Views
 {
     public sealed partial class RSSFeedSettingsPage : Page
     {
-        public UserSettingsViewModel ViewModel { get; } = new UserSettingsViewModel();
+        public RSSFeedSettingsViewModel ViewModel { get; } = new RSSFeedSettingsViewModel();
         ObservableCollection<RSSFeed> activeFeeds = new ObservableCollection<RSSFeed>();
         public ObservableCollection<RSSFeed> ActiveFeeds { get { return activeFeeds; } }
         private RSSFeed NewFeed;
@@ -22,7 +22,7 @@ namespace Timuon.Views
         ObservableCollection<Platform> activePlatforms = new ObservableCollection<Platform>();
         public ObservableCollection<Platform> ActivePlatforms { get { return activePlatforms; } }
         private bool[] PlatformsToAdd = new bool[] { false, false, false, false, false };
-        //private Platform NewPlatform;
+        private User CurrentUser;
 
         public RSSFeedSettingsPage()
         {
@@ -37,6 +37,7 @@ namespace Timuon.Views
             activePlatforms.Add(new Platform("Zoom", "someone@hotgmail.com"));
             activePlatforms.Add(new Platform("Teams", "someone@hotgmail.com"));
             activePlatforms.Add(new Platform("Discord", "BroThorPlaysVideogames"));
+            CurrentUser = new User("", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "");
         }
 
         private async void SyncFeedButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -71,13 +72,11 @@ namespace Timuon.Views
 
         private async void AddRSSButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // TODO: pass new platform object to user
             if (URLStatusCheck)
             {
                 // Update RSS Feed info
                 string[] Categories = new string[] { (string)CategoryCombo.SelectedValue };
                 NewFeed.UpdateFeed(NameBox.Text, Categories);
-                // TODO: add feed to user
                 // Add it to list
                 activeFeeds.Add(NewFeed);
                 NewFeed = null;
@@ -190,14 +189,12 @@ namespace Timuon.Views
                 activePlatforms.Add(new Platform("Google", "someone@hotgmail.com"));
                 // Move platform to active list
                 OtherPlatformCombo.Items.Remove(OtherPlatformCombo.SelectedItem);
-                // TODO: merge calendar
             }
             if (PlatformsToAdd[4])
             {
                 activePlatforms.Add(new Platform("Yahoo", "someone@yahoo.gr"));
                 // Move platform to active list
                 OtherPlatformCombo.Items.Remove(OtherPlatformCombo.SelectedItem);
-                // TODO: merge calendar
             }
 
             PlatformsToAdd = new bool[] { false, false, false, false, false };
