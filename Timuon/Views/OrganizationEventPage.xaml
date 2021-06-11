@@ -41,7 +41,7 @@
                 StrokeThickness="2" Margin="0,0,0,2" Visibility="Collapsed" />-->
 
             <TextBlock HorizontalAlignment="Left" Margin="44,45,0,0" Text="Hello Lampros!" Style="{StaticResource TitleTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" />
-            <TextBlock HorizontalAlignment="Left" Margin="1028,47,0,0" Text="Wednesday, 18 March 2021" TextWrapping="Wrap"  Style="{StaticResource BaseTextBlockStyle}" VerticalAlignment="Top" />
+            <TextBlock x:Name="DateToday" HorizontalAlignment="Left" Margin="1028,47,0,0" Text="" TextWrapping="Wrap"  Style="{StaticResource BaseTextBlockStyle}" VerticalAlignment="Top" />
             <TextBlock HorizontalAlignment="Left" Margin="886,70,0,0" Text="University of Patras, Computer Engineering and Informatics" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" />
             <TextBlock HorizontalAlignment="Left" Margin="51,156,0,0" Text="Patras IQ" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Left" Margin="52,258,0,0" Text="Student Elections" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top"/>
@@ -83,10 +83,8 @@
 
             <!-- EDIT EVENT-->
             <TextBlock x:Name="EditEvent" HorizontalAlignment="Left" Margin="520,277,0,0" Text="Which event do you want to edit?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
-            <ComboBox x:Name="EventsCombobox" Margin="520,315,0,0" Header="Events" PlaceholderText="Event" Width="120" Visibility="Collapsed">
-                <x:String>Patras IQ</x:String>
-                <x:String>Student Elections</x:String>
-                <x:String>Blood donation</x:String>
+            <ComboBox x:Name="EventsCombobox" ItemsSource="Eventss" Margin="520,315,0,0" Header="Events" PlaceholderText="Event" Width="120" Visibility="Collapsed">
+              
             </ComboBox>
             <TextBlock x:Name="ChangeTitle" HorizontalAlignment="Left" Margin="812,111,0,0" Text="What change do you want to make?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
             <ComboBox x:Name="ChangesCombobox" Margin="812,148,0,0" Header="Changes" PlaceholderText="Change" Width="120" Visibility="Collapsed">
@@ -94,10 +92,8 @@
                 <x:String>Auditorium of event</x:String>
             </ComboBox>
             <TextBlock x:Name="AuditoriumEditTitle" HorizontalAlignment="Left" Margin="812,228,0,0" Text="Which auditorium do you want for this event?" Style="{StaticResource BaseTextBlockStyle}" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
-            <ComboBox x:Name="AuditoriumsEdit" Margin="812,258,0,0" Header="Auditoriums" PlaceholderText="Available" Width="120" Visibility="Collapsed">
-                <x:String>CEID BA</x:String>
-                <x:String>AFE</x:String>
-                <x:String>CEID B4</x:String>
+            <ComboBox x:Name="AuditoriumsEdit" ItemsSource="AuditSource" Margin="812,258,0,0" Header="Auditoriums" PlaceholderText="Available" Width="120" Visibility="Collapsed">
+                
             </ComboBox>
             <CalendarDatePicker x:Name="CalendarPickerEdit" Margin="1028,281,0,0" VerticalAlignment="Top" Visibility="Collapsed"/>
             <TextBox x:Name="ReasonEdit" HorizontalAlignment="Left" Margin="520,419,0,0" Text="" Header="Reason of this change" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed"/>
