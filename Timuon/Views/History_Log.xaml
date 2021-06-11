@@ -39,18 +39,17 @@
             <TextBlock Text="Previous Subscriptions" Grid.Row="0" HorizontalAlignment="Center" Margin="0,20" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI"/>
 
 
-            <ListView Header="Organizations" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="org_list" ItemsSource="{Binding User_org}">
+            <ListView SelectionMode="None" Header="Organizations" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="org_list" ItemsSource="{Binding User_org}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Height="44" Padding="12">
-                            <Image Source="Placeholder.png" Height="16" Width="16" VerticalAlignment="Center"/>
                             <TextBlock Text ="{Binding Username}" VerticalAlignment="Center" Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}" Margin="12,0,0,0"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            <ListView Header="Courses" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="course_list" ItemsSource="{Binding User_course}">
+            <ListView SelectionMode="None"  SelectionChanged="course_list_SelectionChanged" Header="Courses" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="course_list" ItemsSource="{Binding User_course}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Height="64">
@@ -58,6 +57,20 @@
                                 <TextBlock Text="{Binding Title}"  Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}" />
                                 <TextBlock Text="{Binding Status}" Style="{ThemeResource BodyTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
                                 <TextBlock Text="{Binding Start_Date}" Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <ListView SelectionMode="Single" SelectionChanged="course_list_SelectionChanged" Header="Teams" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="teams_list" ItemsSource="{Binding Team_course}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Height="64">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="12,0,0,0">
+                                <TextBlock Text="{Binding Name}"  Style="{ThemeResource BaseTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}" />
+                                <!--<TextBlock Text="{Binding Students_teams}" Style="{ThemeResource BodyTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>-->
+                                <TextBlock Text="{Binding num_of}" Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlPageTextBaseMediumBrush}"/>
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>
@@ -102,9 +115,9 @@
                     <RowDefinition Height="300" />
                 </Grid.RowDefinitions>
 
-                <ToggleSwitch IsOn="True" Header="Subcriptions" AutomationProperties.Name="simple ToggleSwitch" HorizontalAlignment="Center"  Grid.Column="0" Width="auto"/>
+                <ToggleSwitch x:Name="courses" IsOn="True" Header="Courses" AutomationProperties.Name="simple ToggleSwitch" HorizontalAlignment="Center"  Grid.Column="0" Width="auto" Toggled="subs_Toggled"/>
                 <ToggleSwitch x:Name="Org" IsOn="True" Header="Organizations" AutomationProperties.Name="simple ToggleSwitch" HorizontalAlignment="Center"  Grid.Column="1" Grid.Row="0" Toggled="Org_Toggled"/>
-                <ToggleSwitch IsOn="True" Header="Teams" AutomationProperties.Name="simple ToggleSwitch" HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="1"/>
+                <ToggleSwitch x:Name="teams" IsOn="True" Header="Teams" AutomationProperties.Name="simple ToggleSwitch" HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="1" Toggled="teams_Toggled"/>
 
                 <ComboBox SelectionChanged="ColorComboBox_SelectionChanged" Header="History reset after" PlaceholderText="Pick a time period" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2">
                     <x:String>1 month</x:String>
