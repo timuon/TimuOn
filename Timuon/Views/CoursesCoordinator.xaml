@@ -44,9 +44,7 @@
             StrokeThickness="2" Margin="4,7,-4,-5" X1="10" Grid.ColumnSpan="2" />
         <CheckBox Content="Yes" Margin="17,314,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="No" Margin="142,314,0,0" VerticalAlignment="Top"/>
-        <ComboBox Margin="17,378,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
-            <x:String>Computer Networks</x:String>
-            <x:String>Software Engineering</x:String>
+        <ComboBox x:Name="CoursesCombo" Margin="17,378,0,0" Header="Select course to cancel" PlaceholderText="Courses" Width="200">
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" Margin="17,456,0,0" Text="Select date to cancel" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <CalendarDatePicker Margin="17,480,0,0" VerticalAlignment="Top" Width="200"/>
@@ -69,7 +67,7 @@
             <CommandBar.Content>
                 <Grid/>
             </CommandBar.Content>
-            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,600,0"/>
+            <AppBarButton Icon="Save" Label="Submit" Margin="0,0,600,0" Click="Button_Click"/>
         </CommandBar>
         <TextBlock HorizontalAlignment="Left" Margin="427,428,0,0" Text="Do you have preferable dates?" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Line Y1="291"
