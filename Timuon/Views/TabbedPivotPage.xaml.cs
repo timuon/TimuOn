@@ -50,7 +50,7 @@ namespace Timuon.Views
 
         private void PivotItem_Loaded_5(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            //frss_frame.Navigate(typeof(Rss_Feed));
+            rss_frame.Navigate(typeof(RSSFeedSettingsPage));
         }
     }
 }

@@ -39,6 +39,51 @@ namespace Timuon.Models
             Courses.Add(newCourse);
 
         }
+
+        public static void checkCourse()
+        {
+
+        }
+
+        public static void addPlatform(Platform plat)
+        {
+
+        }
+
+        public static void viewProfile()
+        {
+
+        }
+
+        public static void select()
+        {
+
+        }
+
+        public static void save()
+        {
+
+        }
+
+        public static void confirm()
+        {
+
+        }
+
+        public static void cancel()
+        {
+
+        }
+
+        public static void submit()
+        {
+
+        }
+
+        public static void announcements()
+        {
+
+        }
     }
 }
 
