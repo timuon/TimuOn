@@ -44,8 +44,8 @@ namespace Timuon.Views
             List<Auditorium> Auditoriums = new List<Auditorium>();
             AuditoriumsEdit.ItemsSource = AvailAudit;
             Auditoriums.Add(new Auditorium("CEID BA","","",150, true,true));
-            Auditoriums.Add(new Auditorium("CEID BA", "", "", 150, false, false));
-            Auditoriums.Add(new Auditorium("CEID BA", "", "", 150, false, true));
+            Auditoriums.Add(new Auditorium("AFE", "", "", 150, false, false));
+            Auditoriums.Add(new Auditorium("CEID B4", "", "", 150, false, true));
 
             foreach (Auditorium a in Auditoriums)
             {

@@ -1,22 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+
 using Timuon.ViewModels;
+using System.Collections.ObjectModel;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
+using Timuon.Models;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Shapes;
+using System.Collections.Generic;
 
-namespace Timuon.Views
+namespace Timuon.Views 
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,9 +18,27 @@ namespace Timuon.Views
     {
         public OrganizationScheduleViewModel ViewModel { get; } = new OrganizationScheduleViewModel();
 
+
+        ObservableCollection<String> availAudit = new ObservableCollection<String>();
+
+        public ObservableCollection<String> AvailAudit { get { return availAudit; } }
+        
         public OrganizationSchedulePage()
         {
-            this.InitializeComponent();
+                this.InitializeComponent();
+                DateToday.Text = DateTime.Now.ToString();
+
+                List<Auditorium> Auditoriums = new List<Auditorium>();
+                Audit.ItemsSource = AvailAudit;
+                Auditoriums.Add(new Auditorium("CEID BA", "", "", 150, true, true));
+                Auditoriums.Add(new Auditorium("AFE", "", "", 150, false, false));
+                Auditoriums.Add(new Auditorium("Event and Cultural Centre", "", "", 150, false, true));
+
+                foreach (Auditorium a in Auditoriums)
+                {
+                    availAudit.Add(a.Name);
+
+                }
         }
         private void Actionchanged_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -49,7 +59,7 @@ namespace Timuon.Views
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             ContentDialog submitt = new ContentDialog()
             {
