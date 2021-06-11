@@ -73,34 +73,37 @@ namespace Timuon.Views
 
         private void ApplyButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            Auditorium Temp = (Auditorium)AuditoriumCombo.SelectedItem;
-
-            // Update entry in observable collection
-            int ind = DeptAuditoriums.IndexOf(Temp);
-            Auditorium ToChange = DeptAuditoriums[ind];
-            Temp = new Auditorium(ToChange.Name, "", "", (int)EditCapacityBox.Value,
-                (bool)EditAccessibilityBox.IsChecked, (bool)EditAvailabilityBox.IsChecked);
-            DeptAuditoriums.RemoveAt(ind);
-            DeptAuditoriums.Insert(ind, Temp);
-
-            // Update entry in user object
-            foreach (Auditorium a in CurrentUser.Auditoriums)
+            if (AuditoriumCombo.SelectedIndex != -1)
             {
-                if (a.Name == Temp.Name)
-                {
-                    ind = CurrentUser.Auditoriums.IndexOf(a);
-                }
-            }
-            CurrentUser.Auditoriums[ind].Capacity = Temp.Capacity;
-            CurrentUser.Auditoriums[ind].Accessibility = Temp.Accessibility;
-            CurrentUser.Auditoriums[ind].Availability = Temp.Availability;
-            CurrentUser.Auditoriums[ind].UpdateDisplayString();
+                Auditorium Temp = (Auditorium)AuditoriumCombo.SelectedItem;
 
-            // Clear form
-            EditCapacityBox.Value = 0;
-            EditAccessibilityBox.IsChecked = false;
-            EditAvailabilityBox.IsChecked = false;
-            AuditoriumCombo.SelectedIndex = -1;
+                // Update entry in observable collection
+                int ind = DeptAuditoriums.IndexOf(Temp);
+                Auditorium ToChange = DeptAuditoriums[ind];
+                Temp = new Auditorium(ToChange.Name, "", "", (int)EditCapacityBox.Value,
+                    (bool)EditAccessibilityBox.IsChecked, (bool)EditAvailabilityBox.IsChecked);
+                DeptAuditoriums.RemoveAt(ind);
+                DeptAuditoriums.Insert(ind, Temp);
+
+                // Update entry in user object
+                foreach (Auditorium a in CurrentUser.Auditoriums)
+                {
+                    if (a.Name == Temp.Name)
+                    {
+                        ind = CurrentUser.Auditoriums.IndexOf(a);
+                    }
+                }
+                CurrentUser.Auditoriums[ind].Capacity = Temp.Capacity;
+                CurrentUser.Auditoriums[ind].Accessibility = Temp.Accessibility;
+                CurrentUser.Auditoriums[ind].Availability = Temp.Availability;
+                CurrentUser.Auditoriums[ind].UpdateDisplayString();
+
+                // Clear form
+                EditCapacityBox.Value = 0;
+                EditAccessibilityBox.IsChecked = false;
+                EditAvailabilityBox.IsChecked = false;
+                AuditoriumCombo.SelectedIndex = -1;
+            }
         }
 
         private void EditCancelButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -114,20 +117,23 @@ namespace Timuon.Views
 
         private void AddButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            Auditorium Temp = new Auditorium(NewNameBox.Text, "", "", (int)NewCapacityBox.Value,
+            if (AuditoriumCombo.SelectedIndex != -1)
+            {
+                Auditorium Temp = new Auditorium(NewNameBox.Text, "", "", (int)NewCapacityBox.Value,
                 (bool)EditAccessibilityBox.IsChecked, (bool)NewAvailabilityBox.IsChecked);
 
-            // Add to user
-            CurrentUser.Auditoriums.Add(Temp);
+                // Add to user
+                CurrentUser.Auditoriums.Add(Temp);
 
-            // Add to observable collection
-            deptAuditoriums.Add(Temp);
+                // Add to observable collection
+                deptAuditoriums.Add(Temp);
 
-            // Clear form
-            NewNameBox.Text = "";
-            NewCapacityBox.Value = 0;
-            NewAccessibilityBox.IsChecked = false;
-            NewAvailabilityBox.IsChecked = false;
+                // Clear form
+                NewNameBox.Text = "";
+                NewCapacityBox.Value = 0;
+                NewAccessibilityBox.IsChecked = false;
+                NewAvailabilityBox.IsChecked = false;
+            }
         }
 
         private void NewCancelButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -137,6 +143,17 @@ namespace Timuon.Views
             NewCapacityBox.Value = 0;
             NewAccessibilityBox.IsChecked = false;
             NewAvailabilityBox.IsChecked = false;
+        }
+
+        private void RequestCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (RequestCombo.SelectedIndex != -1)
+            {
+                int ind = studentRequests.IndexOf((Request)RequestCombo.SelectedItem);
+                DispStrBox.Text = studentRequests[ind].DisplayString;
+                ReasonBox.Text = studentRequests[ind].Reason;
+                NewSchedBox.Text = studentRequests[ind].NewSchedule;
+            }
         }
 
         private void RequestCancelButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
@@ -150,44 +167,50 @@ namespace Timuon.Views
 
         private void DenyButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // Mark as denied and remove from list
-            Request Temp = (Request)RequestCombo.SelectedItem;
-            int ind = studentRequests.IndexOf(Temp);
-            foreach (Request r in CurrentUser.RescheduleRequests)
+            if (RequestCombo.SelectedIndex != -1)
             {
-                if (r.CourseName == studentRequests[ind].CourseName)
+                // Mark as denied and remove from list
+                Request Temp = (Request)RequestCombo.SelectedItem;
+                int ind = studentRequests.IndexOf(Temp);
+                foreach (Request r in CurrentUser.RescheduleRequests)
                 {
-                    studentRequests[ind].Decision = "Denied";
+                    if (r.CourseName == studentRequests[ind].CourseName)
+                    {
+                        studentRequests[ind].Decision = "Denied";
+                    }
                 }
-            }
-            studentRequests.RemoveAt(ind);
+                studentRequests.RemoveAt(ind);
 
-            // Clear form
-            DispStrBox.Text = "";
-            ReasonBox.Text = "";
-            NewSchedBox.Text = "";
-            RequestCombo.SelectedIndex = -1;
+                // Clear form
+                DispStrBox.Text = "";
+                ReasonBox.Text = "";
+                NewSchedBox.Text = "";
+                RequestCombo.SelectedIndex = -1;
+            }
         }
 
         private void AllowButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            // Mark as allowed and remove from list
-            Request Temp = (Request)RequestCombo.SelectedItem;
-            int ind = studentRequests.IndexOf(Temp);
-            foreach (Request r in CurrentUser.RescheduleRequests)
+            if (RequestCombo.SelectedIndex != -1)
             {
-                if (r.CourseName == studentRequests[ind].CourseName)
+                // Mark as allowed and remove from list
+                Request Temp = (Request)RequestCombo.SelectedItem;
+                int ind = studentRequests.IndexOf(Temp);
+                foreach (Request r in CurrentUser.RescheduleRequests)
                 {
-                    studentRequests[ind].Decision = "Allowed";
+                    if (r.CourseName == studentRequests[ind].CourseName)
+                    {
+                        studentRequests[ind].Decision = "Allowed";
+                    }
                 }
-            }
 
-            // Clear form
-            studentRequests.RemoveAt(ind);
-            DispStrBox.Text = "";
-            ReasonBox.Text = "";
-            NewSchedBox.Text = "";
-            RequestCombo.SelectedIndex = -1;
-        }
+                // Clear form
+                studentRequests.RemoveAt(ind);
+                DispStrBox.Text = "";
+                ReasonBox.Text = "";
+                NewSchedBox.Text = "";
+                RequestCombo.SelectedIndex = -1;
+            }
+        }  
     }
 }
