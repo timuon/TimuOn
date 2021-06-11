@@ -18,6 +18,17 @@ namespace Timuon.Models
             Date = date;
             Content = content;
         }
+
+        public string newEventNotification()
+        {
+            string eventstring = "New event added";
+            return eventstring;
+        }
+        public string newScheduleNotification()
+        {
+            string schedulestring = "Addition to schedule happened! Check it!";
+            return schedulestring;
+        }
     }
 }
 

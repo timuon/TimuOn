@@ -36,6 +36,14 @@ namespace Timuon.Models
             //returns info about teams. C# UWP does this in back-code of View object
         }
 
+        public void save_Changes()
+        {
+            //saves changes for preferences. C# UWP does this in back-code of View object
+        }
 
+        public void grey_out()
+        {
+
+        }
     }
 }
