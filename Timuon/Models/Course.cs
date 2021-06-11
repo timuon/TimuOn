@@ -13,8 +13,8 @@ namespace Timuon.Models
         private string Coordinators { get; set; }
         private string Department { get; set; }
         private string Organization_course { get; set; }
-        private string Title { get; set; }
-        private DateTime Start_Date { get; set; }
+        public string Title { get; set; }
+        public DateTime Start_Date { get; set; }
         private DateTime End_Date { get; set; }
         private string Level { get; set; }
         private string Timetable { get; set; }
@@ -42,6 +42,11 @@ namespace Timuon.Models
             Course_Schedules = course_schedules;
             Preferences = preferences;
             Status = status;
+        }
+
+        public Tuple<string, DateTime, List<Schedule>> get_course_info()
+        {
+            return null;
         }
     }
 }

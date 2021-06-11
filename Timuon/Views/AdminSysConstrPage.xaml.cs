@@ -28,7 +28,7 @@ namespace Timuon.Views
             InitializeComponent();
             // Dummy data
             string[] EmptyStrArr = new string[] { };
-            Event[] DeptEvents = new Event[] { };
+            List<Event> DeptEvents = new List<Event>();
             List<Auditorium> Auditoriums = new List<Auditorium>();
             Auditoriums.Add(new Auditorium("BA", "CEID", "UPatras", 250, true, false));
             Auditoriums.Add(new Auditorium("B3", "CEID", "UPatras", 40, true, true));
@@ -57,14 +57,6 @@ namespace Timuon.Views
             if (AuditoriumCombo.SelectedIndex != -1)
             {
                 int ind = deptAuditoriums.IndexOf((Auditorium)AuditoriumCombo.SelectedItem);
-                //ContentDialogResult result;
-                //ContentDialog TestDialog = new ContentDialog
-                //{
-                //    Title = "Status Check",
-                //    Content = deptAuditoriums[ind].DisplayString,
-                //    CloseButtonText = "OK"
-                //};
-                //result = await TestDialog.ShowAsync();
                 EditCapacityBox.Value = deptAuditoriums[ind].Capacity;
                 EditAccessibilityBox.IsChecked = deptAuditoriums[ind].Accessibility;
                 EditAvailabilityBox.IsChecked = deptAuditoriums[ind].Availability;

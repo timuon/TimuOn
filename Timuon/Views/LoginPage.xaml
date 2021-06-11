@@ -28,7 +28,8 @@
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Password" TextWrapping="Wrap" FontSize="24" Margin="50"/>
-        <TextBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" Width="293" Margin="50"/>
+        <!--<TextBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" Width="293" Margin="50"/>-->
+        <PasswordBox x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="293" Margin="50"/>
         </StackPanel>
         
 
@@ -48,6 +49,7 @@
             <Button Content="Exit" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="80,50,0,0" VerticalAlignment="Top" Width="123" FontSize="20" Style="{StaticResource ButtonRevealStyle}"/>
 
         </Grid>
+        <PasswordBox/>
 
 
     </Grid>

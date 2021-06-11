@@ -11,7 +11,7 @@ namespace Timuon.Models
         public List<Auditorium> Auditoriums { get; set; }
         public string[] Coordinators { get; set; }
         public string[] Students { get; set; }
-        public Event[] DepartmentCalendar { get; set; }
+        public List<Event> DepartmentCalendar { get; set; }
         public List<Request> RescheduleRequests { get; set; }
         //public Schedule DepartmentSchedule { get; set; }
         public string Channel { get; set; }
@@ -21,7 +21,7 @@ namespace Timuon.Models
             string firstName, string lastName, int id, string calendars,
             string platforms, string preferences, string userOrganization,
             string department, List<Auditorium> auditoriums, string[] coordinators,
-            string[] students, Event[] departmentCalendar,
+            string[] students, List<Event> departmentCalendar,
             List<Request> rescheduleRequests, string channel) :
             base(username, password, email, phone_number, address,
                 registration_date, firstName, lastName, id, calendars,
@@ -35,6 +35,19 @@ namespace Timuon.Models
             DepartmentCalendar = departmentCalendar;
             RescheduleRequests = rescheduleRequests;
             Channel = channel;
+        }
+
+        public List<Event> getEventsToday()
+        {
+            List<Event> EventsToday = new List<Event>();
+            foreach (Event e in DepartmentCalendar)
+            {
+                if (DateTime.Compare(e.Date.Date, DateTime.Today) == 0)
+                {
+                    EventsToday.Add(e);
+                };
+            }
+            return EventsToday;
         }
     }
 }
