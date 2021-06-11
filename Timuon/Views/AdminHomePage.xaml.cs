@@ -1,5 +1,7 @@
 ﻿using System;
 
+using System.Collections.Generic;
+
 using System.Collections.ObjectModel;
 
 using Timuon.Models;
@@ -15,11 +17,34 @@ namespace Timuon.Views
         public AdminHomeViewModel ViewModel { get; } = new AdminHomeViewModel();
         ObservableCollection<Event> eventsToday = new ObservableCollection<Event>();
         public ObservableCollection<Event> EventsToday { get { return eventsToday; } }
-        //private Event NewEvent;
+        public Admin CurrentUser;
 
         public AdminHomePage()
         {
             InitializeComponent();
+
+            // Dummy data
+            string[] EmptyStrArr = new string[] { };
+            List<Event> DeptEvents = new List<Event>();
+            DeptEvents.Add(new Event("Head of Division Elections", DateTime.Today, "BA", new TimeSpan(24, 0, 0),
+                "", "", "", "Let the Hunger Games begin!"));
+            DeptEvents.Add(new Event("Faculty Meeting", new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, 10, 0, 0, 0),
+                "Online", new TimeSpan(2, 0, 0), "", "", "", "Bring your own popcorn... ;)"));
+            List<Auditorium> Auditoriums = new List<Auditorium>();
+            Auditoriums.Add(new Auditorium("BA", "CEID", "UPatras", 250, true, false));
+            Auditoriums.Add(new Auditorium("B3", "CEID", "UPatras", 40, true, true));
+            List<Request> Requests = new List<Request>();
+            Requests.Add(new Request("Introduction to Signals and Systems", 200, "Conflict with Numerical Analysis", "Tuesday 11:00-13:00"));
+            Requests.Add(new Request("Software Engineering", 400, "Four hours straight is inhumane.", "Tuesday 17:00-19:00, Thursday 17:00-19:00"));
+            CurrentUser = new Admin("Secretary", "secretary", "secretary@upatras.gr", 996981, "Rion",
+                DateTime.Now, "Secretary", "CEID", 2, "Ceid Calendar", "", "", "University of Patras",
+                "ComputerEngineering and Informatics", Auditoriums, EmptyStrArr, EmptyStrArr, DeptEvents, Requests, "");
+            DeptEvents = CurrentUser.getEventsToday();
+            foreach (Event e in DeptEvents)
+            {
+                eventsToday.Add(e);
+            }
+
             EventsList.ItemsSource = EventsToday;
         }
 
@@ -50,20 +75,17 @@ namespace Timuon.Views
             else
             {
                 // Specified start time
-                EventDate = EventDatePicker.Date.DateTime + StartTimePicker.Time; 
-                DateTime EndDateTime = EventDatePicker.Date.DateTime + EndTimePicker.Time;
+                EventDate = EventDatePicker.Date.DateTime.Date + StartTimePicker.Time; 
+                DateTime EndDateTime = EventDatePicker.Date.DateTime.Date + EndTimePicker.Time;
                 EventDuration = EndDateTime - EventDate;
             }
 
             EventDate = DateTime.SpecifyKind(EventDate, DateTimeKind.Local);
             Event NewEvent = new Event(EventName, EventDate, "", EventDuration, "", "", "", EventDescription);
-            /*
-             * Schedule userSchedule = currentUser.Schedule;
-             * bool conflict = userSchedule.checkConflict(newEvent);
-             */
 
-            //bool Conflict = false;
-            bool Conflict = true;
+            // Randomly determine if there is a conflict
+            var Rand = new Random();
+            bool Conflict = Rand.NextDouble() < 0.5 ? true : false;
             ContentDialogResult result;
             if (Conflict)
             {
@@ -84,18 +106,20 @@ namespace Timuon.Views
                 if (result == ContentDialogResult.Primary)
                 {
                     // Event addition and confirmation
-                    // TODO: pass event to user
+                    // Pass event to user
+                    CurrentUser.DepartmentCalendar.Add(NewEvent);
+
+                    // Info dialogue box
                     ContentDialog successDialog = new ContentDialog
                     {
                         Title = "Success!",
                         Content = "Event added successfully!",
                         CloseButtonText = "OK"
                     };
-
                     result = await successDialog.ShowAsync();
 
-                    // TODO fix difference!!!
-                    if (DateTime.Compare(NewEvent.Date, DateTime.Now) >= 0)
+                    // Add to today's events list
+                    if (DateTime.Compare(NewEvent.Date.Date, DateTime.Today) == 0)
                     {
                         EventsToday.Add(NewEvent);
                     }
@@ -104,7 +128,10 @@ namespace Timuon.Views
             else
             {
                 // Event addition and confirmation
-                // TODO: pass event to user
+                // Pass event to user
+                CurrentUser.DepartmentCalendar.Add(NewEvent);
+
+                // Info dialogue box
                 ContentDialog overlappingEventsDialog = new ContentDialog
                 {
                     Title = "Success!",
@@ -114,13 +141,13 @@ namespace Timuon.Views
                     "No conflicts detected. Event added successfully!",
                     CloseButtonText = "OK"
                 };
-
                 result = await overlappingEventsDialog.ShowAsync();
-                if (DateTime.Compare(NewEvent.Date, DateTime.Now) == 0)
+
+                // Add to today's events list
+                if (DateTime.Compare(NewEvent.Date.Date, DateTime.Today) == 0)
                 {
                     EventsToday.Add(NewEvent);
                 }
-
             }
 
             // Clear form
