@@ -28,8 +28,8 @@
                 <RowDefinition Height="5*"/>
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right">
-                <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Date" HorizontalAlignment="Right"/>
-                <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Department" HorizontalAlignment="Right"/>
+                <TextBlock x:Name="DateBox" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Right"/>
+                <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Computer Engineering and Informatics" HorizontalAlignment="Right"/>
             </StackPanel>
             <TextBlock Grid.Row="1" Grid.Column="0" Text="Auditoriums" Style="{StaticResource TitleTextBlockStyle}"
                        HorizontalAlignment="Left" Margin="40,10,0,0"/>

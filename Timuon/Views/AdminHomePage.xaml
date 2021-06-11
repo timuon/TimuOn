@@ -26,8 +26,8 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Grid.Column="1"
                         Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right">
-                <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Date" HorizontalAlignment="Right"/>
-                <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Department" HorizontalAlignment="Right"/>
+                <TextBlock x:Name="DateBox" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Right"/>
+                <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Computer Engineering and Informatics" HorizontalAlignment="Right"/>
             </StackPanel>
             <CalendarView Grid.Row="2" Grid.Column="0" Margin="60,20,60,30" 
                           MaxHeight="480" MaxWidth="490" VerticalAlignment="Center" HorizontalAlignment="Stretch"

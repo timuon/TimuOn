@@ -50,6 +50,7 @@ namespace Timuon.Views
             }
             RequestsList.ItemsSource = StudentRequests;
             RequestCombo.ItemsSource = StudentRequests;
+            DateBox.Text = DateTime.Today.ToString("dd/MM/yyyy");
         }
 
         private void AuditoriumCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -59,7 +59,7 @@ namespace Timuon.Models
 
         public static string deleteEvent(string name)
         {
-            string x = "delete event with name {name}"
+            string x = "delete event with name {name}";
             return x;
         }
         public void changeAuditoriumAvai()

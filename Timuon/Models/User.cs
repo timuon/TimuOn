@@ -15,6 +15,7 @@ namespace Timuon.Models
         private int Id { get; set; }
         private string Calendars { get; set; }
         private string Platforms { get; set; }
+        private string Preferences { get; set; }
 
         public User(string username, string password, string email,
             int phone_number, string address, DateTime registration_date,
@@ -109,10 +110,6 @@ namespace Timuon.Models
 
         }
 
-        public void get_Preferences()
-        {
-
-        }
         public void get_User_channels()
         {
 

@@ -46,6 +46,7 @@ namespace Timuon.Views
             }
 
             EventsList.ItemsSource = EventsToday;
+            DateBox.Text = DateTime.Today.ToString("dd/MM/yyyy");
         }
 
         private void AllDayCheckBox_Checked(object sender, Windows.UI.Xaml.RoutedEventArgs e)

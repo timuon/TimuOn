@@ -1,25 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Timuon.Views.LoginPage">
-    <Position X="18" Y="7.5" Width="1.5" />
+    <Position X="18" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\LoginPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.AdminShellPage">
-    <Position X="6.75" Y="13.25" Width="1.5" />
+    <Position X="7" Y="13.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\AdminShellPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.ShellPageCoordinator">
-    <Position X="31.25" Y="12.25" Width="1.5" />
+    <Position X="32.25" Y="12" Width="1.5" />
+    <InheritanceLine Type="Windows.UI.Xaml.Controls.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="19.75" Y="6.242" />
+        <Point X="19.75" Y="11.5" />
+        <Point X="19.917" Y="11.5" Type="JumpStart" />
+        <Point X="20.083" Y="11.5" Type="JumpEnd" />
+        <Point X="20.323" Y="11.5" Type="JumpStart" />
+        <Point X="20.49" Y="11.5" Type="JumpEnd" />
+        <Point X="21.417" Y="11.5" Type="JumpStart" />
+        <Point X="21.583" Y="11.5" Type="JumpEnd" />
+        <Point X="22.135" Y="11.5" Type="JumpStart" />
+        <Point X="22.302" Y="11.5" Type="JumpEnd" />
+        <Point X="22.542" Y="11.5" Type="JumpStart" />
+        <Point X="22.708" Y="11.5" Type="JumpEnd" />
+        <Point X="24.667" Y="11.5" Type="JumpStart" />
+        <Point X="24.957" Y="11.5" Type="JumpEnd" />
+        <Point X="27.104" Y="11.5" Type="JumpStart" />
+        <Point X="27.271" Y="11.5" Type="JumpEnd" />
+        <Point X="28.35" Y="11.5" Type="JumpStart" />
+        <Point X="28.517" Y="11.5" Type="JumpEnd" />
+        <Point X="28.84" Y="11.5" />
+        <Point X="28.84" Y="12.984" />
+        <Point X="31.09" Y="12.984" />
+        <Point X="31.09" Y="12.09" />
+        <Point X="33" Y="12.09" />
+        <Point X="33" Y="12" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\ShellPageCoordinator.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.ShellPageOrganization">
     <Position X="29" Y="1" Width="1.5" />
@@ -27,16 +58,18 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\ShellPageOrganization.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.ShellPageStudent">
-    <Position X="5.25" Y="5.25" Width="1.5" />
+    <Position X="8" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\ShellPageStudent.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.AdminHomePage">
-    <Position X="6.75" Y="9.5" Width="1.5" />
+    <Position X="7" Y="9.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAABAAAAEQAgCAAAAAAAAAAAQAA=</HashCode>
       <FileName>Views\AdminHomePage.xaml.cs</FileName>
@@ -46,49 +79,313 @@
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Field Name="eventsToday" />
+      <Property Name="EventsToday" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.AdminSysConstrPage">
     <Position X="4.75" Y="10" Width="1.5" />
+    <AssociationLine Name="studentRequests" Type="Timuon.Models.Request" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="11.222" />
+        <Point X="6.688" Y="11.222" />
+        <Point X="6.688" Y="16.155" />
+        <Point X="12.667" Y="16.155" Type="JumpStart" />
+        <Point X="12.833" Y="16.155" Type="JumpEnd" />
+        <Point X="14.513" Y="16.155" Type="JumpStart" />
+        <Point X="14.679" Y="16.155" Type="JumpEnd" />
+        <Point X="14.716" Y="16.155" Type="JumpStart" />
+        <Point X="14.882" Y="16.155" Type="JumpEnd" />
+        <Point X="14.908" Y="16.155" Type="JumpStart" />
+        <Point X="15.083" Y="16.155" Type="JumpEnd" />
+        <Point X="15.475" Y="16.155" Type="JumpStart" />
+        <Point X="15.642" Y="16.155" Type="JumpEnd" />
+        <Point X="16.417" Y="16.155" Type="JumpStart" />
+        <Point X="16.74" Y="16.155" Type="JumpEnd" />
+        <Point X="18.917" Y="16.155" Type="JumpStart" />
+        <Point X="19.083" Y="16.155" Type="JumpEnd" />
+        <Point X="19.188" Y="16.155" />
+        <Point X="19.188" Y="15.252" />
+        <Point X="19.917" Y="15.252" Type="JumpStart" />
+        <Point X="20.083" Y="15.252" Type="JumpEnd" />
+        <Point X="21.417" Y="15.252" Type="JumpStart" />
+        <Point X="21.583" Y="15.252" Type="JumpEnd" />
+        <Point X="22.312" Y="15.252" />
+        <Point X="22.312" Y="16.887" />
+        <Point X="22.542" Y="16.887" Type="JumpStart" />
+        <Point X="22.708" Y="16.887" Type="JumpEnd" />
+        <Point X="24.667" Y="16.887" Type="JumpStart" />
+        <Point X="24.957" Y="16.887" Type="JumpEnd" />
+        <Point X="25.417" Y="16.887" Type="JumpStart" />
+        <Point X="25.583" Y="16.887" Type="JumpEnd" />
+        <Point X="27.417" Y="16.887" Type="JumpStart" />
+        <Point X="27.583" Y="16.887" Type="JumpEnd" />
+        <Point X="29.341" Y="16.887" />
+        <Point X="29.341" Y="18.075" />
+        <Point X="33.75" Y="18.075" />
+        <Point X="33.75" Y="18.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="StudentRequests" Type="Timuon.Models.Request" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="11.945" />
+        <Point X="6.688" Y="11.945" />
+        <Point X="6.688" Y="16.155" />
+        <Point X="12.667" Y="16.155" Type="JumpStart" />
+        <Point X="12.833" Y="16.155" Type="JumpEnd" />
+        <Point X="14.513" Y="16.155" Type="JumpStart" />
+        <Point X="14.679" Y="16.155" Type="JumpEnd" />
+        <Point X="14.716" Y="16.155" Type="JumpStart" />
+        <Point X="14.882" Y="16.155" Type="JumpEnd" />
+        <Point X="14.908" Y="16.155" Type="JumpStart" />
+        <Point X="15.083" Y="16.155" Type="JumpEnd" />
+        <Point X="15.475" Y="16.155" Type="JumpStart" />
+        <Point X="15.642" Y="16.155" Type="JumpEnd" />
+        <Point X="16.417" Y="16.155" Type="JumpStart" />
+        <Point X="16.74" Y="16.155" Type="JumpEnd" />
+        <Point X="18.917" Y="16.155" Type="JumpStart" />
+        <Point X="19.083" Y="16.155" Type="JumpEnd" />
+        <Point X="19.188" Y="16.155" />
+        <Point X="19.188" Y="15.252" />
+        <Point X="19.917" Y="15.252" Type="JumpStart" />
+        <Point X="20.083" Y="15.252" Type="JumpEnd" />
+        <Point X="21.417" Y="15.252" Type="JumpStart" />
+        <Point X="21.583" Y="15.252" Type="JumpEnd" />
+        <Point X="22.312" Y="15.252" />
+        <Point X="22.312" Y="17.024" />
+        <Point X="22.542" Y="17.024" Type="JumpStart" />
+        <Point X="22.708" Y="17.024" Type="JumpEnd" />
+        <Point X="24.667" Y="17.024" Type="JumpStart" />
+        <Point X="24.957" Y="17.024" Type="JumpEnd" />
+        <Point X="29.341" Y="17.024" />
+        <Point X="29.341" Y="18.003" />
+        <Point X="34.156" Y="18.003" />
+        <Point X="34.156" Y="18.5" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>gAAAAIAAAIAAAAAAAQAAAAQAEQAEACAABAARggAAAAg=</HashCode>
       <FileName>Views\AdminSysConstrPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentUser" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Field Name="deptAuditoriums" />
       <Field Name="studentRequests" />
+      <Property Name="DeptAuditoriums" />
+      <Property Name="StudentRequests" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.CoordinatorHome">
     <Position X="30" Y="16" Width="1.5" />
+    <InheritanceLine Type="Windows.UI.Xaml.Controls.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="19.75" Y="6.242" />
+        <Point X="19.75" Y="10.965" />
+        <Point X="19.917" Y="10.965" Type="JumpStart" />
+        <Point X="20.083" Y="10.965" Type="JumpEnd" />
+        <Point X="20.323" Y="10.965" Type="JumpStart" />
+        <Point X="20.49" Y="10.965" Type="JumpEnd" />
+        <Point X="21.417" Y="10.965" Type="JumpStart" />
+        <Point X="21.583" Y="10.965" Type="JumpEnd" />
+        <Point X="22.135" Y="10.965" Type="JumpStart" />
+        <Point X="22.302" Y="10.965" Type="JumpEnd" />
+        <Point X="22.542" Y="10.965" Type="JumpStart" />
+        <Point X="22.708" Y="10.965" Type="JumpEnd" />
+        <Point X="23.417" Y="10.965" Type="JumpStart" />
+        <Point X="23.583" Y="10.965" Type="JumpEnd" />
+        <Point X="24.667" Y="10.965" Type="JumpStart" />
+        <Point X="24.957" Y="10.965" Type="JumpEnd" />
+        <Point X="27.104" Y="10.965" Type="JumpStart" />
+        <Point X="27.271" Y="10.965" Type="JumpEnd" />
+        <Point X="27.667" Y="10.965" Type="JumpStart" />
+        <Point X="27.833" Y="10.965" Type="JumpEnd" />
+        <Point X="28.84" Y="10.965" />
+        <Point X="28.84" Y="13.281" />
+        <Point X="31.09" Y="13.281" />
+        <Point X="31.09" Y="14.398" />
+        <Point X="30.833" Y="14.398" Type="JumpStart" />
+        <Point X="30.667" Y="14.398" Type="JumpEnd" />
+        <Point X="29.898" Y="14.398" />
+        <Point X="29.898" Y="15.846" />
+        <Point X="30.75" Y="15.846" />
+        <Point X="30.75" Y="16" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAE=</HashCode>
       <FileName>Views\CoordinatorHome.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.CoordinatorProfile">
     <Position X="32.5" Y="16.25" Width="1.5" />
+    <InheritanceLine Type="Windows.UI.Xaml.Controls.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="19.75" Y="6.242" />
+        <Point X="19.75" Y="10.991" />
+        <Point X="19.917" Y="10.991" Type="JumpStart" />
+        <Point X="20.083" Y="10.991" Type="JumpEnd" />
+        <Point X="20.323" Y="10.991" Type="JumpStart" />
+        <Point X="20.49" Y="10.991" Type="JumpEnd" />
+        <Point X="21.417" Y="10.991" Type="JumpStart" />
+        <Point X="21.583" Y="10.991" Type="JumpEnd" />
+        <Point X="22.135" Y="10.991" Type="JumpStart" />
+        <Point X="22.302" Y="10.991" Type="JumpEnd" />
+        <Point X="22.542" Y="10.991" Type="JumpStart" />
+        <Point X="22.708" Y="10.991" Type="JumpEnd" />
+        <Point X="24.667" Y="10.991" Type="JumpStart" />
+        <Point X="24.957" Y="10.991" Type="JumpEnd" />
+        <Point X="27.104" Y="10.991" Type="JumpStart" />
+        <Point X="27.271" Y="10.991" Type="JumpEnd" />
+        <Point X="28.433" Y="10.991" />
+        <Point X="28.433" Y="14.398" />
+        <Point X="30.667" Y="14.398" Type="JumpStart" />
+        <Point X="30.833" Y="14.398" Type="JumpEnd" />
+        <Point X="32.372" Y="14.398" />
+        <Point X="32.372" Y="16.058" />
+        <Point X="33.25" Y="16.058" />
+        <Point X="33.25" Y="16.25" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>Views\CoordinatorProfile.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.CoordinatorSchedule">
     <Position X="30" Y="14.5" Width="1.5" />
+    <InheritanceLine Type="Windows.UI.Xaml.Controls.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="19.75" Y="6.242" />
+        <Point X="19.75" Y="11.5" />
+        <Point X="19.917" Y="11.5" Type="JumpStart" />
+        <Point X="20.083" Y="11.5" Type="JumpEnd" />
+        <Point X="20.323" Y="11.5" Type="JumpStart" />
+        <Point X="20.49" Y="11.5" Type="JumpEnd" />
+        <Point X="21.417" Y="11.5" Type="JumpStart" />
+        <Point X="21.583" Y="11.5" Type="JumpEnd" />
+        <Point X="22.135" Y="11.5" Type="JumpStart" />
+        <Point X="22.302" Y="11.5" Type="JumpEnd" />
+        <Point X="22.542" Y="11.5" Type="JumpStart" />
+        <Point X="22.708" Y="11.5" Type="JumpEnd" />
+        <Point X="24.667" Y="11.5" Type="JumpStart" />
+        <Point X="24.957" Y="11.5" Type="JumpEnd" />
+        <Point X="27.104" Y="11.5" Type="JumpStart" />
+        <Point X="27.271" Y="11.5" Type="JumpEnd" />
+        <Point X="28.35" Y="11.5" Type="JumpStart" />
+        <Point X="28.517" Y="11.5" Type="JumpEnd" />
+        <Point X="28.84" Y="11.5" />
+        <Point X="28.84" Y="13.437" />
+        <Point X="30.75" Y="13.437" />
+        <Point X="30.75" Y="14.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\CoordinatorSchedule.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.coursesCoordinator">
     <Position X="32.5" Y="14.5" Width="1.5" />
+    <InheritanceLine Type="Windows.UI.Xaml.Controls.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="19.75" Y="6.242" />
+        <Point X="19.75" Y="11.5" />
+        <Point X="19.917" Y="11.5" Type="JumpStart" />
+        <Point X="20.083" Y="11.5" Type="JumpEnd" />
+        <Point X="20.323" Y="11.5" Type="JumpStart" />
+        <Point X="20.49" Y="11.5" Type="JumpEnd" />
+        <Point X="21.417" Y="11.5" Type="JumpStart" />
+        <Point X="21.583" Y="11.5" Type="JumpEnd" />
+        <Point X="22.135" Y="11.5" Type="JumpStart" />
+        <Point X="22.302" Y="11.5" Type="JumpEnd" />
+        <Point X="22.542" Y="11.5" Type="JumpStart" />
+        <Point X="22.708" Y="11.5" Type="JumpEnd" />
+        <Point X="24.667" Y="11.5" Type="JumpStart" />
+        <Point X="24.957" Y="11.5" Type="JumpEnd" />
+        <Point X="27.104" Y="11.5" Type="JumpStart" />
+        <Point X="27.271" Y="11.5" Type="JumpEnd" />
+        <Point X="28.215" Y="11.5" />
+        <Point X="28.215" Y="14.398" />
+        <Point X="30.667" Y="14.398" Type="JumpStart" />
+        <Point X="30.833" Y="14.398" Type="JumpEnd" />
+        <Point X="33.25" Y="14.398" />
+        <Point X="33.25" Y="14.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\CoursesCoordinator.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.Calendar">
     <Position X="12" Y="17.75" Width="1.5" />
+    <AssociationLine Name="eclassAccounts" Type="Timuon.Models.EclassIntegration" ManuallyRouted="true">
+      <Path>
+        <Point X="12.75" Y="17.75" />
+        <Point X="12.75" Y="17.625" />
+        <Point X="14.309" Y="17.625" Type="JumpStart" />
+        <Point X="14.476" Y="17.625" Type="JumpEnd" />
+        <Point X="14.513" Y="17.625" Type="JumpStart" />
+        <Point X="14.679" Y="17.625" Type="JumpEnd" />
+        <Point X="14.716" Y="17.625" Type="JumpStart" />
+        <Point X="14.882" Y="17.625" Type="JumpEnd" />
+        <Point X="14.908" Y="17.625" Type="JumpStart" />
+        <Point X="15.083" Y="17.625" Type="JumpEnd" />
+        <Point X="15.1" Y="17.625" Type="JumpStart" />
+        <Point X="15.267" Y="17.625" Type="JumpEnd" />
+        <Point X="15.475" Y="17.625" Type="JumpStart" />
+        <Point X="15.642" Y="17.625" Type="JumpEnd" />
+        <Point X="15.917" Y="17.625" Type="JumpStart" />
+        <Point X="16.083" Y="17.625" Type="JumpEnd" />
+        <Point X="16.25" Y="17.625" />
+        <Point X="16.25" Y="23.088" />
+        <Point X="17.217" Y="23.088" Type="JumpStart" />
+        <Point X="17.384" Y="23.088" Type="JumpEnd" />
+        <Point X="17.728" Y="23.088" Type="JumpStart" />
+        <Point X="17.895" Y="23.088" Type="JumpEnd" />
+        <Point X="24.998" Y="23.088" />
+        <Point X="24.998" Y="21.594" />
+        <Point X="25.039" Y="21.594" Type="JumpStart" />
+        <Point X="25.319" Y="21.594" Type="JumpEnd" />
+        <Point X="28.75" Y="21.594" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="EclassAccounts" Type="Timuon.Models.EclassIntegration" ManuallyRouted="true">
+      <Path>
+        <Point X="13.156" Y="17.75" />
+        <Point X="13.156" Y="17.625" />
+        <Point X="14.309" Y="17.625" Type="JumpStart" />
+        <Point X="14.476" Y="17.625" Type="JumpEnd" />
+        <Point X="14.513" Y="17.625" Type="JumpStart" />
+        <Point X="14.679" Y="17.625" Type="JumpEnd" />
+        <Point X="14.716" Y="17.625" Type="JumpStart" />
+        <Point X="14.882" Y="17.625" Type="JumpEnd" />
+        <Point X="14.908" Y="17.625" Type="JumpStart" />
+        <Point X="15.083" Y="17.625" Type="JumpEnd" />
+        <Point X="15.1" Y="17.625" Type="JumpStart" />
+        <Point X="15.267" Y="17.625" Type="JumpEnd" />
+        <Point X="15.475" Y="17.625" Type="JumpStart" />
+        <Point X="15.642" Y="17.625" Type="JumpEnd" />
+        <Point X="15.917" Y="17.625" Type="JumpStart" />
+        <Point X="16.083" Y="17.625" Type="JumpEnd" />
+        <Point X="16.25" Y="17.625" />
+        <Point X="16.25" Y="23.088" />
+        <Point X="17.217" Y="23.088" Type="JumpStart" />
+        <Point X="17.384" Y="23.088" Type="JumpEnd" />
+        <Point X="17.728" Y="23.088" Type="JumpStart" />
+        <Point X="17.895" Y="23.088" Type="JumpEnd" />
+        <Point X="25.399" Y="23.088" />
+        <Point X="25.399" Y="21.922" />
+        <Point X="28.75" Y="21.922" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAIAAEgAAABQGECACIAAAEAEAAAACAAIiADACRAAAA=</HashCode>
       <FileName>Views\Calendar.xaml.cs</FileName>
@@ -101,16 +398,18 @@
       <Field Name="eclassAccounts" />
       <Field Name="activePlatforms" />
       <Property Name="ActiveFeeds" />
-      <Property Name="ActivePlatforms" />
       <Property Name="EclassAccounts" />
+      <Property Name="ActivePlatforms" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.CoursesStudentPage">
-    <Position X="7.25" Y="2.75" Width="1.5" />
+    <Position X="10" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACEAAAABAAAAAAEABAAQAECEQAAIBAQAAAAEIhAAAA=</HashCode>
       <FileName>Views\CoursesStudentPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.History_Log">
     <Position X="14.25" Y="17.75" Width="1.5" />
@@ -119,10 +418,15 @@
       <FileName>Views\History_Log.xaml.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
-      <Field Name="list_schedule" />
-      <Field Name="team_course" />
       <Field Name="user_course" />
+      <Field Name="team_course" />
+      <Field Name="list_schedule" />
+      <Field Name="user_org" />
+      <Property Name="Team_course" />
+      <Property Name="User_course" />
+      <Property Name="User_org" />
     </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.OrganizationEventPage">
     <Position X="26.75" Y="1" Width="1.5" />
@@ -130,6 +434,7 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAGgAQAAgAEAAAAAAAACA=</HashCode>
       <FileName>Views\OrganizationEventPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.OrganizationHomePage">
     <Position X="26.75" Y="4.75" Width="1.5" />
@@ -137,6 +442,7 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\OrganizationHomePage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.OrganizationSchedulePage">
     <Position X="29" Y="3.25" Width="1.5" />
@@ -144,20 +450,57 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAGAAAAAgAAAAAAAAIAAA=</HashCode>
       <FileName>Views\OrganizationSchedulePage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.RSSFeedSettingsPage">
     <Position X="16.5" Y="17.75" Width="1.5" />
+    <AssociationLine Name="eclassAccounts" Type="Timuon.Models.EclassIntegration" ManuallyRouted="true">
+      <Path>
+        <Point X="17.359" Y="17.75" />
+        <Point X="17.359" Y="17.25" />
+        <Point X="18.25" Y="17.25" />
+        <Point X="18.25" Y="23.088" />
+        <Point X="25.123" Y="23.088" />
+        <Point X="25.123" Y="21.266" />
+        <Point X="28.75" Y="21.266" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="EclassAccounts" Type="Timuon.Models.EclassIntegration" ManuallyRouted="true">
+      <Path>
+        <Point X="17.711" Y="17.75" />
+        <Point X="17.711" Y="17.25" />
+        <Point X="18.25" Y="17.25" />
+        <Point X="18.25" Y="23.088" />
+        <Point X="25.236" Y="23.088" />
+        <Point X="25.236" Y="21.43" />
+        <Point X="28.75" Y="21.43" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAIAAEgEIIAQCEIAAAAAAQAEAAAASAAIiACAARAAAA=</HashCode>
       <FileName>Views\RSSFeedSettingsPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentUser" />
+      <Field Name="NewFeed" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="activeFeeds" />
+      <Field Name="activePlatforms" />
+      <Field Name="eclassAccounts" />
+      <Property Name="ActiveFeeds" />
+      <Property Name="ActivePlatforms" />
+      <Property Name="EclassAccounts" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.ScheduleStudentPage">
-    <Position X="5.25" Y="1" Width="1.5" />
+    <Position X="8" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQCAgAAAAAAAAAAAAAAIAIEAAACAAIAAAAgAAQAAAAE=</HashCode>
       <FileName>Views\ScheduleStudentPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.SettingsPage">
     <Position X="20.75" Y="17.75" Width="1.5" />
@@ -165,20 +508,68 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\SettingsPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.StudentHomePage">
-    <Position X="7.25" Y="1" Width="1.5" />
+    <Position X="10" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\StudentHomePage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.Subscriptions">
-    <Position X="18.75" Y="17.75" Width="1.5" />
+    <Position X="18.5" Y="17.75" Width="1.5" />
+    <AssociationLine Name="user_channel" Type="Timuon.Models.Channel" ManuallyRouted="true">
+      <Path>
+        <Point X="20" Y="20.724" />
+        <Point X="20.625" Y="20.724" />
+        <Point X="20.625" Y="17.627" />
+        <Point X="22.344" Y="17.627" />
+        <Point X="22.344" Y="17" />
+        <Point X="22.542" Y="17" Type="JumpStart" />
+        <Point X="22.708" Y="17" Type="JumpEnd" />
+        <Point X="24.667" Y="17" Type="JumpStart" />
+        <Point X="24.957" Y="17" Type="JumpEnd" />
+        <Point X="25.5" Y="17" />
+        <Point X="25.5" Y="14.88" />
+        <Point X="27.156" Y="14.88" />
+        <Point X="27.156" Y="13.997" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="User_search" Type="Timuon.Models.Channel" ManuallyRouted="true">
+      <Path>
+        <Point X="20" Y="18.434" />
+        <Point X="20.625" Y="18.434" />
+        <Point X="20.625" Y="17.627" />
+        <Point X="22.344" Y="17.627" />
+        <Point X="22.344" Y="17" />
+        <Point X="22.542" Y="17" Type="JumpStart" />
+        <Point X="22.708" Y="17" Type="JumpEnd" />
+        <Point X="24.667" Y="17" Type="JumpStart" />
+        <Point X="24.957" Y="17" Type="JumpEnd" />
+        <Point X="25.5" Y="17" />
+        <Point X="25.5" Y="15.056" />
+        <Point X="27.359" Y="15.056" />
+        <Point X="27.359" Y="13.997" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIBAIAAEACAEAAECBBgAIAAQAAAACCBgAAg=</HashCode>
       <FileName>Views\Subscriptions.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="list_schedule" />
+      <Field Name="People" />
+      <Field Name="PeopleFiltered" />
+      <Field Name="user_channel" />
+      <Field Name="user_search" />
+      <Field Name="user_subs" />
+      <Property Name="User_channel" />
+      <Property Name="User_search" />
+      <Property Name="User_subs" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Views.TabbedPivotPage">
     <Position X="20.75" Y="20" Width="1.5" />
@@ -186,9 +577,55 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQQAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Views\TabbedPivotPage.xaml.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Timuon.Models.Admin">
-    <Position X="10" Y="10.75" Width="1.5" />
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <AssociationLine Name="RescheduleRequests" Type="Timuon.Models.Request" ManuallyRouted="true">
+      <Path>
+        <Point X="11.25" Y="12.305" />
+        <Point X="11.417" Y="12.305" Type="JumpStart" />
+        <Point X="11.583" Y="12.305" Type="JumpEnd" />
+        <Point X="12.667" Y="12.305" Type="JumpStart" />
+        <Point X="12.833" Y="12.305" Type="JumpEnd" />
+        <Point X="14.513" Y="12.305" Type="JumpStart" />
+        <Point X="14.679" Y="12.305" Type="JumpEnd" />
+        <Point X="14.716" Y="12.305" Type="JumpStart" />
+        <Point X="14.882" Y="12.305" Type="JumpEnd" />
+        <Point X="14.908" Y="12.305" Type="JumpStart" />
+        <Point X="15.083" Y="12.305" Type="JumpEnd" />
+        <Point X="15.475" Y="12.305" Type="JumpStart" />
+        <Point X="15.642" Y="12.305" Type="JumpEnd" />
+        <Point X="16.5" Y="12.305" />
+        <Point X="16.5" Y="17.625" />
+        <Point X="16.573" Y="17.625" Type="JumpStart" />
+        <Point X="16.74" Y="17.625" Type="JumpEnd" />
+        <Point X="17.167" Y="17.625" Type="JumpStart" />
+        <Point X="17.443" Y="17.625" Type="JumpEnd" />
+        <Point X="17.628" Y="17.625" Type="JumpStart" />
+        <Point X="17.794" Y="17.625" Type="JumpEnd" />
+        <Point X="18.167" Y="17.625" Type="JumpStart" />
+        <Point X="18.333" Y="17.625" Type="JumpEnd" />
+        <Point X="19.167" Y="17.625" Type="JumpStart" />
+        <Point X="19.333" Y="17.625" Type="JumpEnd" />
+        <Point X="20.25" Y="17.625" />
+        <Point X="20.25" Y="17.877" />
+        <Point X="20.5" Y="17.877" />
+        <Point X="20.5" Y="17.562" />
+        <Point X="22.542" Y="17.562" Type="JumpStart" />
+        <Point X="22.708" Y="17.562" Type="JumpEnd" />
+        <Point X="23.417" Y="17.562" Type="JumpStart" />
+        <Point X="23.583" Y="17.562" Type="JumpEnd" />
+        <Point X="24.79" Y="17.562" Type="JumpStart" />
+        <Point X="24.957" Y="17.562" Type="JumpEnd" />
+        <Point X="25.5" Y="17.562" />
+        <Point X="25.5" Y="17.024" />
+        <Point X="28.889" Y="17.024" />
+        <Point X="28.889" Y="18.066" />
+        <Point X="33.344" Y="18.066" />
+        <Point X="33.344" Y="18.5" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAIAAAIgCAAAAAAACAAAAAAAEAAAAAgAQQAAAQAAAAA=</HashCode>
       <FileName>Models\Admin.cs</FileName>
@@ -200,21 +637,37 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Models.Student">
-    <Position X="10" Y="2.25" Width="1.5" />
+    <Position X="12.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACgAAAAAAAAAAEABACAAAAEAAhAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AABCgAAAAAKAAAEEEBACAAAAEAAhAABAAAAAAJQAAAE=</HashCode>
       <FileName>Models\Student.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Announcement">
     <Position X="22.75" Y="9" Width="1.5" />
+    <InheritanceLine Type="Timuon.Models.Message" ManuallyRouted="true">
+      <Path>
+        <Point X="32" Y="8.75" />
+        <Point X="32" Y="8.875" />
+        <Point X="30.25" Y="8.875" />
+        <Point X="30.25" Y="9.662" />
+        <Point X="27.75" Y="9.662" />
+        <Point X="27.75" Y="11.059" />
+        <Point X="27.271" Y="11.059" Type="JumpStart" />
+        <Point X="27.104" Y="11.059" Type="JumpEnd" />
+        <Point X="24.957" Y="11.059" Type="JumpStart" />
+        <Point X="24.667" Y="11.059" Type="JumpEnd" />
+        <Point X="23.5" Y="11.059" />
+        <Point X="23.5" Y="10.684" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Announcement.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Auditorium">
-    <Position X="16.5" Y="12" Width="1.5" />
+    <Position X="16.75" Y="12.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAgAIAAAAAAAgABAAQCEgAAAAACAAAAABAAAAA=</HashCode>
       <FileName>Models\Auditorium.cs</FileName>
@@ -224,21 +677,27 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Models.Calendar">
-    <Position X="22.5" Y="12" Width="1.5" />
+    <Position X="23" Y="12" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAABQABAAAAoAAAAAAsAAEgCAAAgAAAUQAAARAAAAA=</HashCode>
       <FileName>Models\Calendar.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Channel">
-    <Position X="25.75" Y="12.25" Width="1.5" />
+    <Position X="26" Y="12.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAAAAgAAAAAQAAAAABAAAgAAAAAAAAAg=</HashCode>
       <FileName>Models\Channel.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin_channel" />
+      <Property Name="Course_channel" />
+      <Property Name="Event_channel" />
+      <Property Name="User_channel" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Timuon.Models.CloudDrive">
-    <Position X="28.75" Y="7.5" Width="1.5" />
+    <Position X="28.25" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
       <FileName>Models\CloudDrive.cs</FileName>
@@ -252,21 +711,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Event">
-    <Position X="19.25" Y="11" Width="1.5" />
+    <Position X="19.25" Y="11.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAgAAAmAAAAAAAAAAQAAEAAAAABACAAAAAAAAA=</HashCode>
       <FileName>Models\Event.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Conflict">
-    <Position X="28.5" Y="10" Width="1.5" />
+    <Position X="29.25" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAFAAAIAAAAAAAAAAAAAAAAAAAAEAAIAAAA=</HashCode>
       <FileName>Models\Conflict.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Course">
-    <Position X="25.5" Y="7" Width="1.5" />
+    <Position X="26" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAEAAIAAEAAAAgQIAAAEAAAAAAFQAAAAQAIAEA=</HashCode>
       <FileName>Models\Course.cs</FileName>
@@ -278,25 +737,27 @@
   <Class Name="Timuon.Models.Schedule">
     <Position X="21.75" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAAAAgAAAAAAAAAAABAQAAAgAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Schedule.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.EclassIntegration">
-    <Position X="28.25" Y="20.75" Width="1.5" />
+    <Position X="28.75" Y="21" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Models\EclassIntegration.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.History">
-    <Position X="23" Y="20" Width="1.5" />
+    <Position X="22.75" Y="20" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AASAAAACAAAAAAAAAAAAAAYAAAAAAAAAQAAAAAAABAA=</HashCode>
       <FileName>Models\History.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Property Name="Courses_hist" />
+      <Property Name="Organizations_hist" />
+      <Property Name="Teams_hist" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Timuon.Models.Log">
@@ -314,14 +775,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.Message">
-    <Position X="31.75" Y="8.75" Width="1.5" />
+    <Position X="31.25" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAIAAAAAAAEAAAAEAAABAAAAAAAIAAA=</HashCode>
       <FileName>Models\Message.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Timuon.Models.Platform" Collapsed="true">
-    <Position X="30.75" Y="23" Width="1.5" />
+  <Class Name="Timuon.Models.Platform">
+    <Position X="32" Y="22" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Models\Platform.cs</FileName>
@@ -335,7 +796,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Timuon.Models.RSSFeed">
-    <Position X="25.5" Y="20.25" Width="1.5" />
+    <Position X="26.5" Y="22.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAgQAACAAEAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\RSSFeed.cs</FileName>
@@ -348,12 +809,30 @@
       <FileName>Models\Teams.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Timuon.Models.TempRescheduleRequest" Collapsed="true">
-    <Position X="32.25" Y="21.75" Width="1.5" />
+  <Class Name="Timuon.Models.TempRescheduleRequest">
+    <Position X="34.5" Y="21.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAABAAAAAAQAAAAAAAAgA=</HashCode>
       <FileName>Models\TempRescheduleRequest.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.Organization">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAAAACABYAAAAgAACAAAAAAAAagAAQA=</HashCode>
+      <FileName>Models\Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Models.User">
+    <Position X="15.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCgFggACfgCAEQFQAAAAAAAAABCEBGCAAAAAQAQkk=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Windows.UI.Xaml.Controls.Page">
+    <Position X="19" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
