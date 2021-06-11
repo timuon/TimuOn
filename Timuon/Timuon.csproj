@@ -190,6 +190,7 @@
     <Compile Include="ViewModels\AdminHomeViewModel.cs" />
     <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
     <Compile Include="ViewModels\ContentGridViewModel.cs" />
+    <Compile Include="ViewModels\RSSFeedSettingsViewModel.cs" />
     <Compile Include="ViewModels\ScheduleStudentViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="ViewModels\StudentHomeViewModel.cs" />
@@ -223,6 +224,9 @@
     </Compile>
     <Compile Include="Views\ContentGridDetailPage.xaml.cs">
       <DependentUpon>ContentGridDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RSSFeedSettingsPage.xaml.cs">
+      <DependentUpon>RSSFeedSettingsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ScheduleStudentPage.xaml.cs">
       <DependentUpon>ScheduleStudentPage.xaml</DependentUpon>
@@ -361,6 +365,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ContentGridDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RSSFeedSettingsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
