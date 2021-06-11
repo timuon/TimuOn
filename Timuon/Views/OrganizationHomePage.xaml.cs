@@ -25,6 +25,7 @@ namespace Timuon.Views
         public OrganizationHomePage()
         {
             this.InitializeComponent();
+            DateToday.Text = DateTime.Now.ToString();
         }
     }
 }

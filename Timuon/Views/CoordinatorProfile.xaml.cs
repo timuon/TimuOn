@@ -25,6 +25,7 @@ namespace Timuon.Views
         public CoordinatorProfile()
         {
             this.InitializeComponent();
+            DateToday.Text = DateTime.Now.ToString();
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)

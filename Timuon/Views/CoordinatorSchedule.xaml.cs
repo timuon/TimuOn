@@ -25,6 +25,7 @@ namespace Timuon.Views
         public CoordinatorSchedule()
         {
             this.InitializeComponent();
+            DateToday.Text = DateTime.Now.ToString();
         }
     }
 }

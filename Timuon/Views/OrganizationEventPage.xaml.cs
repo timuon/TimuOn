@@ -1,21 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Timuon.Models;
-using Timuon.ViewModels;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
+using Timuon.ViewModels;
+using System.Collections.ObjectModel;
+
+using Timuon.Models;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Shapes;
+using System.Collections.Generic;
 
 namespace Timuon.Views
 {
@@ -25,9 +16,43 @@ namespace Timuon.Views
     public sealed partial class OrganizationEventPage : Page
     {
         public OrganizationEventsViewModel ViewModel { get; } = new OrganizationEventsViewModel();
+        ObservableCollection<String> availEvents = new ObservableCollection<String>();
+
+        public ObservableCollection<String> AvailEvents { get { return availEvents; } }
+
+        ObservableCollection<String> availAudit = new ObservableCollection<String>();
+
+        public ObservableCollection<String> AvailAudit{ get { return availAudit; } }
         public OrganizationEventPage()
         {
             this.InitializeComponent();
+
+            DateToday.Text = DateTime.Now.ToString();
+
+            List<Event> Events = new List<Event>();
+            EventsCombobox.ItemsSource = AvailEvents;
+            TimeSpan interval = new TimeSpan(2, 14, 18);
+            Events.Add(new Event("Patras IQ", DateTime.Now, "AFE", interval, "", "", "", ""));
+            Events.Add(new Event("Students Elections", DateTime.Now, "CEID BA", interval, "", "", "", ""));
+            Events.Add(new Event("Blood Donation", DateTime.Now, "CEID B4", interval, "", "", "", ""));
+
+            foreach (Event a in Events)
+            {
+                availEvents.Add(a.Name);
+            }
+
+            List<Auditorium> Auditoriums = new List<Auditorium>();
+            AuditoriumsEdit.ItemsSource = AvailAudit;
+            Auditoriums.Add(new Auditorium("CEID BA","","",150, true,true));
+            Auditoriums.Add(new Auditorium("AFE", "", "", 150, false, false));
+            Auditoriums.Add(new Auditorium("CEID B4", "", "", 150, false, true));
+
+            foreach (Auditorium a in Auditoriums)
+            {
+                availAudit.Add(a.Name);
+
+            }
+
         }
         private void EventAction_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -119,7 +144,7 @@ namespace Timuon.Views
             
     }
 
-        private void SubmitClick(object sender, RoutedEventArgs e)
+        private void SubmitClick(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             ContentDialog submitt = new ContentDialog()
             {
