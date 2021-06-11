@@ -158,6 +158,7 @@
     <Compile Include="Models\Auditorium.cs" />
     <Compile Include="Models\Calendar.cs" />
     <Compile Include="Models\Coordinator.cs" />
+    <Compile Include="Models\Course.cs" />
     <Compile Include="Models\EclassIntegration.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Meeting.cs" />
