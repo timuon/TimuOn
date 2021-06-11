@@ -14,6 +14,32 @@ namespace Timuon.Models
         {
             Conflict = conflict;
         }
+        public void checkValidityonChange()
+        {
+
+        }
+
+        public void passAuditoriumChange()
+        {
+
+        }
+
+        public void checkConflict(Event event__)
+        {
+
+        }
+
+        public void addEvent(Event event__)
+        {
+
+        }
+
+        public void passNewEvent(Event event__, Calendar calendar__)
+        {
+
+        }
+
+
     }
 }
 
