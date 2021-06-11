@@ -25,5 +25,49 @@ namespace Timuon.Models
             Level = level;
             RescheduleRequests = rescheduleRequests;
         }
+        public void addAvailableHours()
+        {
+
+        }
+        public void pickHours()
+        {
+
+        }
+        public void addHours()
+        {
+
+        }
+        public void addNotes()
+        {
+
+        }
+        public void findDates()
+        {
+
+        }
+        public void rescheduleCourse()
+        {
+
+        }
+        public void createAnnouncement()
+        {
+
+        }
+        public void noReschedule()
+        {
+
+        }
+        public void noAnnouncement()
+        {
+
+        }
+        public void cancelCourse()
+        {
+
+        }
+        public void createRequest()
+        {
+
+        }
     }
 }

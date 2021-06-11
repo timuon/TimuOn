@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Timuon.Views.LoginPage">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.AdminShellPage">
+    <Position X="6.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AdminShellPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.ShellPageCoordinator">
+    <Position X="31.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ShellPageCoordinator.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.ShellPageOrganization">
+    <Position X="29" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ShellPageOrganization.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.ShellPageStudent">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ShellPageStudent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.AdminHomePage">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAABAAAAEQAgCAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Views\AdminHomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.AdminSysConstrPage">
+    <Position X="4.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAAIAAAAAAAQAAAAQAEQAEACAABAARggAAAAg=</HashCode>
+      <FileName>Views\AdminSysConstrPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.CoordinatorHome">
+    <Position X="30" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAE=</HashCode>
+      <FileName>Views\CoordinatorHome.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.CoordinatorProfile">
+    <Position X="32.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Views\CoordinatorProfile.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.CoordinatorSchedule">
+    <Position X="30" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CoordinatorSchedule.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.coursesCoordinator">
+    <Position X="32.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CoursesCoordinator.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.Calendar">
+    <Position X="12" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEgAAABQGECACIAAAEAEAAAACAAIiADACRAAAA=</HashCode>
+      <FileName>Views\Calendar.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.CoursesStudentPage">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAABAAAAAAEABAAQAECEQAAIBAQAAAAEIhAAAA=</HashCode>
+      <FileName>Views\CoursesStudentPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.History_Log">
+    <Position X="14.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAABIEAGACACAAECwAgAIEACIAAhACBAIAg=</HashCode>
+      <FileName>Views\History_Log.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.OrganizationEventPage">
+    <Position X="26.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAGgAQAAgAEAAAAAAAACA=</HashCode>
+      <FileName>Views\OrganizationEventPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.OrganizationHomePage">
+    <Position X="26.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\OrganizationHomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.OrganizationSchedulePage">
+    <Position X="29" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAGAAAAAgAAAAAAAAIAAA=</HashCode>
+      <FileName>Views\OrganizationSchedulePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.RSSFeedSettingsPage">
+    <Position X="16.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEgEIIAQCEIAAAAAAQAEAAAASAAIiACAARAAAA=</HashCode>
+      <FileName>Views\RSSFeedSettingsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.ScheduleStudentPage">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAgAAAAAAAAAAAAAAIAIEAAACAAIAAAAgAAQAAAAE=</HashCode>
+      <FileName>Views\ScheduleStudentPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.SettingsPage">
+    <Position X="20.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SettingsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.StudentHomePage">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\StudentHomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.Subscriptions">
+    <Position X="18.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAIAAEACAEAAECBBgAIAAQAAAACCBgAAg=</HashCode>
+      <FileName>Views\Subscriptions.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timuon.Views.TabbedPivotPage">
+    <Position X="20.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\TabbedPivotPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

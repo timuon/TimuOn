@@ -585,6 +585,7 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
     <None Include="Timuon_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
