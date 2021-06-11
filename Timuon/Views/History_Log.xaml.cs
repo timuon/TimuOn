@@ -53,8 +53,8 @@ namespace Timuon.Views
             user_course.Add(new Course("", "", "", "", "", "Linear Algebra", date2, date2, "", "", list_schedule, "", "Failed"));
             user_course.Add(new Course("", "", "", "", "", "Pattern Recognition", date3, date3, "", "", list_schedule, "", "Pass"));
             teams_list.ItemsSource = Team_course;
-            team_course.Add(new Teams(user_list, 3, "Pattern Recognition"));
-            team_course.Add(new Teams(user_list, 3, "The Greatest Evil, Desolation of Doom"));
+            team_course.Add(new Teams(user_list, 3, "Pattern Recognition", "Team Flake"));
+            team_course.Add(new Teams(user_list, 3, "The Greatest Evil, Desolation of Doom", "Shh, don't talk about it"));
         }
 
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
@@ -107,6 +107,31 @@ namespace Timuon.Views
             ContentDialogResult result = await noWifiDialog.ShowAsync();
         }
 
+        private async void DisplayDriveConnect2()
+        {
+            ContentDialog noWifiDialog = new ContentDialog
+            {
+                Title = "Are you sure you want to Save",
+                Content = "Save your Preferences?",
+                PrimaryButtonText = "Save",
+                CloseButtonText = "Cancel"
+            };
+
+            ContentDialogResult result = await noWifiDialog.ShowAsync();
+
+            // Delete the file if the user clicked the primary button.
+            /// Otherwise, do nothing.
+            if (result == ContentDialogResult.Primary)
+            {
+                // Delete the file.
+            }
+            else
+            {
+                // The user clicked the CLoseButton, pressed ESC, Gamepad B, or the system back button.
+                // Do nothing.
+            }
+        }
+
         //private void ToggleSwitch_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
         //{
         //    if (Org.IsOn == true)
@@ -131,13 +156,13 @@ namespace Timuon.Views
             }
         }
 
-        private async void displayteam()
+        private async void displayteam(Teams team)
         {
             ContentDialog displayteam = new ContentDialog
             {
-                Title = "Your Connection was successful",
-                Content = "You have connected your Drive and you will now receive Log Info",
-                CloseButtonText = "Ok"
+                Title = team.Team_name,
+                Content = "Team made for the " + team.Name + " project. The team had " + team.num_of + " members: \n" + team.get_Team_Info(team.Students_teams),
+                CloseButtonText = "Ok",
             };
 
             ContentDialogResult result = await displayteam.ShowAsync();
@@ -145,7 +170,8 @@ namespace Timuon.Views
 
         private void course_list_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+            Teams team = (Teams)teams_list.SelectedItem;
+            displayteam(team);
         }
 
         private void subs_Toggled(object sender, RoutedEventArgs e)
@@ -170,6 +196,11 @@ namespace Timuon.Views
             {
                 teams_list.IsEnabled = false;
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            DisplayDriveConnect2();
         }
     }
 }

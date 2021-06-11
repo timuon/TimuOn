@@ -11,13 +11,15 @@ namespace Timuon.Models
         public string Name { get; set; }
         public List<string> Students_teams { get; set; }
         public int num_of { get; set; }
+        public string Team_name { get; set; }
 
 
-        public Teams(List<string> students, int num, string name)
+        public Teams(List<string> students, int num, string name, string team_name)
         {
             Students_teams = students;
             num_of = num;
             Name = name;
+            Team_name = team_name;
             
     }
 
