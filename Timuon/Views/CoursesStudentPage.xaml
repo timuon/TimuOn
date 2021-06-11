@@ -40,7 +40,7 @@
             <CheckBox x:Name="NoAdd" Content="No" Margin="387,149,0,0" VerticalAlignment="Top" Checked="Box_CheckedChanged" Unchecked="Box_CheckedChanged" />
 
             <TextBlock HorizontalAlignment="Left" Margin="44,45,0,0" Text="Hello Lampros!" TextWrapping="Wrap" VerticalAlignment="Top"  Style="{StaticResource TitleTextBlockStyle}"/>
-            <TextBlock HorizontalAlignment="Left" Margin="986,47,0,0" Text="Wednesday, 18 March 2021" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource BaseTextBlockStyle}"/>
+            <TextBlock x:Name="DateToday" HorizontalAlignment="Left" Margin="986,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource BaseTextBlockStyle}"/>
             <TextBlock HorizontalAlignment="Left" Margin="844,71,0,0" Text="University of Patras, Computer Engineering and Informatics" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource CaptionTextBlockStyle}"/>
             <TextBlock HorizontalAlignment="Left" Margin="51,156,0,0" Text="Scientific Computing" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource BodyTextBlockStyle}"/>
             <TextBlock HorizontalAlignment="Left" Margin="52,258,0,0" Text="Decision Theory" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource BodyTextBlockStyle}"/>
@@ -48,11 +48,7 @@
             <TextBlock HorizontalAlignment="Left" Height="16" Margin="52,187,0,0" Text="Gallopoulos Eustratios" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Style="{StaticResource CaptionTextBlockStyle}"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,282,0,0" Text="Gounaridis Giannis" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource CaptionTextBlockStyle}"/>
             <TextBlock HorizontalAlignment="Left" Margin="53,386,0,0" Text="Makris Christos" TextWrapping="Wrap" VerticalAlignment="Top" Style="{StaticResource CaptionTextBlockStyle}"/>
-            <ComboBox x:Name="AddCombobox" Margin="267,219,0,0" Header="Courses" SelectionChanged="AddCourses_SelectedIndexChanged" PlaceholderText="Available"  Width="120" Visibility="Collapsed">
-                <x:String>Object-oriented Programming</x:String>
-                <x:String>Quantum Physics</x:String>
-                <x:String>Molecular Biology</x:String>
-                <x:String>Python Programming</x:String>
+            <ComboBox x:Name="AddCombobox" ItemsSource="" Margin="267,219,0,0" Header="Courses" SelectionChanged="AddCourses_SelectedIndexChanged" PlaceholderText="Available"  Width="120" Visibility="Collapsed">
             </ComboBox>
             <TextBlock x:Name="CanAttend" HorizontalAlignment="Left" Margin="569,105,0,0" Text="Can you attend all these classes?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed" Style="{StaticResource BaseTextBlockStyle}"/>
             <CheckBox x:Name="AttendCheckYes" Content="Yes" Margin="568,148,0,0" VerticalAlignment="Top" Checked="Attend_CheckedChanged" Unchecked="Attend_CheckedChanged" Visibility="Collapsed"/>
@@ -60,11 +56,7 @@
             <TextBox x:Name="ConflictBox" HorizontalAlignment="Left" Margin="569,242,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Header="This course overlaps with other courses" Visibility="Collapsed"/>
             <TextBlock x:Name="CantAttendBlock" HorizontalAlignment="Left" Margin="569,219,0,0" Text="Which ones can't you attend?" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed" Style="{StaticResource BaseTextBlockStyle}"/>
             <ComboBox x:Name="CantAttendCombo" Margin="569,274,0,0" Header="Courses" SelectionChanged="AddCourses_SelectedIndexChanged" PlaceholderText="Available"  Width="120" Visibility="Collapsed">
-                <x:String>Object-oriented Programming</x:String>
-                <x:String>Quantum Physics</x:String>
-                <x:String>Molecular Biology</x:String>
-                <x:String>Python Programming</x:String>
-                <x:String>Data Mining</x:String>
+               
             </ComboBox>
             <TextBox x:Name="ReasonAttend" HorizontalAlignment="Left" Margin="569,402,0,0" Text="" Header="Why can't you attend these classes? We will inform the coordinators on your behalf." TextWrapping="Wrap" VerticalAlignment="Top" Height="89" Width="543" Visibility="Collapsed"/>
             <Button x:Name="SubmitButton" Click="Button_Click" Content="Submit" Margin="780,582,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.189,0.523" Visibility="Collapsed"/>

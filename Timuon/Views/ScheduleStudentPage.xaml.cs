@@ -19,8 +19,11 @@ namespace Timuon.Views
     /// </summary>
     public sealed partial class ScheduleStudentPage : Page
     {
-        ObservableCollection<Student> userContacts = new ObservableCollection<Student>();
-        public ObservableCollection<Student> UserContacts { get { return userContacts; } }
+        ObservableCollection<String> userContacts = new ObservableCollection<String>();
+        public ObservableCollection<String> UserContacts { get { return userContacts; } }
+
+        ObservableCollection<String> coursess = new ObservableCollection<String>();
+        public ObservableCollection<String> Coursess { get { return coursess; } }
 
         public ScheduleStudentPage()
         {
@@ -34,14 +37,37 @@ namespace Timuon.Views
       
             foreach (Student a in Students)
             {
-                userContacts.Add(a);
+                userContacts.Add(a.Username);
             }
-            
+
+            Scheduleheader.Text = "Your schedule for Friday, 11 June 2021";
+
+            List<Course> Courses = new List<Course>() ;
+            List<Schedule> schedules = new List<Schedule>();
+
+            EventCombo.ItemsSource = Coursess;
+            var date1 = new DateTime(2021, 3, 1);
+            var date2 = new DateTime(2021, 3, 1);
+            var date3 = new DateTime(2021, 3, 2);
+            var date4 = new DateTime(2021, 3, 3);
+    
+            Courses.Add(new Course("", "", "", "", "", "Scientific Computing", date1, date3, "", "", schedules, "", ""));
+            Courses.Add(new Course("", "", "", "", "", "Thesis Meeting", date2, date4, "", "", schedules, "", ""));
+
+
+            foreach (Course a in Courses)
+            {
+                coursess.Add(a.Title);
+            }
+            DateToday.Text = DateTime.Now.ToString();
+
         }
+
         private void Box_CheckedChanged(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             if ((Yes1.IsChecked == true) & (No1.IsChecked == false))
             {
+                
                 EventCombo.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 HourCombo.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 Appointment.Visibility = Windows.UI.Xaml.Visibility.Visible;
@@ -95,6 +121,7 @@ namespace Timuon.Views
 
         private void Contanct_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
+            CommonHours.Text = "You have 3 common hours with " + Userss.SelectedValue.ToString() + "!";
             CommonHours.Visibility = Windows.UI.Xaml.Visibility.Visible;
             SelectHour1.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
@@ -106,6 +133,7 @@ namespace Timuon.Views
             {
                 SelectHour2.Visibility = Windows.UI.Xaml.Visibility.Visible;
                 SubmitButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                MessageMeeting.Header = "Message " + Userss.SelectedValue.ToString() + " about your meeting!";
                 MessageMeeting.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
             }
@@ -113,6 +141,8 @@ namespace Timuon.Views
             {
                 SelectHour2.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 SubmitButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                MessageMeeting.Header = "Message " + Userss.SelectedValue.ToString() + " about your meeting!";
+
                 MessageMeeting.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
             }

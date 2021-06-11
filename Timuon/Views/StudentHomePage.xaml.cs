@@ -25,6 +25,8 @@ namespace Timuon.Views
         public StudentHomePage()
         {
             this.InitializeComponent();
+            DateToday.Text = DateTime.Now.ToString();
+
         }
     }
 }

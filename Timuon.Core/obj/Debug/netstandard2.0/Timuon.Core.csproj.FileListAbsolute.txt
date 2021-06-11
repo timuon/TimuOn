@@ -33,3 +33,4 @@ C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb
+C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.AssemblyReference.cache
