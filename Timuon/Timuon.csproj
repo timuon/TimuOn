@@ -179,6 +179,7 @@
     <Compile Include="TemplateSelectors\SampleDataTemplateSelector.cs" />
     <Compile Include="ViewModels\AdminHomeViewModel.cs" />
     <Compile Include="ViewModels\AdminSysConstrViewModel.cs" />
+    <Compile Include="ViewModels\ContentGridViewModel.cs" />
     <Compile Include="ViewModels\ScheduleStudentViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="ViewModels\StudentHomeViewModel.cs" />
@@ -189,7 +190,6 @@
     <Compile Include="ViewModels\OrganizationEventsViewModel.cs" />
     <Compile Include="ViewModels\OrganizationHomeViewModel.cs" />
     <Compile Include="ViewModels\ContentGridDetailViewModel.cs" />
-    <Compile Include="ViewModels\ContentGridViewModel.cs" />
     <Compile Include="ViewModels\DataGridViewModel.cs" />
     <Compile Include="ViewModels\ListDetailViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
@@ -210,6 +210,9 @@
     </Compile>
     <Compile Include="Views\AdminSysConstrPage.xaml.cs">
       <DependentUpon>AdminSysConstrPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContentGridDetailPage.xaml.cs">
+      <DependentUpon>ContentGridDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ScheduleStudentPage.xaml.cs">
       <DependentUpon>ScheduleStudentPage.xaml</DependentUpon>
@@ -237,9 +240,6 @@
     </Compile>
     <Compile Include="Views\ChartPage.xaml.cs">
       <DependentUpon>ChartPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ContentGridDetailPage.xaml.cs">
-      <DependentUpon>ContentGridDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ContentGridPage.xaml.cs">
       <DependentUpon>ContentGridPage.xaml</DependentUpon>
@@ -350,6 +350,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ContentGridDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ScheduleStudentPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -395,10 +399,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ChartPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\ContentGridDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
