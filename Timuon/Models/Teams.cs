@@ -21,7 +21,7 @@ namespace Timuon.Models
             Name = name;
             Team_name = team_name;
             
-    }
+        }
 
         public string get_Team_Info(List<string> myList)
         {
