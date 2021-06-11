@@ -2,7 +2,7 @@
 
 namespace Timuon.Models
 {
-    public class EclassIntegration
+    public class EclassIntegration : Communication
     {
         public string DomainName { get; set; }
         public string UserName { get; set; }
