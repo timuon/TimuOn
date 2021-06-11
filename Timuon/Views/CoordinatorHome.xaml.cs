@@ -37,12 +37,6 @@ namespace Timuon.Views
         {
 
         }
-
-        private void Courses_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
         private void TextBlock_SelectionChanged_2(object sender, RoutedEventArgs e)
         {
 

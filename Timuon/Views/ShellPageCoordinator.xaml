@@ -40,18 +40,6 @@
             <winui:NavigationViewItem x:Uid="Shell_Courses_Coordinator" Icon="Globe" helpers:NavHelper.NavigateTo="views:coursesCoordinator" />
             <winui:NavigationViewItem x:Uid="Shell_Schedule" Icon="Calendar" helpers:NavHelper.NavigateTo="views:CoordinatorSchedule" />
             <winui:NavigationViewItem x:Uid="Shell_Profile" Icon="People" helpers:NavHelper.NavigateTo="views:CoordinatorProfile" />
-            <winui:NavigationViewItem x:Uid="Shell_Main" Icon="Like" helpers:NavHelper.NavigateTo="views:MainPage" />
-            <!--<winui:NavigationViewItem x:Uid="Shell_Blank" Icon="Globe" helpers:NavHelper.NavigateTo="views:BlankPage" />-->
-            <winui:NavigationViewItem x:Uid="Shell_ListDetail" Icon="Calendar" helpers:NavHelper.NavigateTo="views:ListDetailPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TwoPaneView" Icon="Clock" helpers:NavHelper.NavigateTo="views:TwoPaneViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TreeView" Icon="View" helpers:NavHelper.NavigateTo="views:TreeViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_ContentGrid" Icon="Refresh" helpers:NavHelper.NavigateTo="views:ContentGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_DataGrid" Icon="Remote" helpers:NavHelper.NavigateTo="views:DataGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TelerikDataGrid" Icon="Document" helpers:NavHelper.NavigateTo="views:TelerikDataGridPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Chart" Icon="Document" helpers:NavHelper.NavigateTo="views:ChartPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TabbedPivot" Icon="Document" helpers:NavHelper.NavigateTo="views:TabbedPivotPage" />
-            <winui:NavigationViewItem x:Uid="Shell_TabView" Icon="Document" helpers:NavHelper.NavigateTo="views:TabViewPage" />
-            <winui:NavigationViewItem x:Uid="Shell_Map" Icon="Document" helpers:NavHelper.NavigateTo="views:MapPage" />
         </winui:NavigationView.MenuItems>
 
         <winui:NavigationView.FooterMenuItems>
