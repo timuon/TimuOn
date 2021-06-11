@@ -9,10 +9,10 @@ namespace Timuon.Models
         public string Coordinator { get; set; }
         public DateTime DateToReschedule { get; set; }
 
-        public TempRescheduleRequest(int students, string reason,
+        public TempRescheduleRequest(string courseName, int students, string reason,
             string newSchedule, string course, DateTime newDate,
             string coordinator, DateTime dateToReschedule) :
-            base(students, reason, newSchedule)
+            base(courseName, students, reason, newSchedule)
         {
             Course = course;
             NewDate = newDate;
