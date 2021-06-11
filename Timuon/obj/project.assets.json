@@ -14757,26 +14757,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kolop\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\pkava\\.nuget\\packages\\": {},
+    "D:\\Programms\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\Timuon.csproj",
+      "projectUniqueName": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon\\Timuon.csproj",
       "projectName": "Timuon",
-      "projectPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\Timuon.csproj",
-      "packagesPath": "C:\\Users\\kolop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon\\obj\\",
+      "projectPath": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon\\Timuon.csproj",
+      "packagesPath": "C:\\Users\\pkava\\.nuget\\packages\\",
+      "outputPath": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "D:\\Programms\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kolop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pkava\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -14785,13 +14785,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\pkava\\Documents\\TimuOn\\packages_nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
-              "projectPath": "C:\\Users\\kolop\\Downloads\\TimuOn\\Timuon.Core\\Timuon.Core.csproj"
+            "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon.Core\\Timuon.Core.csproj": {
+              "projectPath": "D:\\User\\Documents\\Visual Studio 2019\\Projects\\TimuOn\\Timuon.Core\\Timuon.Core.csproj"
             }
           }
         }

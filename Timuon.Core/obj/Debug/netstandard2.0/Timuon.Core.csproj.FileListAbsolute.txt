@@ -34,3 +34,11 @@ C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb
 C:\Users\kolop\Downloads\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.AssemblyReference.cache
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.deps.json
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.dll
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\bin\Debug\netstandard2.0\Timuon.Core.pdb
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfoInputs.cache
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.AssemblyInfo.cs
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.csproj.CoreCompileInputs.cache
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.dll
+D:\User\Documents\Visual Studio 2019\Projects\TimuOn\Timuon.Core\obj\Debug\netstandard2.0\Timuon.Core.pdb
