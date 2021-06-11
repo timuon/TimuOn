@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
+using System.Collections.Generic;
+
+using System.Collections.ObjectModel;
+
+using System.Linq;
+
+using Timuon.Models;
+
+using Timuon.ViewModels;
+
+using Windows.UI.Xaml.Controls;
 
 namespace Timuon.Views
 {
@@ -22,15 +19,36 @@ namespace Timuon.Views
     /// </summary>
     public sealed partial class ScheduleStudentPage : Page
     {
+        ObservableCollection<Student> userContacts = new ObservableCollection<Student>();
+        public ObservableCollection<Student> UserContacts { get { return userContacts; } }
+
         public ScheduleStudentPage()
         {
             this.InitializeComponent();
+            List<Student> Students = new List<Student>();
+            Userss.ItemsSource = UserContacts;
+            Students.Add(new Student("aris", "magic", "aris@upatras.gr", 6930, "", DateTime.Now, "Aris", "Androutsopoulos", 0, "", "", "", 0, "", "Active", "", DateTime.Now, "", ""));
+            Students.Add(new Student("klelia", "magic", "klelia@upatras.gr", 6930, "", DateTime.Now, "klelia", "Likothanasi", 0, "", "", "", 0, "", "Active", "", DateTime.Now, "", ""));
+            Students.Add(new Student("panagiots", "magic", "panagiotis@upatras.gr", 6930, "", DateTime.Now, "Panagiotis", "Kavvadias", 0, "", "", "", 0, "", "Active", "", DateTime.Now, "", ""));
+
+      
+            foreach (Student a in Students)
+            {
+                userContacts.Add(a);
+            }
+            
         }
         private void Box_CheckedChanged(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             if ((Yes1.IsChecked == true) & (No1.IsChecked == false))
             {
                 EventCombo.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                HourCombo.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                Appointment.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                AppointLine.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                Yes2.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                No2.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
             }
             else if ((No1.IsChecked == true) & (Yes1.IsChecked == false))
             {
@@ -74,6 +92,7 @@ namespace Timuon.Views
             }
         }
 
+
         private void Contanct_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
             CommonHours.Visibility = Windows.UI.Xaml.Visibility.Visible;
@@ -99,7 +118,7 @@ namespace Timuon.Views
             }
 
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             ContentDialog submitt = new ContentDialog()
             {

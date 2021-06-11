@@ -69,8 +69,8 @@ namespace Timuon.Views
         {
             ContentDialog submitt = new ContentDialog()
             {
-                Title = "Schedule reminder!",
-                Content = "For any schedule changes you want to make, visit the schedule tab and submit your preferable time period for the course you want!",
+                Title = "Submit notification!",
+                Content = "Your request is being processed! You will be informed soon for its progress.",
                 CloseButtonText = "Close dialog"
             };
             submitt.ShowAsync();

@@ -23,14 +23,38 @@ namespace Timuon.Views
     {
         ObservableCollection<Organization> user_org = new ObservableCollection<Organization>();
         public ObservableCollection<Organization> User_org { get { return user_org; } }
+
+        ObservableCollection<Course> user_course = new ObservableCollection<Course>();
+        public ObservableCollection<Course> User_course { get { return user_course; } }
+
+        ObservableCollection<Teams> team_course = new ObservableCollection<Teams>();
+        public ObservableCollection<Teams> Team_course { get { return team_course; } }
+
+        List<Schedule> list_schedule = new List<Schedule>();
+        List<string> user_list = new List<string>();
+
+        DateTime date1 = new DateTime(2016, 12, 25);
+        DateTime date2 = new DateTime(2017, 4, 25);
+        DateTime date3 = new DateTime(2018, 7, 25);
+
         public History_Log()
         {
 
             this.InitializeComponent();
+            user_list.Add("Klelia");
+            user_list.Add("Labros");
+            user_list.Add("Aristeidis");
             org_list.ItemsSource = User_org;
             user_org.Add(new Organization("3rd Highschool", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
             user_org.Add(new Organization("Incibio", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
             user_org.Add(new Organization("1st Elementary School", "", "", 0, "", DateTime.Now, "", "", 0, "", "", "", "", "", "", true, ""));
+            course_list.ItemsSource = User_course;
+            user_course.Add(new Course("", "", "", "", "", "Mathematics 2", date1, date1, "", "",list_schedule, "", "Pass"));
+            user_course.Add(new Course("", "", "", "", "", "Linear Algebra", date2, date2, "", "", list_schedule, "", "Failed"));
+            user_course.Add(new Course("", "", "", "", "", "Pattern Recognition", date3, date3, "", "", list_schedule, "", "Pass"));
+            teams_list.ItemsSource = Team_course;
+            team_course.Add(new Teams(user_list, 3, "Pattern Recognition"));
+            team_course.Add(new Teams(user_list, 3, "The Greatest Evil, Desolation of Doom"));
         }
 
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
@@ -104,6 +128,47 @@ namespace Timuon.Views
             else
             {
                 org_list.IsEnabled = false;
+            }
+        }
+
+        private async void displayteam()
+        {
+            ContentDialog displayteam = new ContentDialog
+            {
+                Title = "Your Connection was successful",
+                Content = "You have connected your Drive and you will now receive Log Info",
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await displayteam.ShowAsync();
+        }
+
+        private void course_list_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
+
+        private void subs_Toggled(object sender, RoutedEventArgs e)
+        {
+            if (courses.IsOn == true)
+            {
+                course_list.IsEnabled = true;
+            }
+            else
+            {
+                course_list.IsEnabled = false;
+            }
+        }
+
+        private void teams_Toggled(object sender, RoutedEventArgs e)
+        {
+            if (teams.IsOn == true)
+            {
+                teams_list.IsEnabled = true;
+            }
+            else
+            {
+                teams_list.IsEnabled = false;
             }
         }
     }
